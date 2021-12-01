@@ -1,0 +1,12 @@
+[book]
+authors = ["Özge Dirik"]
+language = "tr"
+multilingual = false
+src = "src"
+title = "Nokta Durağı"
+
+[output.html]
+
+default-theme = "rust"
+git-repository-url = "https://github.com/kuzey-yildizi/nokta-duragi"
+cname = "https://ozgedirik.name.tr"
