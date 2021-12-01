@@ -24,6 +24,6 @@ sevinince terleyen parmakların.
 _Şubat 2002_
 
 ---
-Kaynaklar:
+Kaynak:
 
-- Dirik, Özge: “[Papatya](https://kuzeyyildizi.com/sites/default/files/ky04.pdf)”, **Kuzey Yıldızı Edebiyat Dergisi**, Ağustos-Eylül 2002, Sayı 4, s. 16
+- Dirik, Özge: “[Papatya](https://kuzeyyildizi.com/dergi/4/papatya-ozge.dirik)”, **Kuzey Yıldızı Edebiyat Dergisi**, Ağustos-Eylül 2002, [Sayı: 4](https://kuzeyyildizi.com/files/ky04.pdf), s. 16
