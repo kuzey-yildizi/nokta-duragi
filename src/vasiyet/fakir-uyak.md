@@ -22,4 +22,4 @@ sevişerek mümkün ancak...
 ---
 Kaynak:
 
-- Dirik, Özge: “[Fakir Uyak](https://kuzeyyildizi.com/sites/default/files/ky11.pdf)”, **Kuzey Yıldızı Edebiyat Dergisi**, Mart-Nisan 2005, Sayı 11, s. 10.
+- Dirik, Özge: “[Fakir Uyak](https://kuzeyyildizi.com/dergi/11/ekmek.arasi.patates-ozge.dirik)”, **Kuzey Yıldızı Edebiyat Dergisi**, Mart-Nisan 2005, [Sayı: 11](https://kuzeyyildizi.com/files/ky11.pdf), s. 10.
