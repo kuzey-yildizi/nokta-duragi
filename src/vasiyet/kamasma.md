@@ -27,4 +27,4 @@ aynı yere bırakmış olmamız içimizi...
 ---
 Kaynak:
 
-- Dirik, Özge: “[*** [Kamaşma]](https://kuzeyyildizi.com/sites/default/files/ky02.pdf)”, **Kuzey Yıldızı Edebiyat Dergisi**, Nisan-Mayıs 2002, Sayı 2, s. 11.
+- Dirik, Özge: “[*** [Kamaşma]](https://kuzeyyildizi.com/dergi/2/ozge.dirik)”, **Kuzey Yıldızı Edebiyat Dergisi**, Nisan-Mayıs 2002, [Sayı: 2](https://kuzeyyildizi.com/files/ky02.pdf), s. 11.
