@@ -63,4 +63,5 @@ _ocak-2 00 3_
 Kaynaklar: 
 
 - Dirik, Özge: “[Akasyalar Kaçarken](http://www.yersizyurtsuz.com/dergimart2003/ekrandergisayfa15.htm)”, **Yersiz Yurtsuz**, Mart 2003.
-- Dirik, Özge: “[Akasyalar Kaçarken](https://kuzeyyildizi.com/sites/default/files/ky11.pdf)”, **Kuzey Yıldızı Edebiyat Dergisi**, Mart-Nisan 2005, Sayı 11, s. 12.
+- Dirik, Özge: “[Akasyalar Kaçarken](https://kuzeyyildizi.com/sites/default/files/ky11.pdf)”, **Kuzey Yıldızı Edebiyat Dergisi**, Mart-Nisan 2005, Sayı: 11, s. 12.
+- Dirik, Özge: **Kuzey Yıldızı Yazarları** E-posta Grubu, 16 Ocak 2003, Sayı: 553.
