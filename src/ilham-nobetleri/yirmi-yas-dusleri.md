@@ -29,6 +29,6 @@ _Ankara_
 
 Kaynaklar:
 
-- Dirik, Özge: “[Yirmi Yaş Düşleri](https://kuzeyyildizi.com/sites/default/files/ky01.pdf)”, **Kuzey Yıldızı Edebiyat Dergisi**, Şubat-Mart 2002, Sayı 1, s. 19.
+- Dirik, Özge: “[Yirmi Yaş Düşleri](https://kuzeyyildizi.com/dergi/1/yirmi.yas.dusleri-ozge.dirik)”, **Kuzey Yıldızı Edebiyat Dergisi**, Şubat-Mart 2002, [Sayı: 1](https://kuzeyyildizi.com/files/ky01.pdf)Sayı 1, s. 19.
 - Dirik, Özge: “Yirmi Yaş Düşleri”, **Erken Ölümlü Şairler Antolojisi**, Haz. Ahmet Günbaş, Hayal Yayınları,
 Nisan 2007, s. 178.
