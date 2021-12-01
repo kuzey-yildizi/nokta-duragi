@@ -38,4 +38,4 @@ _28 Ağustos 2002_
 ---
 Kaynak: 
 
-- Dirik, Özge: “[Ekmek Arası Patates](https://kuzeyyildizi.com/dergi/7/ekmek.arasi.patates-ozge.dirik)”, **Kuzey Yıldızı Edebiyat Dergisi**, Mart-Nisan 2003, [Sayı: 7](https://kuzeyyildizi.com/sites/files/ky07.pdf), s. 13.
+- Dirik, Özge: “[Ekmek Arası Patates](https://kuzeyyildizi.com/dergi/7/ekmek.arasi.patates-ozge.dirik)”, **Kuzey Yıldızı Edebiyat Dergisi**, Mart-Nisan 2003, [Sayı: 7](https://kuzeyyildizi.com/files/ky07.pdf), s. 13.
