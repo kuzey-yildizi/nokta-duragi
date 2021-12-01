@@ -47,5 +47,5 @@ _29.03.2002_
 ---
 Kaynaklar:
 
-- Dirik, Özge: “[Vasiyet](https://kuzeyyildizi.com/sites/default/files/ky05.pdf)”, **Kuzey  Yıldızı Edebiyat Dergisi**,  Ekim-Kasım  2002,  Sayı  5,  s.  17.
+- Dirik, Özge: “[Vasiyet](https://kuzeyyildizi.com/dergi/5/vasiyet-ozge.dirik)”, **Kuzey  Yıldızı Edebiyat Dergisi**,  Ekim-Kasım  2002,  [Sayı: 5](https://kuzeyyildizi.com/files/ky05.pdf),  s. 17.
 - Dirik, Özge: “Vasiyet”, **Erken  Ölümlü Şairler Antolojisi**, Haz. Ahmet Günbaş, Hayal Yayınları, Nisan 2007, s. 179
