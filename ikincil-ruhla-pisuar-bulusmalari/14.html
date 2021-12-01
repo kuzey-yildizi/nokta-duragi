@@ -1,0 +1,255 @@
+<!DOCTYPE HTML>
+<html lang="tr" class="sidebar-visible no-js rust">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>ikincil ruhla pisuar buluşmaları-14 - Nokta Durağı</title>
+        
+        
+
+
+        <!-- Custom HTML head -->
+        
+
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        
+        <link rel="icon" href="../favicon.svg">
+        
+        
+        <link rel="shortcut icon" href="../favicon.png">
+        
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        
+        <link rel="stylesheet" href="../css/print.css" media="print">
+        
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        
+        <link rel="stylesheet" href="../fonts/fonts.css">
+        
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "rust";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('rust')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../ozge-dirik.html"><strong aria-hidden="true">1.</strong> Özge Dirik</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="../vasiyet.html"><strong aria-hidden="true">2.</strong> Vasiyet</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../vasiyet/abakus.html"><strong aria-hidden="true">2.1.</strong> abaküs</a></li><li class="chapter-item expanded "><a href="../vasiyet/adisyon-yazilari.html"><strong aria-hidden="true">2.2.</strong> adisyon yazıları</a></li><li class="chapter-item expanded "><a href="../vasiyet/anestezi.html"><strong aria-hidden="true">2.3.</strong> anestezi</a></li><li class="chapter-item expanded "><a href="../vasiyet/aniaya-savas-sirlari.html"><strong aria-hidden="true">2.4.</strong> ania'ya savaş sırları</a></li><li class="chapter-item expanded "><a href="../vasiyet/ben-deniz.html"><strong aria-hidden="true">2.5.</strong> ben deniz</a></li><li class="chapter-item expanded "><a href="../vasiyet/ferman.html"><strong aria-hidden="true">2.6.</strong> ferman (bursa ve siz)</a></li><li class="chapter-item expanded "><a href="../vasiyet/cift-sifir.html"><strong aria-hidden="true">2.7.</strong> çift sıfır</a></li><li class="chapter-item expanded "><a href="../vasiyet/corak.html"><strong aria-hidden="true">2.8.</strong> çorak</a></li><li class="chapter-item expanded "><a href="../vasiyet/dus-tu.html"><strong aria-hidden="true">2.9.</strong> düş-tü</a></li><li class="chapter-item expanded "><a href="../vasiyet/ekmek-arasi-patates.html"><strong aria-hidden="true">2.10.</strong> ekmek arası patates</a></li><li class="chapter-item expanded "><a href="../vasiyet/fakir-uyak.html"><strong aria-hidden="true">2.11.</strong> fakir uyak</a></li><li class="chapter-item expanded "><a href="../vasiyet/icimdeki-muzik.html"><strong aria-hidden="true">2.12.</strong> içimdeki müzik</a></li><li class="chapter-item expanded "><a href="../vasiyet/ikigen.html"><strong aria-hidden="true">2.13.</strong> ikigen</a></li><li class="chapter-item expanded "><a href="../vasiyet/kamasma.html"><strong aria-hidden="true">2.14.</strong> kamaşma</a></li><li class="chapter-item expanded "><a href="../vasiyet/papatya.html"><strong aria-hidden="true">2.15.</strong> papatya</a></li><li class="chapter-item expanded "><a href="../vasiyet/akasyalar-kacarken.html"><strong aria-hidden="true">2.16.</strong> akasyalar kaçarken</a></li><li class="chapter-item expanded "><a href="../vasiyet/masaliniz-var.html"><strong aria-hidden="true">2.17.</strong> masalınız var</a></li><li class="chapter-item expanded "><a href="../vasiyet/replik.html"><strong aria-hidden="true">2.18.</strong> replik</a></li><li class="chapter-item expanded "><a href="../vasiyet/ruh-ruleti.html"><strong aria-hidden="true">2.19.</strong> ruh ruleti</a></li><li class="chapter-item expanded "><a href="../vasiyet/sar-kac.html"><strong aria-hidden="true">2.20.</strong> sar-kaç</a></li><li class="chapter-item expanded "><a href="../vasiyet/sidarta-kadar-gozu-kapali.html"><strong aria-hidden="true">2.21.</strong> sidarta kadar gözü kapalı</a></li><li class="chapter-item expanded "><a href="../vasiyet/stiriptiz.html"><strong aria-hidden="true">2.22.</strong> stiriptiz</a></li><li class="chapter-item expanded "><a href="../vasiyet/tinsel-nafaka.html"><strong aria-hidden="true">2.23.</strong> tinsel nafaka</a></li><li class="chapter-item expanded "><a href="../vasiyet/vasiyet.html"><strong aria-hidden="true">2.24.</strong> vasiyet</a></li><li class="chapter-item expanded "><a href="../vasiyet/kirilis.html"><strong aria-hidden="true">2.25.</strong> kırılış (yağmurun saklandığı yer)</a></li><li class="chapter-item expanded "><a href="../vasiyet/yoktan-cok-telasi.html"><strong aria-hidden="true">2.26.</strong> yoktan çok telaşı</a></li><li class="chapter-item expanded "><a href="../vasiyet/özge.html"><strong aria-hidden="true">2.27.</strong> özge</a></li><li class="chapter-item expanded "><a href="../vasiyet/ben.html"><strong aria-hidden="true">2.28.</strong> ben (ben giderken)</a></li></ol></li><li class="chapter-item expanded "><a href="../ilham-nobetleri.html"><strong aria-hidden="true">3.</strong> ilham nöbetleri</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ilham-nobetleri/zeki-musa.html"><strong aria-hidden="true">3.1.</strong> zeki musa</a></li><li class="chapter-item expanded "><a href="../ilham-nobetleri/her-dolunayin-alti.html"><strong aria-hidden="true">3.2.</strong> *** (her dolunayın altı)</a></li><li class="chapter-item expanded "><a href="../ilham-nobetleri/yirmi-yas-dusleri.html"><strong aria-hidden="true">3.3.</strong> yirmi yaş düşleri</a></li><li class="chapter-item expanded "><a href="../ilham-nobetleri/kirmizi-biberon.html"><strong aria-hidden="true">3.4.</strong> kırmızı biberon</a></li><li class="chapter-item expanded "><a href="../ilham-nobetleri/bafra-ekspresi.html"><strong aria-hidden="true">3.5.</strong> bafra ekspresi</a></li><li class="chapter-item expanded "><a href="../ilham-nobetleri/ilk.html"><strong aria-hidden="true">3.6.</strong> ilk</a></li><li class="chapter-item expanded "><a href="../ilham-nobetleri/uc-soru.html"><strong aria-hidden="true">3.7.</strong> üç soru</a></li><li class="chapter-item expanded "><a href="../ilham-nobetleri/agit.html"><strong aria-hidden="true">3.8.</strong> ağıt</a></li><li class="chapter-item expanded "><a href="../ilham-nobetleri/ferman.html"><strong aria-hidden="true">3.9.</strong> ferman</a></li><li class="chapter-item expanded "><a href="../ilham-nobetleri/rotar.html"><strong aria-hidden="true">3.10.</strong> rötar</a></li><li class="chapter-item expanded "><a href="../ilham-nobetleri/sahne.html"><strong aria-hidden="true">3.11.</strong> sahne</a></li><li class="chapter-item expanded "><a href="../ilham-nobetleri/kanun.html"><strong aria-hidden="true">3.12.</strong> kanun</a></li><li class="chapter-item expanded "><a href="../ilham-nobetleri/ic-uvey.html"><strong aria-hidden="true">3.13.</strong> iç-üvey</a></li><li class="chapter-item expanded "><a href="../ilham-nobetleri/sebinkaramizah.html"><strong aria-hidden="true">3.14.</strong> şebinkaramizah</a></li><li class="chapter-item expanded "><a href="../ilham-nobetleri/emniyet-kayigi.html"><strong aria-hidden="true">3.15.</strong> emniyet kayığı</a></li><li class="chapter-item expanded "><a href="../ilham-nobetleri/satira-temenniler.html"><strong aria-hidden="true">3.16.</strong> satır-a temenniler</a></li><li class="chapter-item expanded "><a href="../ilham-nobetleri/kopru.html"><strong aria-hidden="true">3.17.</strong> köprü</a></li><li class="chapter-item expanded "><a href="../ilham-nobetleri/101110001010011.html"><strong aria-hidden="true">3.18.</strong> 101110001010011</a></li><li class="chapter-item expanded "><a href="../ilham-nobetleri/zaman-e.html"><strong aria-hidden="true">3.19.</strong> zaman-e</a></li><li class="chapter-item expanded "><a href="../ilham-nobetleri/intihar-mektubu.html"><strong aria-hidden="true">3.20.</strong> *** (intihar mektubu)</a></li><li class="chapter-item expanded "><a href="../ilham-nobetleri/aciortay.html"><strong aria-hidden="true">3.21.</strong> acıortay</a></li><li class="chapter-item expanded "><a href="../ilham-nobetleri/kim-lik.html"><strong aria-hidden="true">3.22.</strong> kim-lik</a></li><li class="chapter-item expanded "><a href="../ilham-nobetleri/k-an.html"><strong aria-hidden="true">3.23.</strong> k an</a></li><li class="chapter-item expanded "><a href="../ilham-nobetleri/baris-icin-dort-dize.html"><strong aria-hidden="true">3.24.</strong> barış için dört dize</a></li><li class="chapter-item expanded "><a href="../ilham-nobetleri/siire-kusenler-antolojisi.html"><strong aria-hidden="true">3.25.</strong> şiire küsenler antolojisi</a></li><li class="chapter-item expanded "><a href="../ilham-nobetleri/seher-eskidi.html"><strong aria-hidden="true">3.26.</strong> seher eskidi.</a></li><li class="chapter-item expanded "><a href="../ilham-nobetleri/heykel.html"><strong aria-hidden="true">3.27.</strong> heykel</a></li><li class="chapter-item expanded "><a href="../ilham-nobetleri/beyin-timurlari.html"><strong aria-hidden="true">3.28.</strong> beyin timur’ları</a></li><li class="chapter-item expanded "><a href="../ilham-nobetleri/ba-ba.html"><strong aria-hidden="true">3.29.</strong> ba ba</a></li><li class="chapter-item expanded "><a href="../ilham-nobetleri/masal-1.html"><strong aria-hidden="true">3.30.</strong> masal-1</a></li><li class="chapter-item expanded "><a href="../ilham-nobetleri/ruh-sokugu.html"><strong aria-hidden="true">3.31.</strong> ruh söküğü</a></li><li class="chapter-item expanded "><a href="../ilham-nobetleri/cirkin-ordek-derisi.html"><strong aria-hidden="true">3.32.</strong> çirkin ördek derisi(nden eldiven imal edenler)</a></li><li class="chapter-item expanded "><a href="../ilham-nobetleri/taskin.html"><strong aria-hidden="true">3.33.</strong> taşkın</a></li><li class="chapter-item expanded "><a href="../ilham-nobetleri/dus-es.html"><strong aria-hidden="true">3.34.</strong> düş-eş</a></li><li class="chapter-item expanded "><a href="../ilham-nobetleri/bir-monoseksuelin-olumu.html"><strong aria-hidden="true">3.35.</strong> bir monoseksüelin ölümü</a></li><li class="chapter-item expanded "><a href="../ilham-nobetleri/curuk-kus.html"><strong aria-hidden="true">3.36.</strong> çürük kuş</a></li><li class="chapter-item expanded "><a href="../ilham-nobetleri/san-ci.html"><strong aria-hidden="true">3.37.</strong> san-cı</a></li><li class="chapter-item expanded "><a href="../ilham-nobetleri/hangi-agac.html"><strong aria-hidden="true">3.38.</strong> *** (hangi ağaç)</a></li><li class="chapter-item expanded "><a href="../ilham-nobetleri/ruj-ruhu.html"><strong aria-hidden="true">3.39.</strong> ruj ruhu</a></li><li class="chapter-item expanded "><a href="../ilham-nobetleri/kalabalik.html"><strong aria-hidden="true">3.40.</strong> kalabalık</a></li><li class="chapter-item expanded "><a href="../ilham-nobetleri/makas.html"><strong aria-hidden="true">3.41.</strong> makas</a></li><li class="chapter-item expanded "><a href="../ilham-nobetleri/ilham-nobetleri.html"><strong aria-hidden="true">3.42.</strong> ilham nöbetleri</a></li></ol></li><li class="chapter-item expanded "><a href="../ikincil-ruhla-pisuar-bulusmalari.html"><strong aria-hidden="true">4.</strong> ikincil ruhla pisuar buluşmaları</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ikincil-ruhla-pisuar-bulusmalari/1.html"><strong aria-hidden="true">4.1.</strong> ikincil ruhla pisuar buluşmaları-1</a></li><li class="chapter-item expanded "><a href="../ikincil-ruhla-pisuar-bulusmalari/2.html"><strong aria-hidden="true">4.2.</strong> ikincil ruhla pisuar buluşmaları-2</a></li><li class="chapter-item expanded "><a href="../ikincil-ruhla-pisuar-bulusmalari/3.html"><strong aria-hidden="true">4.3.</strong> ikincil ruhla pisuar buluşmaları-3</a></li><li class="chapter-item expanded "><a href="../ikincil-ruhla-pisuar-bulusmalari/4.html"><strong aria-hidden="true">4.4.</strong> ikincil ruhla pisuar buluşmaları-4</a></li><li class="chapter-item expanded "><a href="../ikincil-ruhla-pisuar-bulusmalari/index.html"><strong aria-hidden="true">4.5.</strong> ikincil ruhla pisuar buluşmaları</a></li><li class="chapter-item expanded "><a href="../ikincil-ruhla-pisuar-bulusmalari/5.html"><strong aria-hidden="true">4.6.</strong> ikincil ruhla pisuar buluşmaları-5</a></li><li class="chapter-item expanded "><a href="../ikincil-ruhla-pisuar-bulusmalari/6.html"><strong aria-hidden="true">4.7.</strong> ikincil ruhla pisuar buluşmaları-6</a></li><li class="chapter-item expanded "><a href="../ikincil-ruhla-pisuar-bulusmalari/7.html"><strong aria-hidden="true">4.8.</strong> ikincil ruhla pisuar buluşmaları-7</a></li><li class="chapter-item expanded "><a href="../ikincil-ruhla-pisuar-bulusmalari/8.html"><strong aria-hidden="true">4.9.</strong> ikincil ruhla pisuar buluşmaları-8</a></li><li class="chapter-item expanded "><a href="../ikincil-ruhla-pisuar-bulusmalari/9.html"><strong aria-hidden="true">4.10.</strong> ikincil ruhla pisuar buluşmaları-9</a></li><li class="chapter-item expanded "><a href="../ikincil-ruhla-pisuar-bulusmalari/10.html"><strong aria-hidden="true">4.11.</strong> ikincil ruhla pisuar buluşmaları-10</a></li><li class="chapter-item expanded "><a href="../ikincil-ruhla-pisuar-bulusmalari/12.html"><strong aria-hidden="true">4.12.</strong> ikincil ruhla pisuar buluşmaları-12</a></li><li class="chapter-item expanded "><a href="../ikincil-ruhla-pisuar-bulusmalari/borun-pazari.html"><strong aria-hidden="true">4.13.</strong> bor’un pazarı</a></li><li class="chapter-item expanded "><a href="../ikincil-ruhla-pisuar-bulusmalari/13.html"><strong aria-hidden="true">4.14.</strong> ikincil ruhla pisuar buluşmaları-13</a></li><li class="chapter-item expanded "><a href="../ikincil-ruhla-pisuar-bulusmalari/14.html" class="active"><strong aria-hidden="true">4.15.</strong> ikincil ruhla pisuar buluşmaları-14</a></li><li class="chapter-item expanded "><a href="../ikincil-ruhla-pisuar-bulusmalari/15.html"><strong aria-hidden="true">4.16.</strong> ikincil ruhla pisuar buluşmaları-15</a></li><li class="chapter-item expanded "><a href="../ikincil-ruhla-pisuar-bulusmalari/17.html"><strong aria-hidden="true">4.17.</strong> ikincil ruhla pisuar buluşmaları-17</a></li><li class="chapter-item expanded "><a href="../ikincil-ruhla-pisuar-bulusmalari/31.html"><strong aria-hidden="true">4.18.</strong> ikincil ruhla pisuar buluşmaları-31</a></li><li class="chapter-item expanded "><a href="../ikincil-ruhla-pisuar-bulusmalari/36.html"><strong aria-hidden="true">4.19.</strong> ikincil ruhla pisuar buluşmaları-36</a></li><li class="chapter-item expanded "><a href="../ikincil-ruhla-pisuar-bulusmalari/pis-duvar.html"><strong aria-hidden="true">4.20.</strong> pis-duvar</a></li><li class="chapter-item expanded "><a href="../ikincil-ruhla-pisuar-bulusmalari/ikincil.html"><strong aria-hidden="true">4.21.</strong> ikincil</a></li><li class="chapter-item expanded "><a href="../ikincil-ruhla-pisuar-bulusmalari/ikincil-ruhla-pis-duvar-bulusmalari.html"><strong aria-hidden="true">4.22.</strong> ikincil ruhla pis-duvar buluşmaları</a></li></ol></li><li class="chapter-item expanded "><a href="../ezberlenen-cin-ayet.html"><strong aria-hidden="true">5.</strong> ezberlenen cin ayet</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ezberlenen-cin-ayet/bad-dua.html"><strong aria-hidden="true">5.1.</strong> bad dua</a></li><li class="chapter-item expanded "><a href="../ezberlenen-cin-ayet/index.html"><strong aria-hidden="true">5.2.</strong> ezberlenen cin ayet</a></li><li class="spacer"></li></ol></li><li class="chapter-item expanded "><a href="../kaynakca.html"><strong aria-hidden="true">6.</strong> kaynakça</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        
+                    </div>
+
+                    <h1 class="menu-title">Nokta Durağı</h1>
+
+                    <div class="right-buttons">
+                        
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        
+                        
+                        <a href="https://github.com/kuzey-yildizi/nokta-duragi" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="ikincil-ruhla-pisuar-buluşmaları-14"><a class="header" href="#ikincil-ruhla-pisuar-buluşmaları-14">ikincil ruhla pisuar buluşmaları-14</a></h1>
+<p>Tanrılar bile yaratmış oldukları ruhlardan korkup çok şirin, ayrıntılarıyla düşünülmüş, multi-purpose bedenlerimizi bize yamadılar.
+Yoksa şimdi şeffaf şeffaf dolaşacaktık ortalıkta. Bir dünya düşünün
+kimse kimseyi sevmek, kimse kimseye maruz kalmak zorunda değil.
+Bir ordu bile kuramazsınız. Ama gidiş, bu durumun tersini düşünerek algılayabileceğimiz kadar yalın da değil. Dinden sisteme, ilaçtan
+kediye, kadından babaya her şeyin amacı sizi kendisine bağımlı kılmak. Tanrıların birbirinden bağımsız, özgün denilebilecek bireyler
+yaratma yetileri yok oldu. Onlar artık ya milletler ya tarikatlar ya
+da çıkar amaçlı topluluklar yaratabiliyor. Bunları bölemiyor, parçalayamıyor veyahut bu grupların dünyayı yok etmesini ve kontrolü
+tekrar ele geçirmeyi dilemekten başka şansları yok. Tanrıların dileklerinden bahsediyoruz, tanrıların dualarından.</p>
+<p>Erdem bütünü, doğruların özü olarak niteleyebiliriz tanrıları ve
+yanlışa yöneliyorlar. Kendi cehennemlerinde kendilerini yakmalılar,
+yarattıkları cehennemde yanmalılar eğer tanrı iseler. O yüzden intihar doğruyu tanrıdan önce bulmaktır mıdır?</p>
+<hr />
+<p>Kaynaklar: </p>
+<ul>
+<li>Dirik, Özge: &quot;<a href="https://kuzeyyildizi.com/files/ozgedirik-siirler.pdf">Özge Dirik Arşivi: Şiirler</a>&quot;, <strong>Kuzey Yıldızı Edebiyat Dergisi</strong>, Yayım Tarihi: 11.04.2014, <a href="https://kuzeyyildizi.com/pdf">https://kuzeyyildizi.com/pdf</a>.</li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="../ikincil-ruhla-pisuar-bulusmalari/13.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="../ikincil-ruhla-pisuar-bulusmalari/15.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a rel="prev" href="../ikincil-ruhla-pisuar-bulusmalari/13.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a rel="next" href="../ikincil-ruhla-pisuar-bulusmalari/15.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        
+
+        
+
+        
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>

@@ -1,0 +1,3064 @@
+<!DOCTYPE HTML>
+<html lang="tr" class="sidebar-visible no-js rust">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Nokta Durağı</title>
+        
+        <meta name="robots" content="noindex" />
+        
+        
+
+
+        <!-- Custom HTML head -->
+        
+
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        
+        <link rel="icon" href="favicon.svg">
+        
+        
+        <link rel="shortcut icon" href="favicon.png">
+        
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        
+        <link rel="stylesheet" href="css/print.css" media="print">
+        
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        
+        <link rel="stylesheet" href="fonts/fonts.css">
+        
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "rust";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('rust')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="ozge-dirik.html"><strong aria-hidden="true">1.</strong> Özge Dirik</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="vasiyet.html"><strong aria-hidden="true">2.</strong> Vasiyet</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="vasiyet/abakus.html"><strong aria-hidden="true">2.1.</strong> abaküs</a></li><li class="chapter-item expanded "><a href="vasiyet/adisyon-yazilari.html"><strong aria-hidden="true">2.2.</strong> adisyon yazıları</a></li><li class="chapter-item expanded "><a href="vasiyet/anestezi.html"><strong aria-hidden="true">2.3.</strong> anestezi</a></li><li class="chapter-item expanded "><a href="vasiyet/aniaya-savas-sirlari.html"><strong aria-hidden="true">2.4.</strong> ania'ya savaş sırları</a></li><li class="chapter-item expanded "><a href="vasiyet/ben-deniz.html"><strong aria-hidden="true">2.5.</strong> ben deniz</a></li><li class="chapter-item expanded "><a href="vasiyet/ferman.html"><strong aria-hidden="true">2.6.</strong> ferman (bursa ve siz)</a></li><li class="chapter-item expanded "><a href="vasiyet/cift-sifir.html"><strong aria-hidden="true">2.7.</strong> çift sıfır</a></li><li class="chapter-item expanded "><a href="vasiyet/corak.html"><strong aria-hidden="true">2.8.</strong> çorak</a></li><li class="chapter-item expanded "><a href="vasiyet/dus-tu.html"><strong aria-hidden="true">2.9.</strong> düş-tü</a></li><li class="chapter-item expanded "><a href="vasiyet/ekmek-arasi-patates.html"><strong aria-hidden="true">2.10.</strong> ekmek arası patates</a></li><li class="chapter-item expanded "><a href="vasiyet/fakir-uyak.html"><strong aria-hidden="true">2.11.</strong> fakir uyak</a></li><li class="chapter-item expanded "><a href="vasiyet/icimdeki-muzik.html"><strong aria-hidden="true">2.12.</strong> içimdeki müzik</a></li><li class="chapter-item expanded "><a href="vasiyet/ikigen.html"><strong aria-hidden="true">2.13.</strong> ikigen</a></li><li class="chapter-item expanded "><a href="vasiyet/kamasma.html"><strong aria-hidden="true">2.14.</strong> kamaşma</a></li><li class="chapter-item expanded "><a href="vasiyet/papatya.html"><strong aria-hidden="true">2.15.</strong> papatya</a></li><li class="chapter-item expanded "><a href="vasiyet/akasyalar-kacarken.html"><strong aria-hidden="true">2.16.</strong> akasyalar kaçarken</a></li><li class="chapter-item expanded "><a href="vasiyet/masaliniz-var.html"><strong aria-hidden="true">2.17.</strong> masalınız var</a></li><li class="chapter-item expanded "><a href="vasiyet/replik.html"><strong aria-hidden="true">2.18.</strong> replik</a></li><li class="chapter-item expanded "><a href="vasiyet/ruh-ruleti.html"><strong aria-hidden="true">2.19.</strong> ruh ruleti</a></li><li class="chapter-item expanded "><a href="vasiyet/sar-kac.html"><strong aria-hidden="true">2.20.</strong> sar-kaç</a></li><li class="chapter-item expanded "><a href="vasiyet/sidarta-kadar-gozu-kapali.html"><strong aria-hidden="true">2.21.</strong> sidarta kadar gözü kapalı</a></li><li class="chapter-item expanded "><a href="vasiyet/stiriptiz.html"><strong aria-hidden="true">2.22.</strong> stiriptiz</a></li><li class="chapter-item expanded "><a href="vasiyet/tinsel-nafaka.html"><strong aria-hidden="true">2.23.</strong> tinsel nafaka</a></li><li class="chapter-item expanded "><a href="vasiyet/vasiyet.html"><strong aria-hidden="true">2.24.</strong> vasiyet</a></li><li class="chapter-item expanded "><a href="vasiyet/kirilis.html"><strong aria-hidden="true">2.25.</strong> kırılış (yağmurun saklandığı yer)</a></li><li class="chapter-item expanded "><a href="vasiyet/yoktan-cok-telasi.html"><strong aria-hidden="true">2.26.</strong> yoktan çok telaşı</a></li><li class="chapter-item expanded "><a href="vasiyet/özge.html"><strong aria-hidden="true">2.27.</strong> özge</a></li><li class="chapter-item expanded "><a href="vasiyet/ben.html"><strong aria-hidden="true">2.28.</strong> ben (ben giderken)</a></li></ol></li><li class="chapter-item expanded "><a href="ilham-nobetleri.html"><strong aria-hidden="true">3.</strong> ilham nöbetleri</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ilham-nobetleri/zeki-musa.html"><strong aria-hidden="true">3.1.</strong> zeki musa</a></li><li class="chapter-item expanded "><a href="ilham-nobetleri/her-dolunayin-alti.html"><strong aria-hidden="true">3.2.</strong> *** (her dolunayın altı)</a></li><li class="chapter-item expanded "><a href="ilham-nobetleri/yirmi-yas-dusleri.html"><strong aria-hidden="true">3.3.</strong> yirmi yaş düşleri</a></li><li class="chapter-item expanded "><a href="ilham-nobetleri/kirmizi-biberon.html"><strong aria-hidden="true">3.4.</strong> kırmızı biberon</a></li><li class="chapter-item expanded "><a href="ilham-nobetleri/bafra-ekspresi.html"><strong aria-hidden="true">3.5.</strong> bafra ekspresi</a></li><li class="chapter-item expanded "><a href="ilham-nobetleri/ilk.html"><strong aria-hidden="true">3.6.</strong> ilk</a></li><li class="chapter-item expanded "><a href="ilham-nobetleri/uc-soru.html"><strong aria-hidden="true">3.7.</strong> üç soru</a></li><li class="chapter-item expanded "><a href="ilham-nobetleri/agit.html"><strong aria-hidden="true">3.8.</strong> ağıt</a></li><li class="chapter-item expanded "><a href="ilham-nobetleri/ferman.html"><strong aria-hidden="true">3.9.</strong> ferman</a></li><li class="chapter-item expanded "><a href="ilham-nobetleri/rotar.html"><strong aria-hidden="true">3.10.</strong> rötar</a></li><li class="chapter-item expanded "><a href="ilham-nobetleri/sahne.html"><strong aria-hidden="true">3.11.</strong> sahne</a></li><li class="chapter-item expanded "><a href="ilham-nobetleri/kanun.html"><strong aria-hidden="true">3.12.</strong> kanun</a></li><li class="chapter-item expanded "><a href="ilham-nobetleri/ic-uvey.html"><strong aria-hidden="true">3.13.</strong> iç-üvey</a></li><li class="chapter-item expanded "><a href="ilham-nobetleri/sebinkaramizah.html"><strong aria-hidden="true">3.14.</strong> şebinkaramizah</a></li><li class="chapter-item expanded "><a href="ilham-nobetleri/emniyet-kayigi.html"><strong aria-hidden="true">3.15.</strong> emniyet kayığı</a></li><li class="chapter-item expanded "><a href="ilham-nobetleri/satira-temenniler.html"><strong aria-hidden="true">3.16.</strong> satır-a temenniler</a></li><li class="chapter-item expanded "><a href="ilham-nobetleri/kopru.html"><strong aria-hidden="true">3.17.</strong> köprü</a></li><li class="chapter-item expanded "><a href="ilham-nobetleri/101110001010011.html"><strong aria-hidden="true">3.18.</strong> 101110001010011</a></li><li class="chapter-item expanded "><a href="ilham-nobetleri/zaman-e.html"><strong aria-hidden="true">3.19.</strong> zaman-e</a></li><li class="chapter-item expanded "><a href="ilham-nobetleri/intihar-mektubu.html"><strong aria-hidden="true">3.20.</strong> *** (intihar mektubu)</a></li><li class="chapter-item expanded "><a href="ilham-nobetleri/aciortay.html"><strong aria-hidden="true">3.21.</strong> acıortay</a></li><li class="chapter-item expanded "><a href="ilham-nobetleri/kim-lik.html"><strong aria-hidden="true">3.22.</strong> kim-lik</a></li><li class="chapter-item expanded "><a href="ilham-nobetleri/k-an.html"><strong aria-hidden="true">3.23.</strong> k an</a></li><li class="chapter-item expanded "><a href="ilham-nobetleri/baris-icin-dort-dize.html"><strong aria-hidden="true">3.24.</strong> barış için dört dize</a></li><li class="chapter-item expanded "><a href="ilham-nobetleri/siire-kusenler-antolojisi.html"><strong aria-hidden="true">3.25.</strong> şiire küsenler antolojisi</a></li><li class="chapter-item expanded "><a href="ilham-nobetleri/seher-eskidi.html"><strong aria-hidden="true">3.26.</strong> seher eskidi.</a></li><li class="chapter-item expanded "><a href="ilham-nobetleri/heykel.html"><strong aria-hidden="true">3.27.</strong> heykel</a></li><li class="chapter-item expanded "><a href="ilham-nobetleri/beyin-timurlari.html"><strong aria-hidden="true">3.28.</strong> beyin timur’ları</a></li><li class="chapter-item expanded "><a href="ilham-nobetleri/ba-ba.html"><strong aria-hidden="true">3.29.</strong> ba ba</a></li><li class="chapter-item expanded "><a href="ilham-nobetleri/masal-1.html"><strong aria-hidden="true">3.30.</strong> masal-1</a></li><li class="chapter-item expanded "><a href="ilham-nobetleri/ruh-sokugu.html"><strong aria-hidden="true">3.31.</strong> ruh söküğü</a></li><li class="chapter-item expanded "><a href="ilham-nobetleri/cirkin-ordek-derisi.html"><strong aria-hidden="true">3.32.</strong> çirkin ördek derisi(nden eldiven imal edenler)</a></li><li class="chapter-item expanded "><a href="ilham-nobetleri/taskin.html"><strong aria-hidden="true">3.33.</strong> taşkın</a></li><li class="chapter-item expanded "><a href="ilham-nobetleri/dus-es.html"><strong aria-hidden="true">3.34.</strong> düş-eş</a></li><li class="chapter-item expanded "><a href="ilham-nobetleri/bir-monoseksuelin-olumu.html"><strong aria-hidden="true">3.35.</strong> bir monoseksüelin ölümü</a></li><li class="chapter-item expanded "><a href="ilham-nobetleri/curuk-kus.html"><strong aria-hidden="true">3.36.</strong> çürük kuş</a></li><li class="chapter-item expanded "><a href="ilham-nobetleri/san-ci.html"><strong aria-hidden="true">3.37.</strong> san-cı</a></li><li class="chapter-item expanded "><a href="ilham-nobetleri/hangi-agac.html"><strong aria-hidden="true">3.38.</strong> *** (hangi ağaç)</a></li><li class="chapter-item expanded "><a href="ilham-nobetleri/ruj-ruhu.html"><strong aria-hidden="true">3.39.</strong> ruj ruhu</a></li><li class="chapter-item expanded "><a href="ilham-nobetleri/kalabalik.html"><strong aria-hidden="true">3.40.</strong> kalabalık</a></li><li class="chapter-item expanded "><a href="ilham-nobetleri/makas.html"><strong aria-hidden="true">3.41.</strong> makas</a></li><li class="chapter-item expanded "><a href="ilham-nobetleri/ilham-nobetleri.html"><strong aria-hidden="true">3.42.</strong> ilham nöbetleri</a></li></ol></li><li class="chapter-item expanded "><a href="ikincil-ruhla-pisuar-bulusmalari.html"><strong aria-hidden="true">4.</strong> ikincil ruhla pisuar buluşmaları</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ikincil-ruhla-pisuar-bulusmalari/1.html"><strong aria-hidden="true">4.1.</strong> ikincil ruhla pisuar buluşmaları-1</a></li><li class="chapter-item expanded "><a href="ikincil-ruhla-pisuar-bulusmalari/2.html"><strong aria-hidden="true">4.2.</strong> ikincil ruhla pisuar buluşmaları-2</a></li><li class="chapter-item expanded "><a href="ikincil-ruhla-pisuar-bulusmalari/3.html"><strong aria-hidden="true">4.3.</strong> ikincil ruhla pisuar buluşmaları-3</a></li><li class="chapter-item expanded "><a href="ikincil-ruhla-pisuar-bulusmalari/4.html"><strong aria-hidden="true">4.4.</strong> ikincil ruhla pisuar buluşmaları-4</a></li><li class="chapter-item expanded "><a href="ikincil-ruhla-pisuar-bulusmalari/index.html"><strong aria-hidden="true">4.5.</strong> ikincil ruhla pisuar buluşmaları</a></li><li class="chapter-item expanded "><a href="ikincil-ruhla-pisuar-bulusmalari/5.html"><strong aria-hidden="true">4.6.</strong> ikincil ruhla pisuar buluşmaları-5</a></li><li class="chapter-item expanded "><a href="ikincil-ruhla-pisuar-bulusmalari/6.html"><strong aria-hidden="true">4.7.</strong> ikincil ruhla pisuar buluşmaları-6</a></li><li class="chapter-item expanded "><a href="ikincil-ruhla-pisuar-bulusmalari/7.html"><strong aria-hidden="true">4.8.</strong> ikincil ruhla pisuar buluşmaları-7</a></li><li class="chapter-item expanded "><a href="ikincil-ruhla-pisuar-bulusmalari/8.html"><strong aria-hidden="true">4.9.</strong> ikincil ruhla pisuar buluşmaları-8</a></li><li class="chapter-item expanded "><a href="ikincil-ruhla-pisuar-bulusmalari/9.html"><strong aria-hidden="true">4.10.</strong> ikincil ruhla pisuar buluşmaları-9</a></li><li class="chapter-item expanded "><a href="ikincil-ruhla-pisuar-bulusmalari/10.html"><strong aria-hidden="true">4.11.</strong> ikincil ruhla pisuar buluşmaları-10</a></li><li class="chapter-item expanded "><a href="ikincil-ruhla-pisuar-bulusmalari/12.html"><strong aria-hidden="true">4.12.</strong> ikincil ruhla pisuar buluşmaları-12</a></li><li class="chapter-item expanded "><a href="ikincil-ruhla-pisuar-bulusmalari/borun-pazari.html"><strong aria-hidden="true">4.13.</strong> bor’un pazarı</a></li><li class="chapter-item expanded "><a href="ikincil-ruhla-pisuar-bulusmalari/13.html"><strong aria-hidden="true">4.14.</strong> ikincil ruhla pisuar buluşmaları-13</a></li><li class="chapter-item expanded "><a href="ikincil-ruhla-pisuar-bulusmalari/14.html"><strong aria-hidden="true">4.15.</strong> ikincil ruhla pisuar buluşmaları-14</a></li><li class="chapter-item expanded "><a href="ikincil-ruhla-pisuar-bulusmalari/15.html"><strong aria-hidden="true">4.16.</strong> ikincil ruhla pisuar buluşmaları-15</a></li><li class="chapter-item expanded "><a href="ikincil-ruhla-pisuar-bulusmalari/17.html"><strong aria-hidden="true">4.17.</strong> ikincil ruhla pisuar buluşmaları-17</a></li><li class="chapter-item expanded "><a href="ikincil-ruhla-pisuar-bulusmalari/31.html"><strong aria-hidden="true">4.18.</strong> ikincil ruhla pisuar buluşmaları-31</a></li><li class="chapter-item expanded "><a href="ikincil-ruhla-pisuar-bulusmalari/36.html"><strong aria-hidden="true">4.19.</strong> ikincil ruhla pisuar buluşmaları-36</a></li><li class="chapter-item expanded "><a href="ikincil-ruhla-pisuar-bulusmalari/pis-duvar.html"><strong aria-hidden="true">4.20.</strong> pis-duvar</a></li><li class="chapter-item expanded "><a href="ikincil-ruhla-pisuar-bulusmalari/ikincil.html"><strong aria-hidden="true">4.21.</strong> ikincil</a></li><li class="chapter-item expanded "><a href="ikincil-ruhla-pisuar-bulusmalari/ikincil-ruhla-pis-duvar-bulusmalari.html"><strong aria-hidden="true">4.22.</strong> ikincil ruhla pis-duvar buluşmaları</a></li></ol></li><li class="chapter-item expanded "><a href="ezberlenen-cin-ayet.html"><strong aria-hidden="true">5.</strong> ezberlenen cin ayet</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ezberlenen-cin-ayet/bad-dua.html"><strong aria-hidden="true">5.1.</strong> bad dua</a></li><li class="chapter-item expanded "><a href="ezberlenen-cin-ayet/index.html"><strong aria-hidden="true">5.2.</strong> ezberlenen cin ayet</a></li><li class="spacer"></li></ol></li><li class="chapter-item expanded "><a href="kaynakca.html"><strong aria-hidden="true">6.</strong> kaynakça</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        
+                    </div>
+
+                    <h1 class="menu-title">Nokta Durağı</h1>
+
+                    <div class="right-buttons">
+                        
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        
+                        
+                        <a href="https://github.com/kuzey-yildizi/nokta-duragi" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="Özge-dirik"><a class="header" href="#Özge-dirik">Özge Dirik</a></h1>
+<p><em>(Manisa, 14.10.1978 – İstanbul, 27.08.2004)</em></p>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="vasiyet"><a class="header" href="#vasiyet">Vasiyet</a></h1>
+<ul>
+<li><a href="./vasiyet/abakus.html">abaküs</a></li>
+<li><a href="./vasiyet/adisyon-yazilari.html">adisyon yazıları</a></li>
+<li><a href="./vasiyet/anestezi.html">anestezi</a></li>
+<li><a href="./vasiyet/aniaya-savas-sirlari.html">ania'ya savaş sırları</a></li>
+<li><a href="./vasiyet/ben-deniz.html">ben deniz</a></li>
+<li><a href="./vasiyet/ferman.html">ferman (bursa ve siz)</a></li>
+<li><a href="./vasiyet/cift-sifir.html">çift sıfır</a></li>
+<li><a href="./vasiyet/corak.html">çorak</a></li>
+<li><a href="./vasiyet/dus-tu.html">düş-tü</a></li>
+<li><a href="./vasiyet/ekmek-arasi-patates.html">ekmek arası patates</a></li>
+<li><a href="./vasiyet/fakir-uyak.html">fakir uyak</a></li>
+<li><a href="./vasiyet/icimdeki-muzik.html">içimdeki müzik</a></li>
+<li><a href="./vasiyet/ikigen.html">ikigen</a></li>
+<li><a href="./vasiyet/kamasma.html">kamaşma</a></li>
+<li><a href="./vasiyet/papatya.html">papatya</a></li>
+<li><a href="./vasiyet/akasyalar-kacarken.html">akasyalar kaçarken</a></li>
+<li><a href="./vasiyet/masaliniz-var.html">masalınız var</a></li>
+<li><a href="./vasiyet/replik.html">replik</a></li>
+<li><a href="./vasiyet/ruh-ruleti.html">ruh ruleti</a></li>
+<li><a href="./vasiyet/sar-kac.html">sar-kaç</a></li>
+<li><a href="./vasiyet/sidarta-kadar-gozu-kapali.html">sidarta kadar gözü kapalı</a></li>
+<li><a href="./vasiyet/stiriptiz.html">stiriptiz</a></li>
+<li><a href="./vasiyet/tinsel-nafaka.html">tinsel nafaka</a></li>
+<li><a href="./vasiyet/vasiyet.html">vasiyet</a></li>
+<li><a href="./vasiyet/kirilis.html">kırılış (yağmurun saklandığı yer)</a></li>
+<li><a href="./vasiyet/yoktan-cok-telasi.html">yoktan çok telaşı</a></li>
+<li><a href="./vasiyet/%C3%B6zge.html">özge</a></li>
+<li><a href="./vasiyet/ben.html">ben (ben giderken)</a></li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="abaküs"><a class="header" href="#abaküs">abaküs</a></h1>
+<p>Kırmızının deliliklerinden kurtardın hayatını.<br />
+Aşk denilen sır;<br />
+iki ayağın altına sabun bağlayıp,<br />
+koşmaktı peşinden salıncakların.</p>
+<p>Gümüş ve geniş yollar ıssızlığında,<br />
+kardeş ıslıklarla aynı gözleri ağlattık.<br />
+Gün geceliklerinin içinde uyanamayınca,<br />
+doyamadım, dayanamadın yalın yanlışlarıma.</p>
+<p>Hangi geçmişler için kestiysen parmaklarını,<br />
+onlar için büyüttüm ellerimi.<br />
+Şimdi yaşa diyen ağzının içine yakışmıyor,<br />
+kupkuru deliliklerim.</p>
+<p>Bugün kızıyor yollarıma,<br />
+senin tarihinin bildiği tüm ipuçları.<br />
+Ama yalınayak bir çocuk bağırıyor içimde;<br />
+kızma baba çocuk sabrı elliye kadar sayar en fazla...</p>
+<div style="text-align: right">_2000-eylül_</a>
+<hr />
+<p>Kaynaklar:</p>
+<ul>
+<li>Dirik, Özge: “Abaküs”, <strong>Ağır Ol Bay Düzyazı</strong>, Ocak-Şubat 2002, Sayı 7, s. 12.</li>
+<li>Dirik, Özge: “Abaküs”, <strong>Varlık</strong>, Mart 2002, Sayı 1134. </li>
+<li>Dirik, Özge: “<a href="https://web.archive.org/web/20050106154409/http://www.dergi.org/202002/0306.htm">Abaküs</a>”, <strong>Dergi@Net internet dergisi</strong>, Mart-Nisan 2002, Sayı 20.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="adisyon-yazıları"><a class="header" href="#adisyon-yazıları">adisyon yazıları</a></h1>
+<p>-1-</p>
+<p>günde binlerce kez<br />
+alkol diyor biri<br />
+öyle paracı ki şu meyhaneci</p>
+<p>günde binlerce kez<br />
+alkol diyor biri<br />
+öyle sarhoşum ki</p>
+<p><strong><em>abra kadavra</em></strong></p>
+<p>postacının bisikletini çaldığımda<br />
+ilk kez dolamıştın belime ellerini<br />
+oğlunun mektubundan beş dakika önce<br />
+ölen annenin gözyaşlarını<br />
+unutacak mıyız şimdi...</p>
+<p>-3-</p>
+<p>mendil satar<br />
+yine de bakardım istanbul’a<br />
+sakat bir attım<br />
+kimse kurşununu harcamadı bana.</p>
+<p><strong><em>gecenin dibi</em></strong></p>
+<p>okuduğum bir şey dokundu<br />
+“acımadı ki<br />
+acımadı ki” derken hayata<br />
+o hep daha hızlı vurdu<br />
+uçurtmayım, ipim kısa<br />
+uçurtmayın bir daha...</p>
+<p>-5-</p>
+<p>bizim mahallenin parkında gitmeye yeltenirken<br />
+şekerini yalayıp, içinin çürük çıktığını gören kız<br />
+ağlamadan attı elindeki elmayı,<br />
+ölemedim dün.</p>
+<p><strong><em>elim sende</em></strong></p>
+<p>hınzırca bir üçkâğıtçılıktı yaptığım<br />
+başarmak hep ebe kalmayı<br />
+oynarken kahkahalarla<br />
+iki çocukluk oyunumuzu.</p>
+<p>-7-</p>
+<p>bu kendi dilinde eğitime ayaklanan ormanlar<br />
+dünyanın diken diken olmuş hali<br />
+içimde parça etkili bir hayal kurdu<br />
+karşı dur diyor,<br />
+yangın, yağ sürecek birilerinin ekmeğine.</p>
+<p><strong><em>çerez</em></strong></p>
+<p>küçük dilimle bağırdığım binlerce cümle<br />
+şarap eşliğinde tanır ciğerlerimi<br />
+darının suyunu emmek için<br />
+hızlı hızlı tüketir çocukluğum hâlâ<br />
+baba parasının masum tanelerini.</p>
+<p>-8-</p>
+<p>öküzün bile gözü korkar bu şaraptan<br />
+köpeklerin intihar komandoları bununla eğitilir<br />
+o kâğıt parçasına attığın yedinci çentik<br />
+bir adamın şu dünyaya karaladığı<br />
+“aşk olsun” şiiridir.</p>
+<p><strong><em>fondip</em></strong></p>
+<p>dur, gitme hemen<br />
+sekizinciyi de kondur oraya<br />
+bir şans daha veriyorum<br />
+dünyanıza.</p>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="anestezi"><a class="header" href="#anestezi">anestezi</a></h1>
+<p>içindekini sızdıracaksın bir akşam<br />
+tomurcuklanan beynin saçılınca ortaya<br />
+yasal olarak uyuşturulacaksın acıya.<br />
+ilk kanın demli rengi<br />
+hiç pıhtılaşmayacak gibidir Ania.<br />
+bileklerini bozduracaksın bir akşam<br />
+sen avaz avaz bağırsan da<br />
+karabasan diyecek sağırlar buna da.<br />
+aşk henüz var iken<br />
+kafasını namluya sokacak teslimiyet<br />
+bir katilin kendini öldürmesidir Ania,<br />
+en adil cinayet.<br />
+çocukluğunu avlusuna bırakacaksın bir camiinin<br />
+aylar sonra ilk fark eden seni<br />
+sırf çocukları için dualarla sevişen<br />
+köşe başındaki dilenci.<br />
+belden ve dizden büzgülü<br />
+demode bir don şimdilerde aşk<br />
+ağzını hangi musluğa dayarsan Ania,<br />
+kan karışacak şehrin içme suyuna.<br />
+bildiklerini uyutunca bu akşam<br />
+gözlerinin önünde hayatını şeritleyecek<br />
+perdedeki bıçak silueti.<br />
+sokakların meryemliğini yaptığı çocuklara<br />
+utanmasam bi gözyaşı daha.<br />
+sen, içimdeki üçben<br />
+bazı notalarda sevişemeyiz Ania.</p>
+<hr />
+<p>Kaynak:</p>
+<ul>
+<li>Dirik, Özge: “<a href="http://web.archive.org/web/20041112232442/http://www.dergi.org/262003/0302.htm">Anestezi</a>”, <strong>Dergi@Net internet dergisi</strong>, Mart-Nisan 2003, Sayı 26.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="aniaya-savaş-sırları"><a class="header" href="#aniaya-savaş-sırları">ania'ya savaş sırları</a></h1>
+<p>serap düşmanıdır beynin.<br />
+çölde denizi düşlersen ağzın daha fazla kurur.<br />
+ilk kurbanın sevdan olmalı o yüzden
+girerken,<br />
+bu ekmeği kıt, dağları tok savaşa.</p>
+<h1 id="aniaya-savaş-sırları--2-"><a class="header" href="#aniaya-savaş-sırları--2-">ania'ya savaş sırları -2-</a></h1>
+<p>soğuk bedenini yalnızlığına ilikle.<br />
+tüm külleri dağılmalısıcaklığının,<br />
+sigaran dahi yatakçılık yapacaktır<br />
+gözlerini kilitle körelmiş zaferlere.</p>
+<h1 id="aniaya-savaş-sırları--3-"><a class="header" href="#aniaya-savaş-sırları--3-">ania'ya savaş sırları -3-</a></h1>
+<p>yanından ayırma ihanete nefretini<br />
+iknaya doymaz kanla büyüyen kayalar<br />
+hemen arkanda bir namlu ezberle,<br />
+unutma;<br />
+dağlar hep onlardandır.</p>
+<p><em>Mart 2003</em></p>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="ben-deniz"><a class="header" href="#ben-deniz">ben deniz...</a></h1>
+<pre><code>  Eeee Deniz, bugün neler
+  saplandı karanlığına...?
+                     Tanrı
+</code></pre>
+<p>Uzandı kıyı boyunca,<br />
+Yarışı koydu aklına,<br />
+Güçlüydü de kolları,<br />
+Alıverdim canını.<br />
+Uzandı kıyı boyunca,<br />
+Küfretti yakamoz olmayışına,<br />
+Alıverdim canını,<br />
+Umutsuzluğu çaldı arpa suyuna.</p>
+<p>Uzandı kıyı boyunca,<br />
+Alıverdim canını,<br />
+Paracı bir balıkçıydı,<br />
+Yavru balıkları koydu takasına.</p>
+<p>Alamadım canını,<br />
+Ölümü koymuş aklına,<br />
+Delik deşik bir kalbi,<br />
+Atıverdim kıyıya.</p>
+<p><em>Ocak-2001-11-30</em></p>
+<hr />
+<p>Kaynaklar: </p>
+<ul>
+<li>Dirik, Özge: &quot;<a href="https://kuzeyyildizi.com/files/ozgedirik-siirler.pdf">Özge Dirik Arşivi: Şiirler</a>&quot;, <strong>Kuzey Yıldızı Edebiyat Dergisi</strong>, Yayım Tarihi: 11.04.2014, <a href="https://kuzeyyildizi.com/pdf">https://kuzeyyildizi.com/pdf</a>.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="ferman"><a class="header" href="#ferman">ferman</a></h1>
+<p>Bursa ve siz<br />
+Bir çiçeğin ilk kökleri idiniz,<br />
+Zamanla uzaklaşıp derinlere gömüldünüz</p>
+<p>Sancılıydı tarihin doğurgan karnı,<br />
+Eteklere asılan gecekondularda yaşandı,<br />
+Betonun yasladığı yeşile hükmü.</p>
+<p>Bursa ve siz<br />
+Dağın tanıklığında yüz sürdüğüm aşk,<br />
+Gölgelere bıraktığım kahkahalardınız.</p>
+<p>Deva-sa sularınızda büyüttü içini<br />
+Yüreği lüle lüle kokan gençliğim,<br />
+Sırrını dağa bağırsa, şehir<br />
+Şehre bağırsa, dağ gücenirdi</p>
+<p>Çınar altı umutlarımı toplayıp,<br />
+Dost fakiri kulaklarımı çınlatan<br />
+Bursa ve siz<br />
+Bir mısradan daha fazlaydınız.</p>
+<p>Adınıza orta yollu teselliler düşlerdim<br />
+İçimdeki konuşma çizgilerinden<br />
+Beyaz bir eldivendi şarap lekeli kalbim<br />
+Çıkartıp, bu kente gömdüm. </p>
+<p>Bursa ve siz<br />
+Aşka kurgulu üçgenin hipotenüsünde oynadığım,<br />
+Tehlikeli bir oyundunuz.</p>
+<hr />
+<p>Kaynak:</p>
+<ul>
+<li>Dirik, Özge: “Ferman  [Bursa  ve  Siz]”, <strong>Ahmet  Hamdi  Tanpınar  ve  2002  Bursa  Şiirleri</strong>, Bursa Osmangazi Belediyesi Yayınları, İstanbul, 2003, s. 135.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="çift-sıfır"><a class="header" href="#çift-sıfır">çift sıfır</a></h1>
+<p>hemen üst katta,<br />
+bir anne, hayata uyutamadığı çocukları.<br />
+avuçlarının uzun çizgilerini aşka kapattım.<br />
+hemen yanı başımızda haritaları iknaya soyunmuş<br />
+bir kıta, be-leş kargası<br />
+keşfedenin kemik sızısı.</p>
+<p>hemen üst katta<br />
+ancak geri çekilince ilerleyen bir oyuncak.<br />
+yalnızlık vermiş sana soyadını, doyasıya nafakanı.<br />
+insanoğlu diyorum; zor zanaat<br />
+güneş her gün doğmakla<br />
+inandırmış varlığına.</p>
+<p>hemen üst katta,<br />
+hiç duyulmayan baba sesi, çerçevesi yer etmiş duvara.<br />
+bu geceye nereden binersen bin,<br />
+yokluğuna varmak bir duraktır yalnızca.<br />
+daracık sokakların güvercini<br />
+en çok alay edilen çocuğun sapanına nişanladı bedenini.<br />
+dün tanrıyı gördüm, halen yaşadığını sanmakta kendisi.</p>
+<p>hemen üst katta<br />
+müstakil bir adamın uydurdukları<br />
+annemin kandıran bileklerini emmek gibi<br />
+sana yakın durunca<br />
+ismimi kazıyorum gövdene<br />
+çakımla...</p>
+<p><em>perşembe/cuma</em><br />
+<em>00:00</em></p>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="çorak"><a class="header" href="#çorak">çorak</a></h1>
+<p>Karınca kararıyla uyuşan bedenim,<br />
+iğnelenmeye amade, uyanılası bir kâbus.<br />
+Yeni yılla beraber harlayan şöminem,<br />
+noel annenin tükürüğüyle söndü yine.</p>
+<p>Varsın, hayra yorsun ellerin ellerimi.<br />
+Ki onlar, çoğalamayan iki eştiler önce.<br />
+İkileşemediler,<br />
+iki leştiler ya da sıvışamadılar dünyaya.</p>
+<p>Bir gün daha bekleyebilseydik,<br />
+yıllanacaktı güneşe yatan şarabımız.<br />
+Uçmamam için kanatlarının arasına aldığında,<br />
+güven de acı verdi bana.<br />
+Kısır bir arıyım işte,<br />
+üçgen üçgen yapıyorum peteklerimi.<br />
+Birbirini tanımayan iki elementtik biz.<br />
+İlkel bir kimyaperestin kötü kokan ellerinde,<br />
+–bakır ile kalay diyelim–<br />
+gittikçe tunçlaştı kilitlerimiz.</p>
+<p>Şimdi pençelerini körlenmesin diye içeri çeken senin,<br />
+gençliği parmaklarına emanet yaşarken,<br />
+ilk ve tek kavga etmişliğin kalemsiz,<br />
+salıncağa işeyen bir öteki mahalle çocuğuylaydı.</p>
+<p>Bense hayallerime kaldığım yerden devam ediyorum,<br />
+başka kuşların yuvalarında.</p>
+<hr />
+<p>Kaynaklar:</p>
+<ul>
+<li>Dirik, Özge: “Çorak”, <strong>Varlık</strong>,  Mart  2002,  Sayı 1134.</li>
+<li>Dirik, Özge: &quot;Çorak&quot;, <strong>Erken  Ölümlü  Şairler  Antolojisi</strong>, Haz. Ahmet Günbaş, Hayal Yayınları, Nisan 2007, s. 177.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="düş-tü"><a class="header" href="#düş-tü">düş-tü</a></h1>
+<p>karambole çalınan düdük kadar kolaydı,<br />
+her karmaşa kendi bahanesini yaratınca,<br />
+bir dedektif taktım peşime,<br />
+aldattıklarımı bulsun ve söylesin sana.</p>
+<p>sabrımın sara nöbetleri dışında,<br />
+zirve ve denge çelişkisiyle bezendim.<br />
+bisikletimin arka tekerleğine bağlı iki küçük yuvarlak,<br />
+iki küçük tekerlek ve babam,<br />
+bırakıverdi çocukluğumu uluorta.</p>
+<p>düdüğü bozulan ama düdüklü bir tencere,<br />
+şimdi ya kaldırıp atacak,<br />
+ya da başka bir kapak uyduracaksın üzerime,<br />
+ki ilkini tercih etmişliğim,<br />
+yanık kokusuna sürüyor telaşını.</p>
+<p>defalarca kontrol ettin, incittin<br />
+altını söndürdüğün aşkımı,<br />
+bir şişman tüple yalnızca omlet yapılsa,<br />
+260 defa başarılı olunabileceğini bilen yalnızlığımı.</p>
+<p>kaldırımda yerinden çıkmış karoları dahi kandırıp,<br />
+çamur attığımız masum paçalar söverken,<br />
+içmeyince sapıtan,<br />
+sığınak-savar gezginliğimiz de kolumuzun altında,<br />
+kalmadı karmaşamızın bahanesi,<br />
+kadehin şerefine içmekten başka.</p>
+<hr />
+<p>Kaynak:</p>
+<ul>
+<li>Dirik, Özge: “<a href="http://web.archive.org/web/20050112125644/http://www.dergi.org/222002/0311.htm">Düş-tü</a>”, <strong>Dergi@Net  internet  dergisi</strong>, Temmuz-Ağustos 2002, Sayı 22.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="ekmek-arası-patates"><a class="header" href="#ekmek-arası-patates">ekmek arası patates</a></h1>
+<p>defolu gençliğinin ucuz pavyonlarında,<br />
+–git başımdan mı– sandın hayatı.<br />
+günde sekiz litre alkol vermesi için doktorun<br />
+şizofren olmalı ilkin.</p>
+<p>senin dünya sandığın yuvarlak<br />
+–annenin güvelerini beslediği çeyiz sandığı–<br />
+senin dünya sandığın yuvarlak,<br />
+hâlâ öküzün başındaki bela.<br />
+bir denge tutturmuş o da,<br />
+dönüyor canı sıkıla sıkıla.</p>
+<p>Azrail’i kan tutsa da,<br />
+sen yine de ortalıkta kesme bileklerini.<br />
+olur da kurtarırsa seni emniyet şeritleri,<br />
+ahiret için vazgeçtiğin şeyler kalmaz<br />
+kapışılırsa bileziklerin.</p>
+<p>ayrılık bu,<br />
+nanik yapılmaz sevgilinin ardından,<br />
+gör sol meleğinin kırmızı kartını.<br />
+ortalığı sulamaktan başka işe de yarasın,<br />
+gerilla korkuluğu gözlerin.</p>
+<p>en sıkıcı çelişkiler bedeninde,<br />
+kibrit cebinde muhtar çakmağı<br />
+İstanbul’u ilk kez görmüş bir çevre mühendisi<br />
+garip garip bakınma ortalıkta.</p>
+<p>Disney’de kahkaha gazıyla ağlayan çocukluğuna,<br />
+Amasya’da çürük elmalarla büyüyen gençliğine,<br />
+çiçek bozuğu kadın felçlerini de ekleme.</p>
+<p><em>28 Ağustos 2002</em></p>
+<hr />
+<p>Kaynak: </p>
+<ul>
+<li>Dirik, Özge: “<a href="https://kuzeyyildizi.com/sites/default/files/ky07.pdf">Ekmek Arası Patates</a>”, <strong>Kuzey Yıldızı Edebiyat Dergisi</strong>, Mart-Nisan 2003, Sayı 7, s. 13.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="fakir-uyak"><a class="header" href="#fakir-uyak">fakir uyak</a></h1>
+<p>ölümden önceki uyak<br />
+yaşamak adına ağzımdan kaçırdığım kuşlar,<br />
+kim bilir şanslarını kimin üzerine pisliyor.</p>
+<p>ölümden önceki dudak<br />
+–suratın sırat olsa<br />
+geçemezdim gözlerinden<br />
+kaç kan aksa– ile tavladığım kadın<br />
+kim bilir hangi efendinin valsinde tırnak yiyor.</p>
+<p>ölümden önceki tuzak<br />
+traji-kolik hayatımın tirajı komik öyküleri<br />
+süs arıyor bir yanım intiharlarıma<br />
+cinayet süsü.</p>
+<p>ölümden önceki uyak<br />
+konaklaması bir ipte iki cambazın<br />
+sevişerek mümkün ancak...</p>
+<hr />
+<p>Kaynak:</p>
+<ul>
+<li>Dirik, Özge: “<a href="https://kuzeyyildizi.com/sites/default/files/ky11.pdf">Fakir Uyak</a>”, <strong>Kuzey Yıldızı Edebiyat Dergisi</strong>, Mart-Nisan 2005, Sayı 11, s. 10.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="içimdeki-müzik"><a class="header" href="#içimdeki-müzik">içimdeki müzik</a></h1>
+<p>bam telimde parmak izin duruyor<br />
+yeni boyanmış bir aşka oturduk<br />
+kalkarsak üzerimizde kalacak izi</p>
+<p>korsan limanlarda bekliyoruz birbirimizi<br />
+omzumuzda mırıldanan güvercinler dahil<br />
+aldatıyor bu kahperengi hayat bizi</p>
+<p>sarhoş olup zehirliyoruz sırlarını<br />
+bu aşkı herkese susmak<br />
+şarapsız çalmam kadar ayıp kapını</p>
+<p>içimdeki müziğin susması<br />
+altındaki tabureyi tekmeleyip kemancının<br />
+çalması gibi son notalarını...</p>
+<hr />
+<p>Kaynak:</p>
+<ul>
+<li>Dirik, Özge: “<a href="https://kuzeyyildizi.com/sites/default/files/ky11.pdf">İçimdeki Müzik</a>”, <strong>Kuzey Yıldızı Edebiyat Dergisi</strong>, Mart-Nisan 2005, Sayı 11, s. 10</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="ikigen"><a class="header" href="#ikigen">ikigen</a></h1>
+<p>işaret parmağınızdaki<br />
+intihar eğilimli çirkin yüzük<br />
+zehir almaya geldi dün, bana.</p>
+<p>hiç dokunmadan anlattım<br />
+aşk;<br />
+takip mesafesini koruyamayanlara<br />
+tanrının verdiği ceza.</p>
+<p>kadehimden dudaklarınızı çekseydiniz<br />
+mantarımı içine düşürmezdim<br />
+dünyanızın.</p>
+<p>hiçbir göz yörüngesine yetmez.<br />
+ne sidik, ne polis<br />
+yağmur söktü afişlerimizi<br />
+tabağımıza yemek<br />
+midemize esaret koydular.</p>
+<p>vücudunuzda,<br />
+siyahı marifet sanan benleriniz<br />
+çikolata damlalarına dönüşebilir bu gece<br />
+yastığınızdaki rimel lekesini<br />
+zor yazılmış bir mektuba sayarım,<br />
+gidince.</p>
+<hr />
+<p>Kaynak:</p>
+<ul>
+<li>Dirik, Özge: “<a href="https://kuzeyyildizi.com/sites/default/files/ky11.pdf">İkigen</a>”,  <strong>Kuzey Yıldızı Edebiyat Dergisi</strong>, Mart-Nisan 2005, Sayı 11, s. 11.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id=""><a class="header" href="#">***</a></h1>
+<p><em>dünyaya kamaşmayan gözlerine...</em></p>
+<p>Umut tüketir zaman,<br />
+adının içinde ne varsa,<br />
+bire on oynar karanlıkta.<br />
+–gözler önceden okumalıdır ışığı–<br />
+geceden aydınlığa bir adımda sevgili,<br />
+haciz gelir ellerine bir yazarın.</p>
+<p>Kanın kokusunda konaklayan,<br />
+puslu bir komutandır zaman.<br />
+–gözler önceden okumalıdır ışığı–<br />
+geceden aydınlığa bir adımda sevgili,<br />
+gerçekçiliğin peşindeki bir ressam,<br />
+kestiği ayaklarını tuvale çizer.</p>
+<p>Geçerken bıraktığımız değerleri,<br />
+sinsi sinsi toplayan bir hurdacıdır zaman,<br />
+sendekini benim ulaşamayacağıma satar.<br />
+–gözler önceden okumalıdır ışığı–<br />
+bu geceden aydınlığa bir adım imkânsızdır sevgili;<br />
+neyi değiştirir,<br />
+aynı yere bırakmış olmamız içimizi...</p>
+<hr />
+<p>Kaynak:</p>
+<ul>
+<li>Dirik, Özge: “<a href="https://kuzeyyildizi.com/sites/default/files/ky02.pdf">*** [Kamaşma]</a>”, <strong>Kuzey Yıldızı Edebiyat Dergisi</strong>, Nisan-Mayıs 2002, Sayı 2, s. 11.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="papatya"><a class="header" href="#papatya">papatya</a></h1>
+<p>Zamansızlığımdandır güzelliğim.<br />
+Yol kenarını mesken tutan papatyalar,<br />
+kurtaramazlar canlarını,<br />
+dikkatli çocukların tutkularından.</p>
+<p>Bütün yapraklarım “sevmiyor” diye,<br />
+ucuz bir hediye olamam gerçi,<br />
+ama bilinir ki;<br />
+ne zaman bir çiçek dalında kurusa,<br />
+bir sevgili daha çok üzülür.</p>
+<p>Yüzünü görünce onun,<br />
+ne de çok isterdim incinmesin.<br />
+Benden önce sen ispiyonlasaydın keşke<br />
+başka bir adama harcadığın sevgini.</p>
+<p>Kırmızıyı esirgemeyen çay bardaklarının<br />
+ince bellerine dayanamadan,<br />
+beni de aldatıyordur belki,<br />
+sevinince terleyen parmakların.</p>
+<p><em>Şubat 2002</em></p>
+<hr />
+<p>Kaynaklar:</p>
+<ul>
+<li>Dirik, Özge: “<a href="https://kuzeyyildizi.com/sites/default/files/ky04.pdf">Papatya</a>”, <strong>Kuzey Yıldızı Edebiyat Dergisi</strong>, Ağustos-Eylül 2002, Sayı 4, s. 16</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="akasyalar-kaçarken"><a class="header" href="#akasyalar-kaçarken">akasyalar kaçarken</a></h1>
+<p>yarınlarınız ıslanmış buruşuyor,<br />
+gelin bir yatak bulalım.<br />
+işçiliği çok fazla beyazlarınızın,<br />
+zarar edersiniz, bozdurursanız.<br />
+dünya güzelisiniz ama<br />
+beyazı siyah görüyor gözleriniz.</p>
+<p>bir bir gece masalları okuyorsunuz<br />
+sosyal sınırlar kurumu hastahanelerinin<br />
+kürt-aj sahnelerinde.<br />
+göz aldanması diyorlar nasıl olsa<br />
+korkmuyorsunuz çoğalmaktan.<br />
+içinizin anahtarını yutuyorsunuz<br />
+günde her defa.</p>
+<p>göz ucunuzdaki aşırı tahriş olmuş çocukluğunuzun<br />
+çaresizliği mutluluk aslında;<br />
+var mıdır -bici-yle biten kelime<br />
+leblebici ve muhallebiciden başka.<br />
+ayrılıktan kâse kâse nasiplenen kızlığınızın gözyaşları<br />
+kaşıkla sıvanıp, tekrar sokuluyor ağzınıza.<br />
+Ah cevizli kek tadındaki dudaklarınızın<br />
+ayrı olmalı mezar taşı.</p>
+<p>her rüzgârı gitmeye yoruyor<br />
+ağzı burnu kırmızı eteğiniz.<br />
+ve her sakinlik gecikmiş bir gitmek oluyor,<br />
+boynunuzdaki şala sulanan işaret parmağınızın<br />
+zengin kalkışına yeltenen ritmi<br />
+sinir bozuyor.</p>
+<p>güneşin denize muhtaç renklerinin<br />
+asgari tonlarını bile ödeyemiyorsunuz geri.<br />
+gözlerinizi emen bebekleriniz<br />
+büyüyünce hâkim olacak belli ki.<br />
+sololardan bıkmış kemancılardan kurulu ses telleriniz<br />
+küçük diliniz şefliğinde soruyor bizlere;<br />
+iğde ağaçlarının boğaz tıkayan mutluluğunu.</p>
+<p>kurdelelerden görünmüyor<br />
+üç artı bir renkli tırnaklarınızı kiralayan elleriniz.<br />
+içinizdeki postun kıymetini bilseler<br />
+kaçamazsınız yüreği konsomasyondaki adamlardan,<br />
+yanağınızdaki tembel gamze için ümitli hâlâ<br />
+kinge oturan peygamberlerimiz.</p>
+<p>yalnız bir göç yolu üzerinde<br />
+ne zaman gözünüz seğirse<br />
+cilvelere yoruluyor haince.<br />
+iç açı-cı formüllerle dış acı kalıyoruz hep<br />
+yakarken toplamı yüzseksen derece sıcaklığınız.</p>
+<p>alfabenin sıfırını soruyorsunuz edebiyat hanında.<br />
+elimizdeki nokta kılıklı alevlerle<br />
+yakmak için,<br />
+yakışmaya çalışıyoruz ağzınızdaki aşk tüten, filtresiz mısraya.</p>
+<p><em>ocak-2 00 3</em></p>
+<hr />
+<p>Kaynaklar: </p>
+<ul>
+<li>Dirik, Özge: “<a href="http://www.yersizyurtsuz.com/dergimart2003/ekrandergisayfa15.htm">Akasyalar Kaçarken</a>”, <strong>Yersiz Yurtsuz</strong>, Mart 2003.</li>
+<li>Dirik, Özge: “<a href="https://kuzeyyildizi.com/sites/default/files/ky11.pdf">Akasyalar Kaçarken</a>”, <strong>Kuzey Yıldızı Edebiyat Dergisi</strong>, Mart-Nisan 2005, Sayı 11, s. 12.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="masalınız-var"><a class="header" href="#masalınız-var">masalınız var</a></h1>
+<p>ardından baktığımda<br />
+kötü karanlık gülüyordu.<br />
+sana kimse söyleyemedi<br />
+sevdayı, gidenlere harcamak<br />
+bir “ben” klasiği.</p>
+<p>imana, kitaba dokunulmadan<br />
+soyulup, başucuna konulan<br />
+esrarla geri kazanılmış<br />
+bir fahişe gibi<br />
+ağlıyordu an.</p>
+<p>ben trenlerin makaslandığı yerlerde<br />
+yanlış raylara yatmış bir intihar budalası<br />
+çocukların kahkahalarıyla açtım<br />
+yaşlanmış gözlerimi</p>
+<p>çok açtım<br />
+bir şarap kılığında gelmiştim masanıza<br />
+ilk yudumunda reddettiğiniz bedenim<br />
+garsonların eğlencesi oldu<br />
+ilerleyen saatlerinde gecenin.</p>
+<p>tekrar acıkan tekrar ağladı dünyaya.<br />
+oysa bana okunan masallarda<br />
+ağlamak mutlu sona yaklaşmadan verilen<br />
+bir çocukluk molasıydı.</p>
+<p>el ele verip, adamakıllı tutuşursak<br />
+hemen alarmlar saracak dünyamızı<br />
+şimdi bırakın da<br />
+bağlayayım ayakkabılarınızı...</p>
+<hr />
+<p>Kaynaklar:</p>
+<ul>
+<li>Dirik, Özge: “<a href="https://kuzeyyildizi.com/sites/default/files/ky11.pdf">Masalınız Var</a>”, <strong>Kuzey Yıldızı Edebiyat Dergisi</strong>, Mart-Nisan 2005, Sayı 11, s. 13.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="replik"><a class="header" href="#replik">replik</a></h1>
+<p>Dört duvar körüklerken bedeninizi,<br />
+gözlerinizin yirmibin fersah içinde,<br />
+yastığınızın bir ucunda “apranax fort”,<br />
+bir ucunda ben uyuşurdum sizi hayata.</p>
+<p>Paylaşmadığınız çocukluğunuzdu,<br />
+benden salına salına ırayan.<br />
+şimdilerin siyah tuvaline bulaştırmadığınız elleriniz vardı,<br />
+hep birilerine yakın diye sıcak.</p>
+<p>Bayramın ilk günü yeni giysileriyle evden kaçan,<br />
+masum zenginliklere ikametliydi kalbiniz.<br />
+Ağlayan fotoğraflarla babanızı kandırıp,<br />
+tüm tatlılarına sahip oldunuz bir çocukluğun.</p>
+<p>Batan bir gemiden, denizdekilere uzanan bir el kadar<br />
+anlamsızdı bazen gülümsemek.<br />
+Hiç anlamadınız,<br />
+yoksul babası ağlar diye gizli gizli,<br />
+bir çocuğun elma şekerlerinden kaçırdığı gözlerini...</p>
+<hr />
+<p>Kaynaklar:</p>
+<ul>
+<li>Dirik, Özge: “Replik”, <strong>Hece</strong>, Ağustos 2002, Sayı 68, s. 78.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="ruh-ruleti"><a class="header" href="#ruh-ruleti">ruh ruleti</a></h1>
+<p>daha gençsin<br />
+hangi yarınlar gününü görse<br />
+deforme uzunluğa dönüşecek “hayal et”lerin.</p>
+<p>cesaret<br />
+ikna ettim ben muzip bir uçurumu<br />
+uyuşturacak gözlerini</p>
+<p>ideal<br />
+iki ters bir düze güvenme<br />
+prangadır çoğu zaman yörünge.</p>
+<p>şairsin, ki sen bile<br />
+buruşturur atarsın kimi zaman ellerini<br />
+yazıp da unuttuğun binlerce imge<br />
+korkma tanrılar hatırlamaz seni.</p>
+<p>yorgunsun<br />
+kırlangıç renginde kısık bir uğultu<br />
+şakağını silaha daya<br />
+biraz dinlen ve git sonra.</p>
+<hr />
+<p>Kaynaklar:</p>
+<ul>
+<li>Dirik, Özge: “Ruh Ruleti”, <strong>Hece</strong>, Şubat 2003, Sayı 74.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="sar-kaç"><a class="header" href="#sar-kaç">sar-kaç</a></h1>
+<p>deniz kendini esirgedikçe<br />
+kumları oyalayan zaman<br />
+çaldığım notaları yırt<br />
+akmadan sahneye</p>
+<p>ısısını yaydıkça<br />
+hücreleşiyor ellerin<br />
+bozumun şenliklerinde favori<br />
+kanayan yerinden haritalanan<br />
+ülke</p>
+<p>saklı yüzüne bir çentik<br />
+incisi ağır yaralı midye<br />
+aramam derinini daha<br />
+kapısını açmıyor kimseye</p>
+<p>geriye yol uman saklı hisler<br />
+harflere uzarsa<br />
+dilinin altında pişer<br />
+raptiye kılıklı veda</p>
+<p>aşkın özneye esaretinde<br />
+tanrıdan yadigâr cazibe;<br />
+kimlere ölünürse<br />
+bir demet onur içinde</p>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="sidarta-kadar-gözü-kapalı"><a class="header" href="#sidarta-kadar-gözü-kapalı">sidarta kadar gözü kapalı</a></h1>
+<p>yorgunum,
+hayallerim bağını çözdü
+“hay aksi” bir saksının içinde
+sırlarım size yetişemedi</p>
+<p>havucun içindeki beyaza ulaşmış
+sokakta, dizi en çok kanayan
+tahrip gücü yüksek bir çocuk
+hayatı budama peşinde şimdi</p>
+<p>bağcıklarıma basıp beni düşüren
+bu haziran yoklaması
+hayır! bana zarar verinceye dek
+bakmayacağım ardımdan gelen sese</p>
+<p>telafi sınavlarının yapıldığı
+cehennet diye bir yer düşümde
+nefes nefes koşup da bir tavşan
+bir kaplumbağaya nasıl yenildi...</p>
+<p><em>ocak-yeniyıl</em></p>
+<hr />
+<p>Kaynak:</p>
+<ul>
+<li>Dirik, Özge: &quot;<a href="https://kuzeyyildizi.com/files/ozgedirik-siirler.pdf">Özge Dirik Arşivi: Şiirler</a>&quot;, <strong>Kuzey Yıldızı Edebiyat Dergisi</strong>, Yayım Tarihi: 11.04.2014, <a href="https://kuzeyyildizi.com/pdf">https://kuzeyyildizi.com/pdf</a>.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="stiriptiz"><a class="header" href="#stiriptiz">stiriptiz</a></h1>
+<p>körelen kalemin sonunu bilirsin<br />
+adına yeltenir bu şiirin.<br />
+süslü süslü soyar tanrı<br />
+hiç düşürmeden kabuğunu<br />
+yasak bir elmadır dünya<br />
+ucuz bir pompa<br />
+o kalp dediğin.</p>
+<p>molasız yolculuklara bulanan migren<br />
+tepeden tırnağa bir vasiyet olacaksın sen<br />
+toprağın altına süpürülen.<br />
+rakıdır ömrünün deformatik beyazlatıcısı<br />
+cahit sıtkı’dan dinle bir de<br />
+yarısı bitmiş yetmişliğin garip sırlarını.</p>
+<p>ölü ata nal çakan bir bekleyiş bu<br />
+birazdan seslenir erdemin hemşiresi<br />
+“nurtopu gibi bir hiç’iniz oldu”<br />
+bulamayınca İstanbul’da toprağı<br />
+–sen– yapmış tanrı, bir yıldırımı...</p>
+<hr />
+<p>Kaynak: </p>
+<ul>
+<li>Dirik, Özge: &quot;<a href="https://kuzeyyildizi.com/files/ozgedirik-siirler.pdf">Özge Dirik Arşivi: Şiirler</a>&quot;, <strong>Kuzey Yıldızı Edebiyat Dergisi</strong>, Yayım Tarihi: 11.04.2014, <a href="https://kuzeyyildizi.com/pdf">https://kuzeyyildizi.com/pdf</a>.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="tinsel-nafaka"><a class="header" href="#tinsel-nafaka">tinsel nafaka</a></h1>
+<p>sorunlarımız; tin-selken,<br />
+açmayan çiçeklerimizi seviştirelim artık.<br />
+perde kenarına bir göz sığarsa<br />
+izlesin bizi aç kalabalık.</p>
+<p>potkaldaki sır adına<br />
+Tanrının teri bulaşmış yuttuğun suya,<br />
+gargara cumhuriyetinde trans öz,<br />
+okyanusa kuyu sokumu.</p>
+<p>en şehvetli yerinde yarı kapatılmış<br />
+“ruh üşümesi” – bir.<br />
+batak odasında<br />
+giyeceğin terliğin teki – iki.<br />
+üç tuzak bir penaltı.</p>
+<p>ısrar ettin sözümde,<br />
+sende’ledin.<br />
+damağında olta tadı.<br />
+tirbuşon kılıklı favorist ruh<br />
+ilk o değecek şaraba,<br />
+bağbozumu şenliklerinde.</p>
+<hr />
+<p>Kaynak: </p>
+<ul>
+<li>Dirik, Özge: &quot;<a href="https://kuzeyyildizi.com/files/ozgedirik-siirler.pdf">Özge Dirik Arşivi: Şiirler</a>&quot;, <strong>Kuzey Yıldızı Edebiyat Dergisi</strong>, Yayım Tarihi: 11.04.2014, <a href="https://kuzeyyildizi.com/pdf">https://kuzeyyildizi.com/pdf</a>.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="vasiyet-1"><a class="header" href="#vasiyet-1">vasiyet</a></h1>
+<blockquote>
+<p>“ki en kötüsüdür,<br />
+ölümden sonra da istemek.”</p>
+</blockquote>
+<p>Benden firar eden dünyadan,<br />
+son isteklerimi taşırken bana,<br />
+dikkat et; aynı olmasın torbanın rengi,<br />
+ayağına giydiğin galoşlarla.</p>
+<p>Şu bizim yan odada,<br />
+Kürt kaşlı kız çok inledi dün gece,<br />
+boştu yatağı,<br />
+bugün iyileşmiş, tahliyesi olmuş,<br />
+inandıramadılar bana.</p>
+<p>Bir uçlu sakla da göğsüne,<br />
+teninin kokusu olsun izmaritinde.<br />
+Bu yalnızlığı biz yaratmadık,<br />
+bilakis tütünü bile dost eyledik kendimize.</p>
+<p>Ya sen,<br />
+ellerini yıkıyorsun bana her gelişinde,<br />
+benimle aynı gün ölecek olan alyansında,<br />
+bir sabun parçası,<br />
+ne demekse.</p>
+<p>Yarın belki de son kez,<br />
+ziyaret saatini özleyeceğim yine,<br />
+yemek yiyeceğim,<br />
+tadını tuzunu alıp, öyle veriyorlar yemeği,<br />
+mercimeğin içindeki böceğin bile hesaplı kalorisi.</p>
+<p>Giydiğin eteğin yırtmacı ilk defa dokunuyor bana,<br />
+beni yolcu eden akciğer<br />
+kediye atsan yemez<br />
+geç kalmayacak randevusuna.</p>
+<p>Gidince çürümeyeceğini bilsem,<br />
+ellerimizi değiştirelim derdim.<br />
+Ellerimin ellerinde verdiği güzel ve uzun mola,<br />
+ayrılık Allah’ın emri,<br />
+ölüm olmasa...</p>
+<p><em>29.03.2002</em></p>
+<hr />
+<p>Kaynaklar:</p>
+<ul>
+<li>Dirik, Özge: “<a href="https://kuzeyyildizi.com/sites/default/files/ky05.pdf">Vasiyet</a>”, <strong>Kuzey  Yıldızı Edebiyat Dergisi</strong>,  Ekim-Kasım  2002,  Sayı  5,  s.  17.</li>
+<li>Dirik, Özge: “Vasiyet”, <strong>Erken  Ölümlü Şairler Antolojisi</strong>, Haz. Ahmet Günbaş, Hayal Yayınları, Nisan 2007, s. 179</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="kırılış-yağmurun-saklandığı-yer"><a class="header" href="#kırılış-yağmurun-saklandığı-yer">kırılış (yağmurun saklandığı yer)</a></h1>
+<p>yağmurun saklandığı yerde bırakmıştım en son<br />
+kahve telvelerinden kader kısmet kılıklı umutları.<br />
+–her an ölebilirsin– dedi doktor<br />
+karalama defterine ölümü yazdı<br />
+birkaç acı düşürücü.</p>
+<p>gözkapaklarını sardığın yaralarımdan önce<br />
+usul kırmızı süzüldü beyazdan<br />
+ölümsüz biten yolculuklar yaşadım<br />
+sahte böcekleri ağustosun<br />
+ağır gelmedi ben’liğim kadar.</p>
+<p>gidiş tarihimin rötarından sorumlu bahar<br />
+bir buğday atası gibi yorulduk<br />
+değirilenler adına değirmene karşı<br />
+anlamadılar.<br />
+aşı tatilinde bir orman<br />
+rüyaya düşüyordu ağaçlarına konan kuşlar.</p>
+<p>aşk bu;<br />
+okurken başta<br />
+yaşarken sonda vurgusu.<br />
+bir hayatı raylarına oturtacaksın daha<br />
+yolumuzun<br />
+sonu.</p>
+<p><em>2002-hazin an</em></p>
+<hr />
+<p>Kaynaklar:</p>
+<ul>
+<li>Dirik, Özge: “<a href="https://kuzeyyildizi.com/sites/default/files/ky11.pdf">Kırılış</a>”, <strong>Kuzey Yıldızı Edebiyat Dergisi</strong>, Mart-Nisan 2005, Sayı 11, s. 15.</li>
+<li>Dirik, Özge: “Kırılış”, <strong>Hece</strong>, Ekim 2003, Sayı 82, s. 61.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="yoktan-çok-telaşı"><a class="header" href="#yoktan-çok-telaşı">yoktan çok telaşı</a></h1>
+<p>kanatlarından ertelenen her uçuş öfkeli.<br />
+hayatına çok gördüğün deri yamalarından sızıyor,<br />
+sataşıyor “boyayalım mı abi” diyerek kızıl-siyah saçlarına<br />
+dolanıyor tanrının ellerine<br />
+koparmaya çalıştıkça<br />
+uzadıkça kafanın görkemli örtüsü<br />
+uzuyor.</p>
+<p>saatleri ters takıp, kandığın<br />
+yıldırım yüküyle sardığın elektrik direklerine sarmaşıyor,<br />
+metrekareye üç üşümüş insanın üşüştüğü bu kentte<br />
+başarıyor yine de yalnız ısınmayı ürkek bedenin.</p>
+<p>bak boynunda kararsız pıhtılarıyla gezen kırmızı<br />
+merhamet dileniyor, yüzünü mendili bilip<br />
+avuç açıyor<br />
+senin adına potlar kırıyor<br />
+kazasız belasız yolculukları sömüreceğine<br />
+yeni garajda “zenginliğinizi artırsın” diyor,<br />
+ülserine vefa sunuyor,<br />
+aç kalıyor.</p>
+<p>saklanmalı artık,<br />
+çık o bela kapıların ardından.<br />
+elma dersem nükleer, armut dersem kimyasal<br />
+yaşlanmış oyunlarına tehlike sosu.<br />
+gözlerinden daha kör lenslerin<br />
+yapmacık hüzünlere bulaşıyor<br />
+çarpanlarına ayrılalı, yıllar oluyor.<br />
+asal öleceksin,<br />
+bir sonrası yok yıkılmışlığının,<br />
+hâlâ korkuyor musun?</p>
+<hr />
+<p>Kaynak: </p>
+<ul>
+<li>Dirik, Özge: &quot;<a href="https://kuzeyyildizi.com/files/ozgedirik-siirler.pdf">Özge Dirik Arşivi: Şiirler</a>&quot;, <strong>Kuzey Yıldızı Edebiyat Dergisi</strong>, Yayım Tarihi: 11.04.2014, <a href="https://kuzeyyildizi.com/pdf">https://kuzeyyildizi.com/pdf</a>.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="özge"><a class="header" href="#özge">özge</a></h1>
+<p>havucun içindeki tatlı beyaza güvenme<br />
+gayretli çocukların dizleri fena kanar düşünce.</p>
+<p>yüzüğünün içinde ilk aşkına döktüğün gözyaşları<br />
+zehredebilir geriye dönmek bugünün tatlarını</p>
+<p>gitmek bir tarihe bürünmüşse,<br />
+deniz duru da olsa<br />
+kötüye rotalamalı gemileri yine de</p>
+<p>özgürlüğe kanarak, bırakma annenin ellerini<br />
+salıncak gücündeki iki yeşil dal bile<br />
+aldatmamış mıydı üzerinden atarak seni</p>
+<p>ömür boyu hapis bu oyunun adı<br />
+ama cinayet işlemeden<br />
+okumazlar bu gerçeği adamın yüzüne...</p>
+<hr />
+<p>Kaynak:</p>
+<ul>
+<li>Dirik, Özge: “Özge”, <strong>Hece</strong>, Nisan 2003, Sayı 76, s. 67</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="ben-ben-giderken"><a class="header" href="#ben-ben-giderken">ben (ben giderken)</a></h1>
+<p>bir kıvılcım gibi acıyan içlerime<br />
+yalnızca hüzünlü anlarda attığın çentikler<br />
+ödenmesi gereken bir hesaptır şimdi<br />
+müslüman mahallesi salyangozlarına kan satan çocuklara.</p>
+<p>ellerin ellerimin üzerinde vermiştir molasını<br />
+kısa metrajlı hayatlar uğruna senden önce gitmem gerekir<br />
+gideceğin yerlerin anonsunu merak içinde yapmaya.</p>
+<p>tek haneli yüzyılların duygularıyla batarken gerçeğe<br />
+tüm küfürlerle sarmaş dolaş ayaklanıyoruz bu gece<br />
+çapaladığınız yüreğimi bırakıp göçtüğünüz istanbul’a</p>
+<hr />
+<p>Kaynak: </p>
+<ul>
+<li>Dirik, Özge: &quot;<a href="https://kuzeyyildizi.com/files/ozgedirik-siirler.pdf">Özge Dirik Arşivi: Şiirler</a>&quot;, <strong>Kuzey Yıldızı Edebiyat Dergisi</strong>, Yayım Tarihi: 11.04.2014, <a href="https://kuzeyyildizi.com/pdf">https://kuzeyyildizi.com/pdf</a>.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="ilham-nöbetleri"><a class="header" href="#ilham-nöbetleri">ilham nöbetleri</a></h1>
+<ul>
+<li><a href="./ilham-nobetleri/zeki-musa.html">zeki musa</a></li>
+<li><a href="./ilham-nobetleri/her-dolunayin-alti.html">*** (her dolunayın altı)</a></li>
+<li><a href="./ilham-nobetleri/yirmi-yas-dusleri.html">yirmi yaş düşleri</a></li>
+<li><a href="./ilham-nobetleri/kirmizi-biberon.html">kırmızı biberon</a></li>
+<li><a href="./ilham-nobetleri/bafra-ekspresi.html">bafra ekspresi</a></li>
+<li><a href="./ilham-nobetleri/ilk.html">ilk</a></li>
+<li><a href="./ilham-nobetleri/uc-soru.html">üç soru</a></li>
+<li><a href="./ilham-nobetleri/agit.html">ağıt</a></li>
+<li><a href="./ilham-nobetleri/ferman.html">ferman</a></li>
+<li><a href="./ilham-nobetleri/rotar.html">rötar</a></li>
+<li><a href="./ilham-nobetleri/sahne.html">sahne</a></li>
+<li><a href="./ilham-nobetleri/kanun.html">kanun</a></li>
+<li><a href="./ilham-nobetleri/ic-uvey.html">iç-üvey</a></li>
+<li><a href="./ilham-nobetleri/sebinkaramizah.html">şebinkaramizah</a></li>
+<li><a href="./ilham-nobetleri/emniyet-kayigi.html">emniyet kayığı</a></li>
+<li><a href="./ilham-nobetleri/satira-temenniler.html">satır-a temenniler</a></li>
+<li><a href="./ilham-nobetleri/kopru.html">köprü</a></li>
+<li><a href="./ilham-nobetleri/101110001010011.html">101110001010011</a></li>
+<li><a href="./ilham-nobetleri/zaman-e.html">zaman-e</a></li>
+<li><a href="./ilham-nobetleri/intihar-mektubu.html">*** (intihar mektubu)</a></li>
+<li><a href="./ilham-nobetleri/aciortay.html">acıortay</a></li>
+<li><a href="./ilham-nobetleri/kim-lik.html">kim-lik</a></li>
+<li><a href="./ilham-nobetleri/k-an.html">k an</a></li>
+<li><a href="./ilham-nobetleri/baris-icin-dort-dize.html">barış için dört dize</a></li>
+<li><a href="./ilham-nobetleri/siire-kusenler-antolojisi.html">şiire küsenler antolojisi</a></li>
+<li><a href="./ilham-nobetleri/seher-eskidi.html">seher eskidi.</a></li>
+<li><a href="./ilham-nobetleri/heykel.html">heykel</a></li>
+<li><a href="./ilham-nobetleri/beyin-timurlari.html">beyin timur’ları</a></li>
+<li><a href="./ilham-nobetleri/ba-ba.html">ba ba</a></li>
+<li><a href="./ilham-nobetleri/masal-1.html">masal-1</a></li>
+<li><a href="./ilham-nobetleri/ruh-sokugu.html">ruh söküğü</a></li>
+<li><a href="./ilham-nobetleri/cirkin-ordek-derisi.html">çirkin ördek derisi(nden eldiven imal edenler)</a></li>
+<li><a href="./ilham-nobetleri/taskin.html">taşkın</a></li>
+<li><a href="./ilham-nobetleri/dus-es.html">düş-eş</a></li>
+<li><a href="./ilham-nobetleri/bir-monoseksuelin-olumu.html">bir monoseksüelin ölümü</a></li>
+<li><a href="./ilham-nobetleri/curuk-kus.html">çürük kuş</a></li>
+<li><a href="./ilham-nobetleri/san-ci.html">san-cı</a></li>
+<li><a href="./ilham-nobetleri/hangi-agac.html">*** (hangi ağaç)</a></li>
+<li><a href="./ilham-nobetleri/ruj-ruhu.html">ruj ruhu</a></li>
+<li><a href="./ilham-nobetleri/kalabalik.html">kalabalık</a></li>
+<li><a href="./ilham-nobetleri/makas.html">makas</a></li>
+<li><a href="./ilham-nobetleri/ilham-nobetleri.html">ilham nöbetleri</a></li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="zeki-musa"><a class="header" href="#zeki-musa">zeki musa</a></h1>
+<p>Farkında değil miydi balıkçı musa,<br />
+dolunay artığı fırtınanın patlayacağının.<br />
+Ama önce kedisi açtı,<br />
+sonra çocukları.</p>
+<p>Farkında değil miydi balıkçı musa,<br />
+küçük balıkları avlama yasağının.<br />
+Ama önce kedisi açtı,<br />
+sonra kendisi.</p>
+<p>Farkında değil miydi balıkçı musa,<br />
+ağlar kayarken yarık ellerinden,<br />
+denizin, yaşlıları sevmediğinin.<br />
+Biliyordu, biliyordu,<br />
+önce kedisi kaçacaktı,<br />
+sonra karısı...</p>
+<p><em>ankara</em><br />
+<em>eksi yirmi kasım – 96</em></p>
+<hr />
+<p>Kaynak: </p>
+<ul>
+<li>Dirik, Özge: &quot;<a href="https://kuzeyyildizi.com/files/ozgedirik-siirler.pdf">Özge Dirik Arşivi: Şiirler</a>&quot;, <strong>Kuzey Yıldızı Edebiyat Dergisi</strong>, Yayım Tarihi: 11.04.2014, <a href="https://kuzeyyildizi.com/pdf">https://kuzeyyildizi.com/pdf</a>.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="-her-dolunayın-altı"><a class="header" href="#-her-dolunayın-altı">*** (Her Dolunayın Altı)</a></h1>
+<p>Her dolunayın altında pencereniz<br />
+Senin gözlerin yeşile battıkça her geçen gün<br />
+Dolunay kuduruyor yalnızlıktan...</p>
+<p><em>98 dolunay</em></p>
+<hr />
+<p>Kaynak: </p>
+<ul>
+<li>Dirik, Özge: &quot;<a href="https://kuzeyyildizi.com/files/ozgedirik-siirler.pdf">Özge Dirik Arşivi: Şiirler</a>&quot;, <strong>Kuzey Yıldızı Edebiyat Dergisi</strong>, Yayım Tarihi: 11.04.2014, <a href="https://kuzeyyildizi.com/pdf">https://kuzeyyildizi.com/pdf</a>.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="yirmi-yaş-düşleri"><a class="header" href="#yirmi-yaş-düşleri">Yirmi Yaş Düşleri</a></h1>
+<p>Zorla dersinin başına oturtulmuşçasına,<br />
+gereklilik ve adımların köşe kapmaca oynar.<br />
+Elma şekerine dahi doymuş bir çocukluğun var senin,<br />
+görmediklerin var.</p>
+<p>Ege’nin öfkesine sığmış bir gençlik,<br />
+sıfıra vuruşun en fazla.<br />
+Aklındadır hep eskitilmiş ülke,<br />
+ne şaraplar ihraç edilir, içinde acısı.</p>
+<p>Dört gün, dört mevsimdir.<br />
+Siyah-beyaz yaşantına renkli kalemleriyle,<br />
+oynaya oynaya bir çizik atar doğa,<br />
+bu oyuncağın afacanlıkta kırılacak ilk parçasısın.</p>
+<p>Legal gürültüleridir öksürükler gecelerinin,<br />
+sabah kuşları gibi, sırf sabahı özleyen kuşlar gibi.<br />
+Yirmi yaş dişleri gibi çürür;<br />
+heyecan, mutluluk, rüya ve tabir.<br />
+Hem onlar da öyle değil miydi,<br />
+dört tane, çabuk ve acılı...</p>
+<p><em>ocak-2000</em><br />
+<em>Ankara</em></p>
+<hr />
+<p>Kaynaklar:</p>
+<ul>
+<li>Dirik, Özge: “Yirmi Yaş Düşleri”, <strong>Kuzey Yıldızı</strong>, Şubat-Mart 2002, Sayı 1, s. 19.</li>
+<li>Dirik, Özge: “Yirmi Yaş Düşleri”, <strong>Erken Ölümlü Şairler Antolojisi</strong>, Haz. Ahmet Günbaş, Hayal Yayınları,
+Nisan 2007, s. 178.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="kırmızı-biberon"><a class="header" href="#kırmızı-biberon">Kırmızı Biberon</a></h1>
+<p>Söküp, yeniden diktiğin bu kazak<br />
+kutsal nefret modası.<br />
+Kılıcı kınından kovup,<br />
+işgal topraklarında define arama.</p>
+<p>Düşünde sapan, düşününce sapan,<br />
+yaşadıkça ölmeyen beyaz adam,<br />
+bumerang ruhunun dönüşü için<br />
+daha kaç peygamber yetiştirmeli?</p>
+<p>Sen ayaksız bir atlet,<br />
+şimşek tohumları adadın bulutlara,<br />
+kaç saniye sürerse gürültün,<br />
+o denli uzak avlanıyor kalbin.</p>
+<p>Kesilmiş iki damarı birbirine bağlıyor,<br />
+kanı durduruyorsun şimdilik.<br />
+Tek damar kalıncaya kadar,<br />
+çare bulacak demokrasin.</p>
+<p>Doğuşunu kaybetmiş kumarbaz güneş,<br />
+boyarken öz’etini siyaha,<br />
+sar’hoş olurdu birden gelince<br />
+ruhun sünneti...</p>
+<p><em>Mart-2000</em></p>
+<hr />
+<p>Kaynak: </p>
+<ul>
+<li>Dirik, Özge: &quot;<a href="https://kuzeyyildizi.com/files/ozgedirik-siirler.pdf">Özge Dirik Arşivi: Şiirler</a>&quot;, <strong>Kuzey Yıldızı Edebiyat Dergisi</strong>, Yayım Tarihi: 11.04.2014, <a href="https://kuzeyyildizi.com/pdf">https://kuzeyyildizi.com/pdf</a>.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="bafra-ekspresi"><a class="header" href="#bafra-ekspresi">bafra ekspresi</a></h1>
+<p>Kutulara paketlemişler küçük intiharları,<br />
+herkese satılan bir sır tütüyor,<br />
+doğru ve sarı parmaklarımın arasında.<br />
+Kolunun altında gideceğin yol sabırsızlanırken,<br />
+ben bağlıyorum ayakkabılarını.</p>
+<p>Anlamını yasakladığım,<br />
+bir çocuk küfrü bağırırken dudağımda,<br />
+öğrenmenin ayıp olduğu topraklarda,<br />
+mezarlar beğeniyorum baharlarıma.</p>
+<p>Yassı yassı damladığım,<br />
+saatleri ters takıp, kandığım şehir,<br />
+“boyayalım mı?” abi diyerek<br />
+dalga geçiyor hayatımla.</p>
+<p>Ne zaman üç yanlış bir doğruya sulansa,<br />
+elimdeki sıfır üşüyor altından,<br />
+birbirini şehvetle kıran iki kadeh varlığımız,<br />
+iyi ki, iki yanlışız.</p>
+<p><em>Mart-2000</em></p>
+<hr />
+<p>Kaynak: </p>
+<ul>
+<li>Dirik, Özge: &quot;<a href="https://kuzeyyildizi.com/files/ozgedirik-siirler.pdf">Özge Dirik Arşivi: Şiirler</a>&quot;, <strong>Kuzey Yıldızı Edebiyat Dergisi</strong>, Yayım Tarihi: 11.04.2014, <a href="https://kuzeyyildizi.com/pdf">https://kuzeyyildizi.com/pdf</a>.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="İlk"><a class="header" href="#İlk">İlk</a></h1>
+<p>Yine sızlıyor bıraktığınız kaldırım parçaları<br />
+oysa siz güneşinizi bile acıyla büyüttünüz.<br />
+Bir çiçeğin ilk kökleri gibi<br />
+zamanla uzaklaşıp derinlere gömüldünüz.</p>
+<p>Parmağınızın ucunda olan bir dünyanın bile,<br />
+gecesini ve gündüzünü zamanında yaşadınız.<br />
+Karanlık zamanlarda giderken O’na, belki dönersiniz diye,<br />
+kuşlarınız ekmek parçaları serpti yollarınıza.</p>
+<p>Şehir yasa boğulmasın diye,<br />
+ölüm anonsunuz yapılmadı bu kentte.<br />
+Sizin gözyaşlarınız olmadan da<br />
+yakışmazdı hiçbir hüzün bize.</p>
+<p>Yapamadıklarınızdan oluşan o vasiyetteki gibi,<br />
+sizin rüzgârlarınızdan esince,<br />
+kadehimizi aşka kaldırıp hep beraber,<br />
+kahkahalar atıyoruz yaşama ve yokluğunuza.</p>
+<p><em>Nisan-2000</em></p>
+<hr />
+<p>Kaynak: </p>
+<ul>
+<li>Dirik, Özge: &quot;<a href="https://kuzeyyildizi.com/files/ozgedirik-siirler.pdf">Özge Dirik Arşivi: Şiirler</a>&quot;, <strong>Kuzey Yıldızı Edebiyat Dergisi</strong>, Yayım Tarihi: 11.04.2014, <a href="https://kuzeyyildizi.com/pdf">https://kuzeyyildizi.com/pdf</a>.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="Üç-soru"><a class="header" href="#Üç-soru">Üç Soru</a></h1>
+<p>İki farklı yol türküsü,<br />
+bedenimizi ayrı otobüslerin<br />
+camlarına yapıştıran.<br />
+İki farklı zafer çabası.<br />
+Birimiz yenilmemek için hayatta,<br />
+birimiz diğeri yenilmesin diye.<br />
+Elinizdeki valizin anılara yaptığı gibi<br />
+bir evi gaz odasına dönüştürmüş<br />
+bir galibiyet tanımlanacaksa eğer akıllara.<br />
+İki farklı serzeniş.<br />
+Her insana bir çuval doldururken ben,<br />
+bir ellerim istediğiniz.<br />
+El ele tutuşmak marifetken<br />
+önümüzden geçen iki elsiz sevdalı.<br />
+Hüzün nereye uzanırsa, gözleriniz de oraya.<br />
+Satranç masası üstü hayalleri,<br />
+iki kare çıkış hakkı,<br />
+hakkıdır insanın çocukluğu.<br />
+Kimin tırnağı varsa o çözmeli düğümü,<br />
+kırılıncaya, incininceye kadar.<br />
+Kayalar da ağlasa çamur olurlar mı?<br />
+Ne zaman üç yanlış bir doğruyu götürse,<br />
+elindeki sıfırı eksileme korkusu.<br />
+Şehvetle kaldırılmış mutluluk varlığımız;<br />
+iyi ki iki yanlışız...</p>
+<p><em>ocak-2001</em></p>
+<hr />
+<p>Kaynak:</p>
+<ul>
+<li>Dirik, Özge: “Üç Soru”, <strong>Erken Ölümlü Şairler Antolojisi</strong>, Haz. Ahmet Günbaş, Hayal Yayınları, Nisan 2007, s. 177.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="ağıt"><a class="header" href="#ağıt">Ağıt</a></h1>
+<p>Toprak kokusu yapıştı ellerime.<br />
+Elleri kurak dostlarıma,<br />
+çiçekler topladım geceyarıları.</p>
+<p>Gıpta zamanlardan çaldığım sırları,<br />
+unutunca hayatımın kürekte mahkûmluğu,<br />
+siyaha sabretmekten sıkılıp,<br />
+ölsem dedim, hiç olmazsa deniz dinlenir.</p>
+<p>Seçemeyince, ya ipekböceği ya da örümcek rütbesini,<br />
+bıraktım hayatımın astlarına her şeyimin üstünü.<br />
+Gün olur döner diye çocukluğum,<br />
+komşu toprakların tanrılarına da yakardım,<br />
+ben bunu bir Hitit prensinden öğrendim.</p>
+<p>Toprak kokusu yapıştı ellerime.<br />
+Elleri nadas dostlarıma,<br />
+çiçekler topladım geceyarıları.</p>
+<p>Ben aşkın sarmaşık olduğunu düşünürken geceyarıları,<br />
+kesesiz kangurular sürdü sefalarımı,<br />
+ben aşkın sarmasarışık olduğunu düşünüyordum hâlâ.</p>
+<p>Darbedar vücutlarda kötü komutandı boş ceplerim.<br />
+Kum saatindeki bir kumun öyküsü<br />
+hınzır depremlerle mutlu sonlanınca,<br />
+yılan olduğunu anladım;<br />
+en candan sarılan hayvanın.</p>
+<p>Toprak kokusu yapıştı ellerime.<br />
+Elleri kurak dostlarıma,<br />
+çiçekler topladım geceyarıları.</p>
+<p>Dibine ışık verdiğinde mum,<br />
+sonu olacaktı bu onun.<br />
+Ve düştü şiirin sonu yazarın aklına,<br />
+alfabenin sıfır’ı bulunacaksa,<br />
+İstanbul’da bulunacaktı.</p>
+<p>Benim bir ada kızım vardı hayata dair,<br />
+bir de motoru bozuk kayığım.<br />
+Küreklere kalırdı,<br />
+küreklere kalırdı sevdam, geceyarıları.</p>
+<p><em>2001-ocak</em></p>
+<hr />
+<p>Kaynak:</p>
+<ul>
+<li>Dirik, Özge: &quot;<a href="https://kuzeyyildizi.com/files/ozgedirik-siirler.pdf">Özge Dirik Arşivi: Şiirler</a>&quot;, <strong>Kuzey Yıldızı Edebiyat Dergisi</strong>, Yayım Tarihi: 11.04.2014, <a href="https://kuzeyyildizi.com/pdf">https://kuzeyyildizi.com/pdf</a>.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="ferman-1"><a class="header" href="#ferman-1">Ferman</a></h1>
+<blockquote>
+<p>rakı(m)<br />
+başım dönüyor<br />
+içtikçe yüksekliğinizi</p>
+</blockquote>
+<p>eteğinin altından bakıp,<br />
+içini gıdıkladığın bu dağ<br />
+ne de çabuk büyüdü.<br />
+kalbini mısralayan buzdan bir gül<br />
+güzelliğinin seyrinde hınzır bir ben,<br />
+–ulu–orta duruyor şimdi.</p>
+<p>çeliği çekiçle süsleyen bilgeliğin<br />
+her an konuşacakmışçasına;<br />
+de hadi be gülken gonca<br />
+goncayken gül sılası peşinde<br />
+tarih mahzeni olmuş her yanın,<br />
+ilk yudumunda reddedilecek<br />
+tek hatıra bile yıllanmadan içinde.</p>
+<p>hasır altı ettiğin asırlar<br />
+şifalı surlar biriktirmiş<br />
+düşmanın dahi kıyamadığı<br />
+ateşini düşürmeden, yol aldığı.</p>
+<p>üç yalanlı çekirgen,<br />
+kuşbakışı mezenle,<br />
+dünyaya saklanmış bir göktaşında<br />
+daha büyük gözlerle yaşayanlar<br />
+bulmuş mutlaka<br />
+dağlarına çıkmak için,<br />
+dağları “bizim” yapan<br />
+bir bahane...</p>
+<p><em>2001</em></p>
+<hr />
+<p>Kaynak: </p>
+<ul>
+<li>Dirik, Özge: &quot;<a href="https://kuzeyyildizi.com/files/ozgedirik-siirler.pdf">Özge Dirik Arşivi: Şiirler</a>&quot;, <strong>Kuzey Yıldızı Edebiyat Dergisi</strong>, Yayım Tarihi: 11.04.2014, <a href="https://kuzeyyildizi.com/pdf">https://kuzeyyildizi.com/pdf</a>.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="rötar"><a class="header" href="#rötar">Rötar</a></h1>
+<p>Ağır sıklet hüzünler yarışırken,<br />
+hep ortalamaydı akan yaşlarınız.<br />
+Fotofiniş seslenince usulca,<br />
+taçlandı gözlerinizde asılı bebekleriniz.</p>
+<p>Islanan güneş kurularken bedenini,<br />
+ayazlarınız oldu ayakları çıplak.<br />
+Tüm şarkılar gitmeye öykünse,<br />
+bahçıvanın türküsü kalırdı size;<br />
+vefalı bekleyişlere gebe.</p>
+<p>Anaokuldan terk bir bedenin içine,<br />
+yakışmayınca büyük göğüsleriniz,<br />
+iki yumruğun kalbe daha çok benzediğini anladınız,<br />
+tek yumruğunuzun yalnızlığına küsüp.</p>
+<p>Trenleriniz hep son istasyon sandı ilkini.<br />
+Gerçek sonlarda daha yorgundunuz kaplumbağadan.<br />
+Hem sizi rakip belleyen bir tavşanınız da olmamıştı.<br />
+Güller taşımaya başladınız vagonlarda; savaş gülleri.</p>
+<p>Su dolu vagonlara yetişmek için,<br />
+nasırlaştırdınız aylak raylarınızı.<br />
+Bir ucuz bilmecesine geçmişin,<br />
+pazarladınız tüm sebillerini geleceğin.</p>
+<p>Sahipsiz çocuklarınız oldu,<br />
+pıhtılaşmış gül yapraklarının çapkınlarından.<br />
+Yoksul bir tarlaydı yüreğiniz,<br />
+ne ektiyseniz; karın tokluğu biçtiniz..</p>
+<p><em>Şubat-2001</em></p>
+<hr />
+<p>Kaynaklar:</p>
+<ul>
+<li>Dirik, Özge: &quot;<a href="http://web.archive.org/web/20041223212249/http://www.dergi.org/192002/0313.htm">Rötar</a>&quot;, <strong>Dergi@Net internet dergisi</strong>, Ocak-Şubat 2002, Sayı 19.</li>
+<li>Dirik, Özge: &quot;Rötar&quot;, <strong>Ağır Ol Bay Düzyazı</strong>, Mart-Nisan 2002, Sayı 8.</li>
+<li>Dirik, Özge: &quot;Rötar&quot;, <strong>Hece</strong>, Aralık 2002, Sayı 72, s. 96.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="sahne"><a class="header" href="#sahne">Sahne</a></h1>
+<p>Gıpta zamanlardan bir yaşam sırrı.
+Devasa yalnızlıklara açılan kapılarda,
+Tanrı misafiri umutlarınızla beraber,
+Zilinizi de çalıp kaçıyor afacan çocuklar.</p>
+<p>Safrasını bırakıyor gökyüzü üzerinize,
+Yıldızınız dâhi yok geceleri hüznünüze ortak.
+Bir memurun masa örtüsünün altından çalınan kirası gibi,
+Artık bakire değil gecenizin mavisi.</p>
+<p>Savunmasız, açık kentleri ele geçiriyor ancak,
+Engin tutkularınız, tutuklu kalmışlığı yarınlarınızın.
+Ne zaman bir çiçek dalında kurusa,
+Bir sevgilinin daha çok üzülmüşlüğü uzanıyor başucunuza.</p>
+<p>Uykuya dalarken annesinin mutlu masallarıyla,
+Uyanırken babasının acı öyküleriyle büyüyen çocukluğunuz için,
+Şimdilerde aşk;
+Kanamalı bir hasta için yara bandı yalnızca.</p>
+<p>Hayatını cehaletin tanrılarına sıvazlarcasına,
+Aşıdan habersiz bir annenin secdeye varışı gibi,
+Yormuyor çocuğunuzun tanrıya yolculuğu.</p>
+<p>Devşirilmiş devirlerden kalma hesap tabağı artıkları hayat.
+Hangi şapka alkışa kaldırılsa içinde ölü bir tavşan.
+Ve çok eskilerden bir sahne gözünüzün önünde,
+Münir Özkul affetmeden, nefretle terk ediyor çocukluğunuzu...</p>
+<hr />
+<p>Kaynak:</p>
+<ul>
+<li>Dirik, Özge: “<a href="https://web.archive.org/web/20050116184900/http://www.penceredergisi.com/arsiv/penc31/31s20_dirik.htm">Sahne</a>”, <strong>Pencere</strong>, Ocak-Şubat 2002, Sayı 31, s. 20. </li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="-1"><a class="header" href="#-1">***</a></h1>
+<blockquote>
+<p>&quot;Kanunuesasiyim ama<br />
+başımda padişahım...&quot;</p>
+</blockquote>
+<p>babamın eskilerine yetişmek üzere,<br />
+büyütürken çocukluğumu doludizgin,<br />
+hangi sarhoşlukla sıkı fıkı olsam,<br />
+abileşirdi, çocuk aklı kardeşine emanet,<br />
+büyümüş de, küçülmeye imrenmiş bedenim.</p>
+<p>bayramın ilk günü kavurmasını yiyip,<br />
+yeni giysileriyle evden kaçan isyanım,<br />
+çamuruna bile kanınca sokakların,<br />
+müslüman bir salyangoz olup,<br />
+yanlış mahallelerine girdi hayatın.</p>
+<p>panzehiri daha zehirli gelen gençliğim,<br />
+tarihinin ilk fahişe istasyonunda,<br />
+gidene “dur” demek için<br />
+çok defa yineledi, treni bedeni ile iknaya.</p>
+<p>anneler sokaklar kadar özgür olsaydı,<br />
+daha mı geç dökülürdü kafamın yaprakları,<br />
+bu sorular için süre doldu belli ki,<br />
+ama hiçbir zaman gülmedi çocukluğum bana;<br />
+indirip donunu.</p>
+<p>şimdi ekşiyor kışlasında donduğum inadım,<br />
+sevdaya yeltenmek de olmuyor bu yaştan sonra,<br />
+kimin zimmetindeyse aşk,<br />
+ölümler üşüşüyor oraya.</p>
+<p><em>Nisan 2002</em></p>
+<hr />
+<p>Kaynak:</p>
+<ul>
+<li>Dirik, Özge: “*** [Kanun]”, <strong>Kuzey Yıldızı</strong>, Aralık 2002, Sayı 6, s. 17.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="İç-üvey"><a class="header" href="#İç-üvey">İç-üvey</a></h1>
+<p>küçüktüm,<br />
+hangi hain anlattıysa ilk masalı,<br />
+o yalandan devşirildim.<br />
+yirmi yaş dişi çıkan bir fil,<br />
+avcıların peşine düştüm.<br />
+hangi taşı kaldırdıysam altından,<br />
+“şansınızı denemeye devam edin.”</p>
+<p>başucum portakal lekesi,<br />
+en çok ölen ağaç, soy ağacım.<br />
+ben bir yalan uydurdum,<br />
+inanıp, boğuldum.</p>
+<p>bir ağaç da ben diktim evimin içine,<br />
+gizemli ve yorgun.<br />
+ilk kökleri derinleşip, uzaklaştıkça<br />
+bir mesafe aramızda,<br />
+ne o bana meyvesinden tattırdı,<br />
+ne ben ona suyumdan.<br />
+mezarımı da mermerimi de istemez yanına,<br />
+dibine bile işemediğim.</p>
+<p>kapımı sevseydin gelirdin.<br />
+kalırdı gerçeklerimden ölüm süzen yüzün.<br />
+tanrıların yalnızca çok kötülere vakti var artık,<br />
+duyamayacaksın o yüzden beni,<br />
+“bu kek hiç kabarmayacak anne” dediğimde,<br />
+evden kovduğundan beri,<br />
+hep üvey küçüklüğümü.</p>
+<hr />
+<p>Kaynak:</p>
+<ul>
+<li>Dirik, Özge: &quot;<a href="https://kuzeyyildizi.com/files/ozgedirik-siirler.pdf">Özge Dirik Arşivi: Şiirler</a>&quot;, <strong>Kuzey Yıldızı Edebiyat Dergisi</strong>, Yayım Tarihi: 11.04.2014, <a href="https://kuzeyyildizi.com/pdf">https://kuzeyyildizi.com/pdf</a>.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="Şebinkaramizah"><a class="header" href="#Şebinkaramizah">Şebinkaramizah</a></h1>
+<p>Küçükken müzik defterime sığdırdığım<br />
+dört mısralık şiirler,<br />
+şarkı olsun diye bekledim çok.<br />
+Ne onlar şarkı oldu,<br />
+ne sol, anahtar.</p>
+<p><em>ağustos-2002</em></p>
+<hr />
+<p>Kaynak:</p>
+<ul>
+<li>Dirik, Özge: &quot;<a href="https://kuzeyyildizi.com/files/ozgedirik-siirler.pdf">Özge Dirik Arşivi: Şiirler</a>&quot;, <strong>Kuzey Yıldızı Edebiyat Dergisi</strong>, Yayım Tarihi: 11.04.2014, <a href="https://kuzeyyildizi.com/pdf">https://kuzeyyildizi.com/pdf</a>.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="emniyet-kayığı"><a class="header" href="#emniyet-kayığı">Emniyet Kayığı</a></h1>
+<p>yalnızca hüznünde anlıyorsun yüzümü,<br />
+ve arkasında çelimsiz, yitik bir kayık götürüyor,<br />
+kendine güvenen, güzel bir gemi...</p>
+<hr />
+<p>Kaynak:</p>
+<ul>
+<li>Dirik, Özge: “Emniyet Kayığı”, <strong>Kuzey Yıldızı</strong>, Mart-Nisan 2005, Sayı 11, s. 10.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="satır-a-temenniler"><a class="header" href="#satır-a-temenniler">Satır-a Temenniler</a></h1>
+<p>gizlemeye çalıştığınız satırlarınız<br />
+ezberlemiştir kanın rengini<br />
+ama düşünmez değil mi,<br />
+artık kanmayacak bir yazarı.</p>
+<p>yaşamak, ol’madığından emer sütünü<br />
+yazarken düşünmek budur oysa<br />
+yazarken düşürülmek<br />
+zincirleme pusularla.</p>
+<p>tırnak içine alıp, hatırlattığınız<br />
+güzel bir mısrası olsaydı Arzu’nun<br />
+nasıl barışırdık o zaman bir bilseniz<br />
+isra(f )il bile çıldırır,<br />
+göçerdi aramızdan...</p>
+<hr />
+<p>Kaynak:</p>
+<ul>
+<li>Dirik, Özge: “Satır-a Temenniler”, <strong>Kuzey Yıldızı</strong>, Mart-Nisan 2005, Sayı 11, s. 10.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="köprü-1-"><a class="header" href="#köprü-1-">köprü-1-</a></h1>
+<p>pipetlerden kanalizasyon borusu olmayacağını anlayınca Haliç,<br />
+unutmamak için lazımlıkları<br />
+üzerinde yürüdüğümüz kurdelaları<br />
+orta parmağına bağladı.</p>
+<h1 id="köprü-2-"><a class="header" href="#köprü-2-">köprü-2-</a></h1>
+<p>halkla ilişkiler köprüsü<br />
+her polisin pedagojik formasyon amfisi<br />
+halkın çelişkiler köprüsü<br />
+ya atlarsın su çarpar bir tane<br />
+kazıklı varyak ikinci tehlike<br />
+eğer atlamazsan<br />
+dua edelim az çalışanı olsun<br />
+gideceğin karakolun.</p>
+<h1 id="köprü-3-"><a class="header" href="#köprü-3-">köprü-3-</a></h1>
+<p>marjinaller önden buyursun<br />
+–amacım reklam değil,<br />
+en az tutarları bile ödeyemiyorum– köprüsü.<br />
+haciz gelince devletlüye<br />
+Fatih buradan kaydırdı gemilerini<br />
+yanmayınca rutubetten, bizansın Türk malı kibritleri.</p>
+<h1 id="köprü-4-"><a class="header" href="#köprü-4-">köprü-4-</a></h1>
+<p>bir saray, bir bahçe, bir beşik vardı<br />
+sonra bir taş attı galatadan fenerlinin biri,<br />
+toroğulları bile çıkartamayınca<br />
+her çocuk galatalı doğdu,<br />
+taa ki Fatih Hoca İtalya’dan kovulalı.</p>
+<h1 id="köprü-5-"><a class="header" href="#köprü-5-">köprü-5-</a></h1>
+<p>Türkiye’nin düşlerinde yarattığı<br />
+Pollyanna, diğer adıyla tüp geçit projesi<br />
+ulusal strateji<br />
+avrupa birliğine yeraltından sıvışılması,<br />
+tek risk<br />
+ihaleye fesat karışması.</p>
+<h1 id="köprü-altı-"><a class="header" href="#köprü-altı-">köprü-altı-</a></h1>
+<p>kim çaldı bu ülkenin kara kutusunu<br />
+kiminde yüzde dokuz buçuk telaşı,<br />
+kiminde sahibinden ihtilal resimleri<br />
+kiminde –keşke dün bugündür deseydim– hülyası<br />
+daha ne kaldı ki elinde şarap varsa,<br />
+fark eder mi üstünden geçen tekerlerin sayısı.</p>
+<hr />
+<p>Kaynak:</p>
+<ul>
+<li>Dirik, Özge: &quot;<a href="https://kuzeyyildizi.com/files/ozgedirik-siirler.pdf">Özge Dirik Arşivi: Şiirler</a>&quot;, <strong>Kuzey Yıldızı Edebiyat Dergisi</strong>, Yayım Tarihi: 11.04.2014, <a href="https://kuzeyyildizi.com/pdf">https://kuzeyyildizi.com/pdf</a>.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="101110001010011"><a class="header" href="#101110001010011">101110001010011</a></h1>
+<p>klavyemin hemen içinde<br />
+ölü tütünler derneği.<br />
+tenime değince sekizyüz derece<br />
+onu da soğuttu beyazlığım<br />
+haince.</p>
+<p>oturup bekledim,<br />
+ölümün vasiyet halinde.<br />
+tırnaklarımı kesip de yedim,<br />
+kendime güvendim.</p>
+<p>gözbebeklerimle oynaşan kediler<br />
+aniden saldırdılar kelimelere.<br />
+mouse’umun ahına geçildi o gece<br />
+aheste aheste.</p>
+<p>oyunlardan dışlanan çocukluğum<br />
+tedirgin olmasın diye annesi<br />
+yerden alıp çamuru<br />
+üzerine sürdü.<br />
+nasıl demeli;<br />
+çamura yatalı<br />
+içim hep bit yeniği...</p>
+<hr />
+<p>Kaynak:</p>
+<ul>
+<li>Dirik Özge, “<a href="http://web.archive.org/web/20050210062944/http://www.dergi.org/242002/0302.htm">101110001010011</a>”, Dergi@Net internet dergisi, Kasım-Aralık 2002, Sayı 24.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="zaman-e"><a class="header" href="#zaman-e">Zaman-e</a></h1>
+<p>bak baba, saklamadığın psikoloji kitapların, nasıl da besledi deliliğimin gizini. yok ettim şizofrenimin işaretlerini; teşhisten terfi. tırnaklarımı yedikçe güvendim kendime. arkadaşlarının yanında avcuma gömdüğüm sekiz tırnak ve saklayamayacağımdan dolayı kemirmediğim ama arzuladığım baştırnaklarım, hep büyümesi içindi senin özbenliğinin.</p>
+<p>bak baba, okula iki yıl erken başlatılmış her çocuk, işsizlikle iki yıl erken tanışır. geceyarısı tartışmalarından peydahladığınız ve bordro kuyruklarında bırakıp kaçtığınız o yarım yamalak devrim, bir başka ifadesidir şimdi, alnımdaki dört çeker çizgilerin.</p>
+<p>bak baba, bir anne çocuğunu pembe masallarla uyutuyorsa, çocuğunu uyandırırken her baba, acısı bâki hikâyeler bulmak zorundadır. senin bahçende istenmeyen ama biten serseri yeşil, kör bir güzelin avcunda kendini çiçek sanır.</p>
+<p>bak baba, o huzurhanede zaman denilen illetten saklansan da, bir saat yakalar mutlaka; tik-tak oyar, çalar, yoğurur içini. bana armağan ettiğin tek şey, kafatasımın içinde intihar adlı obur müşteriye sunulur, nasıl olsa aşısı bulunmayan, mertliği bozulmayan beyin timurlarım çoktan fethe çıkmışlardır.</p>
+<hr />
+<p>Kaynak:</p>
+<ul>
+<li>Dirik, Özge: “Zaman-e”, <strong>Kuzey Yıldızı</strong>, Aralık 2002, Sayı 6, s. 5,.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="-İntihar-mektubu"><a class="header" href="#-İntihar-mektubu">*** (İntihar Mektubu)</a></h1>
+<p>intihar mektubum kimsenin kutsal kitabı olmayacak,<br />
+bu bile intihara muhteşem bir sebep.<br />
+uçan mürekkeple yazılan bir hayatı<br />
+geçirmek için mektubuma<br />
+bunca yıldır yaşıyorum hayatın kuyruk sokumunda</p>
+<p>saklı kalan bütün işkenceleri, tarihin en güz’ü<br />
+yüzüstü yattığım çivili aşk yatakları<br />
+ben ölümü şu köşedeki meyhaneden ısmarladım<br />
+imdadıma yetişti su, aslan ve sütü.</p>
+<p>tabaklanmış insan derisiydi<br />
+kötü emellere alet edildi yamalı postum<br />
+kızma artık<br />
+ben anahtarları üzerinde bırakıp suretimin<br />
+o köprüden yıllar önce atlamıştım.</p>
+<hr />
+<p>Kaynak:</p>
+<ul>
+<li>Dirik, Özge: &quot;<a href="https://kuzeyyildizi.com/files/ozgedirik-siirler.pdf">Özge Dirik Arşivi: Şiirler</a>&quot;, <strong>Kuzey Yıldızı Edebiyat Dergisi</strong>, Yayım Tarihi: 11.04.2014, <a href="https://kuzeyyildizi.com/pdf">https://kuzeyyildizi.com/pdf</a>.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="acıortay"><a class="header" href="#acıortay">Acıortay</a></h1>
+<p>başımın çaresi; hoş geldin.<br />
+padokta sakatlanan kusurlu ruhum<br />
+arkandan bakmayı öğretemedi gözlerine</p>
+<p>dokuz yıldır hamileydin ayrılığa<br />
+canın çekiyordu sahipsiz acıları<br />
+tekmelemeyi kesmiş olmalı artık<br />
+içindeki afacan sızı</p>
+<p>karnındaki hesapsız gelecek çıldırınca<br />
+kapı kapı aradın şehirde ayakkabılarımı<br />
+bak ne güzel de buldun<br />
+limanında volta atan gemiyi</p>
+<p>evime yerleştirdiğin son mayındı<br />
+yasal bir “boş ol” kâğıdı<br />
+veda mektubunla yan yana koyunca<br />
+gözyaşıydı sanırım, birden patladı.</p>
+<p>iki pire uzunluğundaki hayatım<br />
+nasıl da çevrelemiş umudumun dağarcığını<br />
+bir generalin kostümlü intihar sahnesinden<br />
+naftalin kokusu ve alyanstı, ayrılan.</p>
+<p>başımın çaresi, güle güle.<br />
+bakma “şiddetli geçimsizlik” oldu adı<br />
+bir kozaya sığmayacak kadar büyümüştük<br />
+ortalayınca her acıyı,<br />
+geceyarıları.</p>
+<hr />
+<p>Kaynak: </p>
+<ul>
+<li>Dirik, Özge: &quot;<a href="https://kuzeyyildizi.com/files/ozgedirik-siirler.pdf">Özge Dirik Arşivi: Şiirler</a>&quot;, <strong>Kuzey Yıldızı Edebiyat Dergisi</strong>, Yayım Tarihi: 11.04.2014, <a href="https://kuzeyyildizi.com/pdf">https://kuzeyyildizi.com/pdf</a>.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="kim-lik"><a class="header" href="#kim-lik">Kim-lik</a></h1>
+<p><strong>1. kimseler</strong></p>
+<p>ne güzel büyüdük<br />
+kimseler bilmeden bizi.</p>
+<p>tahrip gücü yüksek bir çocuk<br />
+hayatı budama peşinde şimdi...</p>
+<p><strong>2. kimse</strong></p>
+<p>ne güzel büyüdük<br />
+kimseler bilmeden bizi.<br />
+sidik kokusu, ısırgan şişiği<br />
+el arabasında taşıdık birbirimizi.</p>
+<p>umut sendeler, her çakıltaşına inci deyince<br />
+akrep sinsi sinsi gülerdi halimize.<br />
+tahrip gücü yüksek bir çocuk<br />
+hayatı budama peşinde.</p>
+<p><strong>3. kim</strong></p>
+<p>ne güzel büyüdük<br />
+kimseler bilmeden bizi.<br />
+rutubet kokardı biraz<br />
+yer yatağı hayalleri.</p>
+<p>sidik kokusu, ısırgan şişiği<br />
+el arabasında taşıdık birbirimizi.<br />
+yalnızca kollarımla mutlu edebildiğim tek kadındı<br />
+gözlerimdi o sarı saçlı kızın devriyesi.<br />
+umut sendeler, her çakıltaşına inci deyince<br />
+akrep sinsi sinsi gülerdi halimize<br />
+hiç aldırmadan çevresine ve<br />
+kibrit başlarından devşirme ateşten çembere.</p>
+<p>tahrip gücü yüksek bir çocuk<br />
+hayatı budama peşinde şimdi.<br />
+sokakta dizi en çok kanayan<br />
+uçurtması uçurtmaların korkulu rüyası...</p>
+<p><strong>4. kimse !?</strong></p>
+<p>ne güzel büyüdük<br />
+kimseler bilmeden bizi.<br />
+yedi cami yaptırsak nafile<br />
+düşününce acıttığımız böcekleri.</p>
+<p>rutubet kokardı biraz<br />
+yer yatağı hayalleri.<br />
+sevemedik salıncak çengellerine<br />
+kavun asan büyükleri.</p>
+<p>sidik kokusu, ısırgan şişiği<br />
+el arabasında taşıdık birbirimizi.<br />
+Yahudi mezarlığına gömmek ile tehdit ederdi annem bizi<br />
+taşırsak eve sokak küfürlerini.</p>
+<p>yalnızca kollarımla mutlu edebildiğim tek kadındı<br />
+gözlerimdi o sarı saçlı kızın devriyesi.<br />
+ne de çok bekledim askere gidince sevdiği<br />
+pencereden çalabilmek için gözlerini.</p>
+<p>umut sendeler, her çakıltaşına inci deyince<br />
+akrep sinsi sinsi gülerdi halimize<br />
+öfkesi zehirli çocuklar büyüttü<br />
+kanımıza rengini veren kızıl düş perisi.</p>
+<p>hiç aldırmadan çevresine ve<br />
+kibrit başlarından oyma ateşten çembere<br />
+sıkıyönetimin gözü önünde<br />
+ekmek böldük biz birbirimize.</p>
+<p>tahrip gücü yüksek bir çocuk<br />
+hayatı budama peşinde şimdi.<br />
+en zor anında harcamak için<br />
+cebinde saklıyor gıcır gıcır bir çığlığı.</p>
+<p>sokakta dizi en çok kanayan<br />
+uçurtması uçurtmaların korkulu rüyası.<br />
+evden jilet aşırıp, kesti yanaşan uçurtmanın kuyruğunu<br />
+hayalinde aldatılmış bir kadın vardı...</p>
+<ol start="5">
+<li>kimsesiz</li>
+</ol>
+<p>ne güzel büyüdük<br />
+kimseler bilmeden bizi.<br />
+iki kare çıkış hakkı<br />
+ilk hakkıdır insanın çocukluğu.</p>
+<p>yedi cami yaptırsak nafile<br />
+düşününce acıttığımız böcekleri.<br />
+tuhaf ve anlamlıydı büyüsü<br />
+tek karınca dahi yemedi zil çalan ağustosböceği.</p>
+<p>rutubet kokardı biraz<br />
+yer yatağı hayalleri.<br />
+çok çocuklu bir odanın uykuluğunda<br />
+bulaşıcıdır kâbus halleri.</p>
+<p>sevemedik salıncak çengellerine<br />
+kavun asan büyükleri.<br />
+secde eden selvi ağacına kurduk biz de<br />
+topu topu bir halat ile bir minder tutan saadeti.</p>
+<p>sidik kokusu, ısırgan şişiği<br />
+el arabasında taşıdık birbirimizi.<br />
+dilimizde aslına en yakın siren sesi<br />
+bilirsiniz; Asyalı çocuğun imgesi.</p>
+<p>Yahudi mezarlığına gömmek ile tehdit ederdi annem bizi<br />
+taşırsak eve sokak küfürlerini.<br />
+öğrenmenin ayıp olduğu topraklarda<br />
+itinayla uyuştururmuş meğer harflerimizi.</p>
+<p>yalnızca kollarımla mutlu edebildiğim tek kadındı<br />
+gözlerimdi o sarı saçlı kızın devriyesi.<br />
+aşkın sarma-sarışık olduğunu düşünürken geceyarıları<br />
+kesesiz kangurular sürdü sefalarımı.</p>
+<p>ne de çok bekledim askere gidince sevdiği<br />
+pencereden çalabilmek için gözlerini.<br />
+benim bir ada kızım oldu hayata dair<br />
+bir de motoru bozuk kayığım<br />
+küreklere kalırdı sevdam biterken akşamsefaları.</p>
+<p>umut sendeler, her çakıltaşına inci deyince<br />
+akrep sinsi sinsi gülerdi halimize<br />
+hatırlayınca hayatın kürekte mahkûmluğunu<br />
+siyaha sabretmekten sıkılır<br />
+“ölsek” derdik “hiç olmazsa deniz dinlenir”.<br />
+öfkesi zehirli çocuklar büyüttü<br />
+kanımıza rengini veren kızıl düş perisi.<br />
+hissedilse de dolunay artığı fırtınanın patlayacağı<br />
+acıkan zihin kurtuluş sanıyor ağına takılan her sloganı.</p>
+<p>hiç aldırmadan çevresine ve<br />
+kibrit başlarından oyma ateşten çembere<br />
+bir yalan uydurdu; inanıp, boğuldu sevi<br />
+ilerlerken başucumuzdaki portakal lekesi.</p>
+<p>sıkıyönetimin gözü önünde<br />
+ekmek böldük biz birbirimize.<br />
+ne kadar sallasalar da düşün’ün ağacını<br />
+dalımızda çürüyecektik elbette.</p>
+<p>tahrip gücü yüksek bir çocuk<br />
+hayatı budama peşinde şimdi.<br />
+bir kozaya sığmayacak kadar büyüyünce<br />
+tek güne sığdıramayacağını anladı ideallerini.</p>
+<p>en zor anında harcamak için<br />
+cebinde saklıyor gıcır gıcır bir çığlığı.<br />
+tekmelemeyi kesince içindeki afacan sızı<br />
+canı çekiyor olmalı sahipsiz acıları.</p>
+<p>sokakta dizi en çok kanayan<br />
+uçurtması uçurtmaların korkulu rüyası.<br />
+acıları kesip, sağlam bir kuyruk yaptı kendine<br />
+salınabilmek için devrimin gözlerine.</p>
+<p>evden jilet aşırıp, kesti yanaşan uçurtmanın kuyruğunu<br />
+hayalinde aldatılmış bir kadın vardı.<br />
+o’na anlatmaya çalışıyor hâlâ;<br />
+birbirine sarılan iki uçurtmanın<br />
+bir daha asla uçamayacağını...</p>
+<p><em>2002-2003 İstanbul</em></p>
+<hr />
+<p>Kaynak:</p>
+<ul>
+<li>Dirik, Özge: “Kim-lik”, <strong>Kuzey Yıldızı</strong>, Ekim-Kasım 2003, Sayı 9, s. 16-17.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="k-an"><a class="header" href="#k-an">k an</a></h1>
+<p>altın düşü için<br />
+geri kazılmış bir mezar şimdi<br />
+an.</p>
+<p>ihanet dalaşı<br />
+dalışı bir başka acının<br />
+ikinci küreklenişi<br />
+her an gibi bir öleni<br />
+içine almak için<br />
+ikinci yüreklenişi toprağın...</p>
+<hr />
+<p>Kaynak: </p>
+<ul>
+<li>Dirik, Özge: &quot;<a href="https://kuzeyyildizi.com/files/ozgedirik-siirler.pdf">Özge Dirik Arşivi: Şiirler</a>&quot;, <strong>Kuzey Yıldızı Edebiyat Dergisi</strong>, Yayım Tarihi: 11.04.2014, <a href="https://kuzeyyildizi.com/pdf">https://kuzeyyildizi.com/pdf</a>.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="barış-İçin-dört-dize"><a class="header" href="#barış-İçin-dört-dize">Barış İçin Dört Dize</a></h1>
+<p>kafalarınızı kumdan çıkarıp<br />
+namlularınıza karanfil sokun<br />
+tek ayağıyla sek sek oynayan<br />
+Asyalı çocuğun kırmayın umudunu</p>
+<hr />
+<p>Kaynak:</p>
+<ul>
+<li>Dirik, Özge: “Barış İçin Dört Dize”, <strong>Kuzey Yıldızı</strong>, Mart-Nisan 2003, Sayı 7, s. 17.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="Şiire-küsenler-antolojisi"><a class="header" href="#Şiire-küsenler-antolojisi">Şiire Küsenler Antolojisi</a></h1>
+<p>hatırlamayın beni<br />
+acı veriyor unuttuğunuzu bilmek<br />
+küçük hesaplar koştu peşimden<br />
+kira, şarap, sigara<br />
+şimdi bir ayağım daha kısa.</p>
+<p>dostlar şiire küsülmez diyor<br />
+aşka küsülür şiire küsülmezmiş<br />
+palavra.<br />
+toprağa bile küsülür kefeni sıvazlarsa<br />
+intihara bile<br />
+çocuğuna bile<br />
+küsülür oyaladığın aynaya<br />
+Oya-ladığın hayatıma bile...</p>
+<hr />
+<p>Kaynak: </p>
+<ul>
+<li>Dirik, Özge: &quot;<a href="https://kuzeyyildizi.com/files/ozgedirik-siirler.pdf">Özge Dirik Arşivi: Şiirler</a>&quot;, <strong>Kuzey Yıldızı Edebiyat Dergisi</strong>, Yayım Tarihi: 11.04.2014, <a href="https://kuzeyyildizi.com/pdf">https://kuzeyyildizi.com/pdf</a>.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="seher-eskidi"><a class="header" href="#seher-eskidi">Seher Eskidi.</a></h1>
+<blockquote>
+<p>G. Bilal'e</p>
+</blockquote>
+<p>eli şiir tutan bir adamdı hayaliniz<br />
+oysa tanrının şair dediğine<br />
+deli diyor gören<br />
+sözlüğe maya çalarken.<br />
+önüne çırılçıplak çıkan topu görünce<br />
+mesleğine küfreden<br />
+ve en sağdan gitmeye zorlanmış<br />
+bir kamyon şoförüydü kocanız.</p>
+<p>“yok farkı” derdi<br />
+“yol mısradır<br />
+mürekkebi pahalıca belki ama<br />
+kamyon kalemdir biraz<br />
+tehlikede iz bırakır vurgusu.”</p>
+<p>üzerinize düşeni düşünmekten<br />
+doğrulamadınız belki<br />
+ama onu tutan yol,<br />
+uçurumlar vaat etti çokça.<br />
+bunu yasak aşklara benzetsem<br />
+sizi kırmış olur muyum?</p>
+<p>diken toplayan bir güldünüz<br />
+tahta kepçenizde kurumuş çorba tadına şükreden<br />
+acı savuran gözlerinizde masalın inadı olmuş bir adamı<br />
+öldürdünüz.</p>
+<p>yuvaya yapan dişi kuşun<br />
+üstelik kendi yaptığı yuvaya yapanın<br />
+bir öğüdü var şimdi bende;<br />
+cennete girince<br />
+zaten her yer muz kabuğu<br />
+o yüzden ayakta bitirmeli bu yaşamı.</p>
+<p>siz ki;<br />
+iki ihtilal, bir savaş görmüş buruşuk bir bedende konaklıyor<br />
+kirayı bir gün geciktireyim; çıldırıyordunuz.<br />
+oysa bir sürü taşınmazı kalmıştı o güzel annenizin<br />
+gördünüz mü?<br />
+taşıyamadınız...</p>
+<hr />
+<p>Kaynak:</p>
+<ul>
+<li>Dirik, Özge: “Seher Eskidi.”, <strong>Kuzey Yıldızı</strong>, Mart-Nisan 2005, Sayı 11, s. 14.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="heykel"><a class="header" href="#heykel">Heykel</a></h1>
+<p>her heykel söküleceği günü bekler<br />
+güvercin pislikleri ve kararan yaldızların altında<br />
+tek tanıktır yoksulların ölekaldığı bir bank</p>
+<p>halkın zehrini fikrinde taşır yıktığının yerini alan kral.<br />
+ve ışıklarla söndürür, çelenklerle öldürürler kahramanları<br />
+tarihin yenik domino taşlarıdır, ardındaki yığınların son sloganları</p>
+<p>hiçbir yapıcı, geriye dönük bakışları sökemez gözlerinden<br />
+kıvrımlarında taşlaşan inanç yosun tutar bir sonbahar sabahı<br />
+zafer şarkıları bezgince söylenir artık,<br />
+kalplerde yeni bir mırıltının işgali.</p>
+<p>her heykel söküleceği günü bekler<br />
+güvercin kanatlarının ve gerçek yıldızların özleminde<br />
+her heykel Atlas’tır, geçmişin ağır yükünü omuzlar<br />
+omuzlarında tozlu günahlar...</p>
+<hr />
+<p>Kaynak:</p>
+<ul>
+<li>Dirik, Özge: “Heykel”, <strong>Kuzey Yıldızı</strong>, Mart-Nisan 2005, Sayı 11, s. 15.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="beyin-timurları"><a class="header" href="#beyin-timurları">Beyin Timur’ları</a></h1>
+<p>–gece kaybetmeye ne kadar meraklı–<br />
+çok bilmiş ıslığını çalıyor yine rüzgâr.<br />
+yangının içine giriyoruz,<br />
+önce çocuksuz ve kadınsızlar<br />
+önce hep beraber.</p>
+<p>ağacı vursan, tüm orman<br />
+Aysan’ı vursan tüm Sivas yanıyor.<br />
+bir şairin “aşkolsun” ölümü<br />
+en güzel şiiri kalıyor.</p>
+<p>–gece kaybetmeye oynuyor–<br />
+birbirine düşman iki bulut<br />
+mayınlıyor<br />
+dize getirdiğim kentin<br />
+sarıl-sıklam sevdalılarını.</p>
+<p>Sıtkı anlatıyor,<br />
+yarısı fondip bir (kendine) yetmişliğin garip sırlarını.<br />
+iyi ki diyorum aşka<br />
+rakı gibi bir afyonun var beyin timur’larıma.</p>
+<p>içine direniyor altmışsekiz<br />
+en fazla darbeyi sırtından yiyor<br />
+zıpkınlanmış bir balinanın ölüm acısı içinde<br />
+ırksal intihar tohumlarını çimliyor.</p>
+<p>gece,<br />
+denize varan nehrin anlamsız debisinde<br />
+kan kusturuyor tatlı su adamlarına<br />
+iyi ki diyorum hayata<br />
+ölüm gibi bir çare var ısrarına.</p>
+<p>küçükken müzik defterime sığdırdığım<br />
+dört mısralı şiirler<br />
+şarkı oluversin diye bekliyorum uzundur<br />
+ne onlar şarkı oluyor<br />
+ne sol, anahtar...</p>
+<hr />
+<p>Kaynak:</p>
+<ul>
+<li>Dirik, Özge: “Beyin Timur’ları”, <strong>Kuzey Yıldızı</strong>, Mart-Nisan 2005, Sayı 11, s. 16.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="ba-ba"><a class="header" href="#ba-ba">Ba Ba</a></h1>
+<p>veysel çişini söylemeyi öğrendi<br />
+memurum<br />
+maaşıma zam demek bu.</p>
+<p>böyle utanmamıştım<br />
+iki artı bir olalı<br />
+“en sevdiğin yemek ne” deyince anneannesi<br />
+gülerek yanıtladı Veysel;<br />
+kahvaltı.</p>
+<hr />
+<p>Kaynak:</p>
+<ul>
+<li>Dirik, Özge: “Ba Ba”, <strong>Kuzey Yıldızı</strong>, Mart-Nisan 2005, Sayı 11, s. 17.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="masal-1"><a class="header" href="#masal-1">Masal-1</a></h1>
+<p>ben;<br />
+baskınlardan kaçıp<br />
+evine sığınan bir babanın<br />
+sevdiğine attığı küçük bir imzayım.</p>
+<p>kurşunların taahhütlü gönderildiği günlerde<br />
+cumhuriyet gazetesinin üzerine doğmuşum.<br />
+kıçımda büyük puntolarla seksen ihtilalinin izi<br />
+acıyor hâlâ yediğim ilk ve son iğnenin yeri.</p>
+<p>göğüslerinde hapşurunca ben<br />
+dayanamayıp süt tanrıçam, ihbar etmiş babamı<br />
+sağcı kestanelerin göbekleri çatlarken gülmekten<br />
+çıra gibi tutuşmuş babamın kitapları.</p>
+<p>iki bacağımın arasından, tersten bakıp<br />
+misafir beklemişim<br />
+sahilde balonlar yürüyüş yapıp<br />
+saçmalı tüfekleriyle patlatmaya çalışırken ipe dizilmiş insanları<br />
+geldi gelecek kardeşimi annemin içine ittirmişim.</p>
+<p>hep güzel, hep hayal kalsın diye<br />
+açmış annem kumbaramı<br />
+bir kilo erişte, biraz buğday için<br />
+yapmazmış bunu</p>
+<p>kapının dibinde<br />
+örümceğe imrenerek geçerken<br />
+657’ye tabi ipekböcekleri<br />
+“bir ihtilal daha var” deyip ölen babamın<br />
+yanındaki çukura<br />
+söz vermişim.</p>
+<hr />
+<p>Kaynak:</p>
+<ul>
+<li>Dirik, Özge: “Masal-1”, <strong>Kuzey Yıldızı</strong>, Mart-Nisan 2005, Sayı 11, s. 17.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="ruh-söküğü"><a class="header" href="#ruh-söküğü">Ruh Söküğü</a></h1>
+<p>ruhlar incinir.<br />
+sürekli incinirler.<br />
+onları yaşatmak için günboyu çalışır bahaneler.<br />
+çok zayıf hafızaları vardır<br />
+güçlü doğarlar<br />
+yaşlandıkça daha unutkan olmak zorundadırlar, bu<br />
+ölümlerini geciktirir.<br />
+Evet, evet<br />
+ruhlar ölürler.<br />
+o kadar hızlı ölürler ki<br />
+hiç yanmaz canları.<br />
+ruhların canları vardır,<br />
+bir değil, beş değil<br />
+milyon tane canları vardır.<br />
+hepsini birden bir kadında da bırakabilirler<br />
+sakat bir köpeğin bacağına da sarabilirler yüzlercesini.<br />
+bir bakarsanız hain bir masada kirli ellere bacaklarını sunup ölen<br />
+ruhçuklar<br />
+görürsünüz.</p>
+<p>ruhlar düşünmezler</p>
+<p>her ruh iyi bir bedende ruh konağı bulmak ister,<br />
+iki üç gün refakat ederler değişik bedenlere,<br />
+olmadı mı olmaz<br />
+bedensiz ölen ruhlar vardır</p>
+<p>bazı ruhlar bedenlerle valse kalkarlar<br />
+bu uyum diğer ruhları acıtır.<br />
+ruhlar acırlar.</p>
+<p>birbirlerine, kendilerine, bedenlerine<br />
+güzellik ruhta değil, ruh güzellikte konaklar.<br />
+iyi bir ruh için iyi bir beden mükemmel olmak demektir.<br />
+bunu hep inkârda da olsalar<br />
+ruhların sırrı güzel bedenlerdir,<br />
+buna ulaşanı kıskanırlar.</p>
+<p>bu yüzden bendeki ruhu,<br />
+hep dışladılar.</p>
+<hr />
+<p>Kaynak:</p>
+<ul>
+<li>Dirik, Özge: “Ruh Söküğü”, <strong>Kuzey Yıldızı</strong>, Mart-Nisan 2005, Sayı 11, s. 19.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="Çirkin-Ördek-derisinden-eldiven-İmal-edenler"><a class="header" href="#Çirkin-Ördek-derisinden-eldiven-İmal-edenler">Çirkin Ördek Derisi(nden Eldiven İmal Edenler)</a></h1>
+<p>kötü huylu bir kist dünya<br />
+tanrının bedeninde.</p>
+<p>“ok!”<br />
+sana rekâtlanmış yüzlerce dize.</p>
+<p>içimi kaşıyan bekleyişte<br />
+büyütünce bir şiir<br />
+şiiri de küstürdüm<br />
+büyütüp.</p>
+<p>gördüm<br />
+ölü göze ait son kareleri<br />
+küçüktüm<br />
+siyah beyaz siyah beyaz<br />
+durdu siyahta.</p>
+<p>on yedi kalp krizi<br />
+gücü kırılır elbet<br />
+bahsi geçen bir anne<br />
+çocuğunu öleceği yaşa<br />
+büyütemediğinden<br />
+dirense de.</p>
+<p>elmaya dünya düştü,<br />
+sen de anlardın<br />
+iğnen deli bilindi mi<br />
+buğulanır pusulanın camı..</p>
+<hr />
+<p>Kaynak:</p>
+<ul>
+<li>Dirik, Özge: “Çirkin Ördek Derisi(nden Eldiven İmal Edenler)”, <strong>Kuzey Yıldızı</strong>, Mart-
+Nisan 2005, Sayı 11, s. 20.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="taşkın"><a class="header" href="#taşkın">Taşkın</a></h1>
+<p>bu kurumayan vadi<br />
+tek eğlencesi dağın, süvarisi.<br />
+ovaya sorma<br />
+kaç tane dağ leşi biriktirdi<br />
+altında</p>
+<p>bizim oranın delikanlısı<br />
+ayıptır söylemesi<br />
+şehvete adamaz âşığının hayalini<br />
+mecnun orucudur adı<br />
+dağların kurban edildiği</p>
+<p>herkes<br />
+kapısının önündeki isyanı<br />
+içeriye süpürmeli<br />
+yoksa kıskanır birileri<br />
+bayat ekmeğin üzerine<br />
+kahkahalarıyla ağlayan zenginliği.</p>
+<p>anlatırsan iki öykünü<br />
+hüznüne secde eder<br />
+bin parça kapatır güzelliğini<br />
+“iyi uykularda ölün”dür beklediği temenni<br />
+kesilmeden eli eteği.</p>
+<p>buralara bırakmadan götür<br />
+pusularına kandığın gözleri<br />
+kalacaksan, bir ömür taşı<br />
+değirmenin suyunu...</p>
+<hr />
+<p>Kaynak: </p>
+<hr />
+<p>Kaynak: </p>
+<ul>
+<li>Dirik, Özge: &quot;<a href="https://kuzeyyildizi.com/files/ozgedirik-siirler.pdf">Özge Dirik Arşivi: Şiirler</a>&quot;, <strong>Kuzey Yıldızı Edebiyat Dergisi</strong>, Yayım Tarihi: 11.04.2014, <a href="https://kuzeyyildizi.com/pdf">https://kuzeyyildizi.com/pdf</a>.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="düş-eş"><a class="header" href="#düş-eş">Düş-eş</a></h1>
+<p>imana, kitaba dokunulmadan<br />
+soyulup,<br />
+başucuna konulan<br />
+esrarla geri kazanılmış<br />
+bir fahişe gibi<br />
+ağlıyorken<br />
+an:</p>
+<p>ben en çok sizinle<br />
+bastım frene<br />
+tutmaması düşüyle.</p>
+<hr />
+<p>Kaynak:</p>
+<ul>
+<li>Dirik, Özge: “Düş-eş”, <strong>Öteki-siz</strong>, Aralık-Ocak-Şubat 2005, Sayı 4, s. 30.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="bir-monoseksüelin-Ölümü"><a class="header" href="#bir-monoseksüelin-Ölümü">Bir Monoseksüelin Ölümü</a></h1>
+<p><strong>I.</strong></p>
+<p>omuzlarında taşımalarından anlamalıydım<br />
+hiç olmadığı kadar<br />
+kadın, dört yanım.</p>
+<p><strong>II.</strong></p>
+<p>çok kalabalık biri<br />
+gidip geliniyor sürekli</p>
+<p><strong>III.</strong></p>
+<p>diğeri kimsesiz<br />
+ve belki de bakire<br />
+yalnızlığı.<br />
+neyse ki ona doğru gömdüler beni<br />
+çok çekici</p>
+<p><strong>IV.</strong></p>
+<p>ikisi ortalama<br />
+hani (kibrit) kutusuyla<br />
+ya otuzdokuz<br />
+ya kırkbir sigara içtirir adama<br />
+ağız tadıyla<br />
+ömrü hayatında...</p>
+<p><strong>V.</strong></p>
+<p>karanlıkta ne kadar kaldım bilmiyorum<br />
+bu yer yatağından bir kalkabilsem<br />
+peki ya tedavül sorunu<br />
+belden aşağısı felç bir adamdım ben<br />
+ölüler yenilenir mi mezarlarında?</p>
+<p><strong>VI.</strong></p>
+<p>Tanrıları ikna ettim nihayetinde<br />
+diğer mezarlara geçmeye<br />
+bol bol ziyaretçi bekledik özel günlerde<br />
+okunan dualar metronomu oldu sevişmelerin<br />
+gözyaşları abdest niyetine</p>
+<p><strong>VII.</strong></p>
+<p>Siz siz olun<br />
+ziyaret edin ölülerinizi<br />
+dinleyin;<br />
+ancak yeraltında hortlayabilmiş bir<br />
+çapkının tavsiyelerini...</p>
+<hr />
+<p>Kaynak:</p>
+<hr />
+<p>Kaynak: </p>
+<ul>
+<li>Dirik, Özge: &quot;<a href="https://kuzeyyildizi.com/files/ozgedirik-siirler.pdf">Özge Dirik Arşivi: Şiirler</a>&quot;, <strong>Kuzey Yıldızı Edebiyat Dergisi</strong>, Yayım Tarihi: 11.04.2014, <a href="https://kuzeyyildizi.com/pdf">https://kuzeyyildizi.com/pdf</a>.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="Çürük-kuş"><a class="header" href="#Çürük-kuş">Çürük Kuş</a></h1>
+<p>seyrek saçlarında beni anmayan ömür<br />
+bir kuş tanıyorum yuva yapar<br />
+kurtarır kırılcak dalları<br />
+hangi günahından doğurdu bilmem<br />
+yalanlar söyledi<br />
+doğrulamak için yalanlarını</p>
+<p>seyrek saçlarında beni tatmayan ömür<br />
+hangi avuçların tutkusuna bırakılmıştır<br />
+bir sonrakine daha az yakışan hüzün</p>
+<p>hiç kurumayarak kendini koruyan<br />
+bir tablodur sol göğsün<br />
+kırar kurtarılacak dalları<br />
+hangi günahında boğuldu bilmem<br />
+sağır ve dilsizler okulunda<br />
+kulaktan kulağa oynarken tanrısı...</p>
+<hr />
+<p>Kaynak: </p>
+<ul>
+<li>Dirik, Özge: &quot;<a href="https://kuzeyyildizi.com/files/ozgedirik-siirler.pdf">Özge Dirik Arşivi: Şiirler</a>&quot;, <strong>Kuzey Yıldızı Edebiyat Dergisi</strong>, Yayım Tarihi: 11.04.2014, <a href="https://kuzeyyildizi.com/pdf">https://kuzeyyildizi.com/pdf</a>.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="san-cı"><a class="header" href="#san-cı">San-cı</a></h1>
+<p>bilmediniz,<br />
+dolu dizgin giderken<br />
+arkanızdaki vagonları göremezdiniz.</p>
+<p>duymadınız,<br />
+cüzdanınızdaki bozuk paraların<br />
+vesikalık yarinizin suratını çizdiğini<br />
+resme bakmadan anlayamazdınız.</p>
+<p>sevmediniz,<br />
+babanız elinizi bıraktığında<br />
+ağlamayı kaybetmenin şehveti saydınız.<br />
+gelemezsiniz.</p>
+<hr />
+<p>Kaynak: </p>
+<ul>
+<li>Dirik, Özge: &quot;<a href="https://kuzeyyildizi.com/files/ozgedirik-siirler.pdf">Özge Dirik Arşivi: Şiirler</a>&quot;, <strong>Kuzey Yıldızı Edebiyat Dergisi</strong>, Yayım Tarihi: 11.04.2014, <a href="https://kuzeyyildizi.com/pdf">https://kuzeyyildizi.com/pdf</a>.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="-hangi-ağaç"><a class="header" href="#-hangi-ağaç">*** (Hangi Ağaç)</a></h1>
+<p>hangi ağaç ister ki<br />
+yaprağından çok yaşasın<br />
+maşrapanın içindeki hayattım<br />
+çaya batırdığın bisküvi incindi bir kere</p>
+<p>su uyur rakı uyutmazdı hani<br />
+kuşlar mayınlar serpti yollarına<br />
+sen vefanı çabuk tüketen haylaz<br />
+uyku hüzünden sonra<br />
+ikinci yakışandı yüzüne</p>
+<p>kızılcık sopası ile koştun umudun ardında<br />
+yordu nihayet içinden sızan kezzap<br />
+bu kalbinin son krizidir<br />
+bir daha yutkun aşklarına</p>
+<hr />
+<p>Kaynak: </p>
+<ul>
+<li>Dirik, Özge: &quot;<a href="https://kuzeyyildizi.com/files/ozgedirik-siirler.pdf">Özge Dirik Arşivi: Şiirler</a>&quot;, <strong>Kuzey Yıldızı Edebiyat Dergisi</strong>, Yayım Tarihi: 11.04.2014, <a href="https://kuzeyyildizi.com/pdf">https://kuzeyyildizi.com/pdf</a>.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="ruj-ruhu"><a class="header" href="#ruj-ruhu">Ruj Ruhu</a></h1>
+<p>Adı “gece değiştiricisi” olan bir melekle anılıyor adım kaç zamandır.</p>
+<p>“Geceler yarınların negatifleridir” diyor, ne bir harfi var başka, ne de ünlemi.</p>
+<p>Eli elime değmedi yüz gündür, ama her gece seviştik onunla. Bilemezsin, elleri hiç olmamış ve hiç durmamış bileklerinden akan kan.</p>
+<p>Bir meleğin vücut hatlarını iyice öğrendim artık. Gözlerine dokununca kayboluyor hemen. Göğüslerini hissetmiyor. Yani bir tespih gibi, o hissetmeyince hiçbir önemi kalmıyor, ama yine de dokunuyorum onlara.</p>
+<p>Melekler insanları öpünce canları çok yanıyor. Yine de iki defa öptü beni. Bizimkisi parmak uçlarında bir beraberlik. Otuz yaşlarında topuklu ayakkabı giymeye çalışan bir adam gibi hissediyorum zaman zaman kendimi. Gidişimden korkmuyor değilim, ama gittiğim şeritte yavaşlamak daha tehlikeli.</p>
+<p>İpeksi bir teni var bilekleri dışında. İlk zamanlarda içim acımıştı, yanlışlıkla sigara bile uzatmıştım ona. Oysa tüm meleklerin bilekleri kanarmış, ne kadar çok kanarsa o kadar az canları yanarmış. O da benim nabzıma şaşırıyor, gülüyor, alay ediyor nabzımla; o denli hızlı bir saatin içime yerleştirilmiş olmasına ve benim hiç telaşlanmayışıma şaşırıyor.</p>
+<p>Artık dönemem.</p>
+<p>Bana “git” de demez. Dudakları sana benziyor biraz, ama makyaj durmuyor teninde; tanrının kuruntuları...</p>
+<p>Ama beni öptüğü iki sabah öyle bir tat oldu ki ağzımda, keşke onun dudaklarından rujlar yapılsa dünyanın ölümlü ve minyatür kadınlarına...</p>
+<hr />
+<p>Kaynaklar:</p>
+<ul>
+<li>Dirik, Özge: “Ruj Ruhu”, <strong>Varlık</strong>, Ekim 2004, Sayı 1165, s. 43.</li>
+<li>Dirik, Özge: “Ruj Ruhu”, <strong>Kuzey Yıldızı</strong>, Mart-Nisan 2005, Sayı 11, s. 21.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="kalabalık"><a class="header" href="#kalabalık">Kalabalık</a></h1>
+<blockquote>
+<p>“ipekböceği attım<br />
+eşarp düştü içime...”</p>
+</blockquote>
+<p>uyandım<br />
+rüyamda kanamış dilim<br />
+belki kıtlama jiletle bağrılan<br />
+yaşamöyküleri anlatmışımdır çocuklara.<br />
+çocuklar dedim de<br />
+onlar da kanadılar<br />
+kanınca bana.</p>
+<p>kalktım<br />
+bir eşkıya rica etti yüklerimi<br />
+güzel de bir kadın<br />
+çocuğunu öleceği yaşa büyütemeden giden<br />
+bir anneyi uğurlamış olsa da<br />
+on yedi kalp kriziyle<br />
+yürüdüm<br />
+adımlarım nasıl da uyarılıyor<br />
+kapıyı çalan biri olduğunda<br />
+isterse bir hırsız olsun<br />
+kapıyı çalmaya yeltenen</p>
+<p>öldüm</p>
+<p>ve yarın üşüştüler başıma; yaşlar, ayaklar, gözler<br />
+ve yarı yaşam yakınmaları sürdü adıma<br />
+ve yar uzun saçlı bir adamla geldi mezarlığa<br />
+ve ya bir kadınla...</p>
+<p>ve</p>
+<p>gömdüler beni,<br />
+öldürdükleri gibi<br />
+özenle.</p>
+<hr />
+<p>Kaynaklar:</p>
+<ul>
+<li>Dirik, Özge: “Kalabalık”, <strong>Hece</strong>, Eylül 2004, Sayı 93.</li>
+<li>Dirik, Özge: “Kalabalık”, <strong>Kuzey Yıldızı</strong>, Mart-Nisan 2005, Sayı 11, s. 9.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="makas"><a class="header" href="#makas">Makas</a></h1>
+<p>bak<br />
+sular çekildi.<br />
+hep hatırlatır ya sahipliğini<br />
+işte öyle<br />
+kapatıp, türbanladı tanrı<br />
+denizini.<br />
+kumları oyalayan<br />
+kir içinde, birkaç çocuk ayağı şimdi.</p>
+<p>bende kemikleşen babamın<br />
+mezarını bilmem<br />
+ama bir çocuğu kemiren<br />
+ya bir babadır hep<br />
+ya da yokluğu.</p>
+<p>bak<br />
+avuçlarının içindeki raylardan çıkıyor<br />
+çok yüklediğimiz tren<br />
+belki boynunu kurtarıyoruz<br />
+trenlerin makaslandığı yerlerde<br />
+ilk defa<br />
+doğru raylara uzanmış bir kadının.<br />
+ama bu kez de<br />
+kargaşa ve ceset oluyor<br />
+senin ekseninde.<br />
+biliyorum<br />
+bir aşkın üstüne yakışacak ağız tadı değil<br />
+akşamları acıya yatırılan bir damak</p>
+<p>belki sonra<br />
+eli siyahtan başka bir renge de uzanabilen<br />
+ressamlar tanır seni<br />
+bilirsin<br />
+seni çırılçıplak çizmek için<br />
+kendini soyan birini</p>
+<p>ama tren ne kadar dinlense de<br />
+raydan çıktığı o noktaya yaklaşırken<br />
+–ki söz konusu olan bir kadındır<br />
+korkusuna yaklaştıkça çoğalır güzelliği–<br />
+bilmeyecek hiç<br />
+o noktayı<br />
+bir daha geçip geçemeyeceğini...</p>
+<hr />
+<p>Kaynak:</p>
+<ul>
+<li>Dirik, Özge: “Makas”, <strong>Kuzey Yıldızı</strong>, Mart-Nisan 2005, Sayı 11, s. 22.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="İlham-nöbetleri"><a class="header" href="#İlham-nöbetleri">İlham Nöbetleri</a></h1>
+<p>kırarsın bazen ekmeği<br />
+öyle buğu falan da çıkmaz<br />
+bayattır<br />
+ya da<br />
+ısıtılmıştır bir bayatlığın üzerine<br />
+ama masana doluverir<br />
+ilham perileri</p>
+<p>masanın altında<br />
+açlıktan ayağına göz koymuşlar<br />
+kalemini oynatmaya başladın ya<br />
+hemen kıskanır<br />
+ilham kedileri</p>
+<p>biraz içeri gir<br />
+dil ovasının altında binlerce şair<br />
+–mezara nasıl da yakışıyorlar<br />
+yaşarken kemirilen cesetler–<br />
+onlara gülüyorlar<br />
+ilham pireleri</p>
+<p>öpüştükten sonra ağzımda<br />
+ispirto tadı bırakan kadınlar<br />
+girer rüyalarıma<br />
+ama öyle değil<br />
+ne kadar küçülürse küçülsünler<br />
+mide bulandırmıyor<br />
+ilham sinekleri...</p>
+<hr />
+<p>Kaynak:</p>
+<ul>
+<li>Dirik, Özge: “İlham Nöbetleri”, <strong>Kuzey Yıldızı</strong>, Mart-Nisan 2005, Sayı 11, s. 22.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="ikincil-ruhla-pisuar-buluşmaları"><a class="header" href="#ikincil-ruhla-pisuar-buluşmaları">ikincil ruhla pisuar buluşmaları</a></h1>
+<!--toc -->
+<ul>
+<li><a href="./ikincil-ruhla-pisuar-bulusmalari/1.html">ikincil ruhla pisuar buluşmaları-1</a></li>
+<li><a href="./ikincil-ruhla-pisuar-bulusmalari/2.html">ikincil ruhla pisuar buluşmaları-2</a></li>
+<li><a href="./ikincil-ruhla-pisuar-bulusmalari/3.html">ikincil ruhla pisuar buluşmaları-3</a></li>
+<li><a href="./ikincil-ruhla-pisuar-bulusmalari/4.html">ikincil ruhla pisuar buluşmaları-4</a></li>
+<li><a href="./ikincil-ruhla-pisuar-bulusmalari/index.html">ikincil ruhla pisuar buluşmaları</a></li>
+<li><a href="./ikincil-ruhla-pisuar-bulusmalari/5.html">ikincil ruhla pisuar buluşmaları-5</a></li>
+<li><a href="./ikincil-ruhla-pisuar-bulusmalari/6.html">ikincil ruhla pisuar buluşmaları-6</a></li>
+<li><a href="./ikincil-ruhla-pisuar-bulusmalari/7.html">ikincil ruhla pisuar buluşmaları-7</a></li>
+<li><a href="./ikincil-ruhla-pisuar-bulusmalari/8.html">ikincil ruhla pisuar buluşmaları-8</a></li>
+<li><a href="./ikincil-ruhla-pisuar-bulusmalari/9.html">ikincil ruhla pisuar buluşmaları-9</a></li>
+<li><a href="./ikincil-ruhla-pisuar-bulusmalari/10.html">ikincil ruhla pisuar buluşmaları-10</a></li>
+<li><a href="./ikincil-ruhla-pisuar-bulusmalari/12.html">ikincil ruhla pisuar buluşmaları-12</a></li>
+<li><a href="./ikincil-ruhla-pisuar-bulusmalari/borun-pazari.html">bor’un pazarı</a></li>
+<li><a href="./ikincil-ruhla-pisuar-bulusmalari/13.html">ikincil ruhla pisuar buluşmaları-13</a></li>
+<li><a href="./ikincil-ruhla-pisuar-bulusmalari/14.html">ikincil ruhla pisuar buluşmaları-14</a></li>
+<li><a href="./ikincil-ruhla-pisuar-bulusmalari/15.html">ikincil ruhla pisuar buluşmaları-15</a></li>
+<li><a href="./ikincil-ruhla-pisuar-bulusmalari/17.html">ikincil ruhla pisuar buluşmaları-17</a></li>
+<li><a href="./ikincil-ruhla-pisuar-bulusmalari/31.html">ikincil ruhla pisuar buluşmaları-31</a></li>
+<li><a href="./ikincil-ruhla-pisuar-bulusmalari/36.html">ikincil ruhla pisuar buluşmaları-36</a></li>
+<li><a href="./ikincil-ruhla-pisuar-bulusmalari/pis-duvar.html">pis-duvar</a></li>
+<li><a href="./ikincil-ruhla-pisuar-bulusmalari/ikincil.html">ikincil</a></li>
+<li><a href="./ikincil-ruhla-pisuar-bulusmalari/ikincil-ruhla-pis-duvar-bulusmalari.html">ikincil ruhla pis-duvar buluşmaları</a></li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="ikincil-ruhla-pisuar-buluşmaları-1"><a class="header" href="#ikincil-ruhla-pisuar-buluşmaları-1">ikincil ruhla pisuar buluşmaları-1</a></h1>
+<p>Tanrı ile en çok annem öldüğünde tanışmak istedim, ama o yine keşmekeş kuralları ile oynaşıyordu.</p>
+<p>İki asansörün de çağır tuşuna birlikte bastım hep, bu anlamda aldattım kadınları. Ama ben en son gelen asansöre biniyor, yolumu ezberimle değil hayallerimle buluyordum. Aldatılacağını düşünen kadınları aldattım en çok, onlarla kalarak.</p>
+<p>Şansımı hiç görmedim. Truva atının kıymıkları vücuduma battı da tetanostan öldüm sanki. Ya da koskoca truva zaferinden sonra vezir olmuş bir piyon olarak dönerken sarayına, karısının sersem sevgilisi tarafından sapan ile öldürülen bir fetihçi talihsizliği yaşadı hayatım.</p>
+<p>Okuduğum kitapların hepsi son sayfalarına kadar kutsal kitaplardı. Son sayfaları sevmedim hiç, okumadım da. Bitse de yatsam diye yazdım çok.</p>
+<p>Ekonomik beynim çözümünü bulmadan problem üretmedi hiç. Koskoca bir ruh sağlığı hastanesine pazarlanacak beynim var. Bir gün birine sıfır ama pozitif beyin gerekirse adresimi sizden alabilirler.</p>
+<p>İlk edebi metnim bir dua idi. Bir kıza sormuşlar duam duvak demiş. Duvağım duvardı çoğu zaman. İnsan çok görünce görümce kılıklı birine dönüşüyor. Çok fazla öngörüm yok o yüzden.</p>
+<p>Evde tuvalet kapısının arkasına yapıştıracak kadar önemli bir haberim olmadı bugüne kadar. Kabızlık çektiğimi ne kadar haykırsam da olur olmaz yerlerde ishal aşısıydı ellerim yüreğime.</p>
+<p>Seçeneklerden, seçimlerden çok korktum. Tek seçenekli sorular istedim hep, ama onların soru değil de zorunluluk olduğunu söylemişti bir öğrencim kulağımı çekerek. Seçim sandığına bir defa gittim, tüm ideolojimi bir zarfa sığdırmam tam bir saat aldı, diğer insanların ideolojilerini sandığa boşaltmalarını engellediğim için karakolda bitti sonu.</p>
+<hr />
+<p>Kaynak:</p>
+<ul>
+<li>Dirik, Özge: “İkincil Ruhla Pisuar Buluşmaları-1”, <strong>Kuzey Yıldızı</strong>, Mart-Nisan 2003, Sayı 7, s. 13.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="ikincil-ruhla-pisuar-buluşmaları-2"><a class="header" href="#ikincil-ruhla-pisuar-buluşmaları-2">ikincil ruhla pisuar buluşmaları-2</a></h1>
+<p>Hayatıma sevimli bir parantez edasında girip, bordrolarıma tüneyen
+kadınları da sevdim. İşte aşk bu; havada attığınız parendeler kadar
+suya nasıl girdiğiniz de önemli.</p>
+<p>Aldatmak ve ihanet etmek fiillerinin ayrımında yaşadım, sonunda
+anladım; aldatmak birinci tekil hali bu boşaltan muslukların kazandığı havuzda. Siz sırtınızı dönünce aldatmanın üçüncü tekil haliyle
+anılıyorsunuz; ihanetle.</p>
+<p>Müzikle aramda hiç bir samimiyet olmadı, ki üzerlerine en güzel şiir
+kreasyonlarını geçirip podyuma çıkan notalarla farkı yoktu mankenlerin.</p>
+<p>Hayvanlarla iyi anlaştığımı, onların en ince felsefelerinin farkında
+olduğumu iddia ediyorum. Kadınlarla yaptığım tüm kavgalarda
+karşıma geçip kuyruğunu yakalamaya çalışan, erkeklerle olan tartışmalarımda ise patisiyle gözlerini kapatan bir kediye sahibim aynı zamanda. Hem beni sadece zenginliğim dolayısıyla tercih eden kalorifer böceği ve karınca gibi hayvanlardan da koruyor. Buna rağmen
+ölünce, onu kuyruğundan tuttuğum gibi, şu kancalarını geçirdikten
+sonra 45 derecelik açıyla çöpleri yukarıya çekip, içeride öğüten ve
+çıkan pislikleri de kıyılarındaki delikten çaktırmadan akıtıp çöp
+öğütümüne kesin çözüm olan kamyonların birine atacağımı biliyor.
+Biliyor ama cehennemi bilip inançlı görünen her mümin gibi ibadet
+etmeye devam ediyor bana.</p>
+<p>Yoksullukla çok erken tanıştım. Üç kardeş bir yorganı boylamasına paylaşırdık eskiden. Kendileri için yorganın yakılmadığını
+gören pirelerimiz oldu çokça. İkna edemiyorduk, hepsi yastıktan
+aşağıya atlayarak intihara teşebbüs ediyordu. Rutubeti de bilirim,
+asılmanıza üç gün kala âşık olmak gibi bir şeydir, uyumanıza hep
+üç dakika vardır ve vücudunuzdaki tüylerin hepsi asi birer termometre olmuş ve cıvanız dibe vurmuştur. O zamanlar bilseniz, alkolik Fahrenheit’ın krizleri sonucu termometrenin içindeki alkolü
+içip, karısının korkusundan o aleti cıva ile çalıştırabildiğini ne anası
+kalırdı, ne de bacısı onun. Ama çok yoksullar şunu da bilirler, ru-tubetli evde bayat ekmek sorunu olmaz hiç, kabarık sıvalar doğal
+bir duvar kâğıdı görüntüsü verirler. Yoksulluk da böyle bir şeydir
+işte; kahvede hesap ödememek için kafanız çatlar kâğıtları, taşları
+saymaktan. Kaleminiz bitmesin, kalemtıraşta striptize yeltenmesin
+diye tırnaklarınızı uzatır, onlarla yazarsınız. Hem sizi herkes gitar
+çalıyor diye bilir. Yoksulluk eğlencelidir, bungee jumping gibi, tek
+farkı vardır sizi hayata bağlayan ip salı pazarındandır genelde, güvenemezsiniz. Ya da babanızın kazağı sökülmüş, aynı iple üç kardeşe
+birer kazak örülmüştür. Bu da fark etmez bu sefer de içten donarsınız babanızın arkasından bakıp. Derken, gözlerinizin kızardığını
+fark eden anneniz hep soğandan ağlar, böylece siz de mahsuscuktan
+yaşamayı öğreniverirsiniz.</p>
+<hr />
+<p>Kaynak:</p>
+<ul>
+<li>Dirik, Özge: “İkincil Ruhla Pisuar Buluşmaları-2”, <strong>Kuzey Yıldızı</strong>, Mayıs-Haziran 2003, Sayı 8, s. 3.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="ikincil-ruhla-pisuar-buluşmaları-3"><a class="header" href="#ikincil-ruhla-pisuar-buluşmaları-3">ikincil ruhla pisuar buluşmaları-3</a></h1>
+<p>I.</p>
+<p>Pişik olmuş armutların ağzıma düşmesi doyum vermedi bana. Eşşek
+kadar bir elma sayesinde oluşan başımdaki şişikleri de dünyanın sırlarını kurcalamak için kullanmadım.</p>
+<p>Garip buluşlarımla, insanların beyinlerine “bak, o öyle değilmiş”
+şeklinde bilgiler de sokmadım. İnsanlarla iletişim içinde olmanın en
+fazla onları dinliyormuş gibi görünmek olduğunu biliyorum. Göz
+göze geldiklerinde, onları doğrulamanız için karşısındakini yakalayan acı bakışlar çok tatmin ediyor beni.</p>
+<p>Çocukluğum hayatımı şekillendiren yegâne zaman parçasıydı. Henüz altı yaşımda, birkaç acı olay yaşayıp, geri zekâlı arkadaşlarımın
+pek de doğal olmayan bir seleksiyon ile yok olması sonucu babamı
+ikna etmeye çalıştığımı hatırlıyorum bonibon’a tazminat davası açmaya. O da bön bön suratıma bakıp “avukat bi tanıdık bulmak
+lazım” demişti.</p>
+<p>Benimse çocuğum olmadı henüz, olmaz diye de düşünüyorum. Ortalama 70 basamaklı bir merdivene üç kiloluk bir et yığınını atıp,
+düştükçe kalıplanıp, büyüyüp daha fazla şişmesine izin verebileceğim bir düşünce yapısına da sahip değilim, üzgünüm. Ama evlat
+edinebilirim huzurevinden.</p>
+<p>Evlenmeyi de düşünmüyorum, hem yılın her günü iki bayram arası
+olduğuna göre ananelerimiz ve anneannelerimiz doğru söylemiş.</p>
+<p>Değişimi kabullenirim, özellikle 40’lı yaşlarda daha kolay oluyor
+bu, ama boğaz köprüsüne sağcıların köprüsü ya da renkli televizyona “artık, devrimcilerin kanlarını kırmızı mı izleyeceğiz” diyen, atlara bile sıkıntı veren gözlüklerle işim olmadı hiç. Gerçi bu cümlelerin
+sahipleri şimdi at yarışı tahmini yerine, holding yazarlığını seçti ama
+sonucun farkı yoktu, hep beşte kaldılar.</p>
+<hr />
+<p>II.</p>
+<p>Kaztüyü yastığında gözyaşı lekelerimin sobelediği kadınlar bir Amerikan diplomatın Türkiye hatıraları kadar kalın bir kitap olurdu. Bu
+bir anlamda seri kâfir yapıyor beni. Teslim olabileceğim bir merci
+yok maalesef. Yalnızca, bedenim bilinmeze hızlı hızlı çürüyerek ilerlerken sonumu merak ediyorum. Böceklerin elebaşı olmak ya da
+cehennemin lüks yerlerinde emlakçılıktır kariyer hedefim. Bu dünyada aşkın provasını yaptığımı kolaylıkla açıklayabilirim diye düşünmekteyim. Hem süt izninde bara giden bir anne edasında cennetini ayakları altına alıp parçalayan Tanrı, bu dünyadaki boyut ve
+bölüşüm problemlerini çözmeli önce. Tamam; sırtımda büyük bir
+kambur var, gözleri acıtan bir kusura sahibim, kusura bakan gözler
+takip ediyor beni, ama ben kamburumu sistemin kanlı sözleşmeleri
+imzalansın diye kullandırmadım hiç. Bu dünyada yarattığım açıklamaları taşıyabilirsem oraya, yukarıdakilerden bahsedeceğim verilen
+süre yeterse. Ama şimdi ben içimden gelen tüm şeyleri olduğu gibi
+akıtıyorum ya sana, içimdeki kelimeleri de harcamalıyım. Her şeye
+rağmen tanrıdan bir şey dilemem gerekirse; özür dileyeceğim.</p>
+<p><em>23 Nisan 2003</em></p>
+<hr />
+<p>Kaynak:</p>
+<ul>
+<li>Dirik, Özge: “İkincil Ruhla Pisuar Buluşmaları-3”, <strong>Kuzey Yıldızı</strong>, Ekim-Kasım 2005, Sayı 12, s. 8.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="ikincil-ruhla-pisuar-buluşmaları-4"><a class="header" href="#ikincil-ruhla-pisuar-buluşmaları-4">ikincil ruhla pisuar buluşmaları-4</a></h1>
+<p>Kadınlarla aynı evde yaşayamıyorum. Özellikle evimi 24 saatten
+fazla bir kadına teslim etmiyorum. Bu tamamıyla, tarihi olaylardan çıkarsadığım bir sonuç, hem bizim protest atalarımızdan biri ne
+demiş “yuvaya yapan dişi kuştur”. Bencillikleri çok gürültülü olan
+bu yaratıklarla akşamdan akşama şaraplaşmalar hoşuma gidiyor yalnızca.</p>
+<p>Gerillavari sınır savaşları sinirlerimi çok yıpratıyor, demem o ki zaten iktisatlı kullanmak zorunda olduğum derimi değiştirmem gerekiyor her defasında, bu aritmetiği henüz çözülememiş ve bi türlü
+sönmeyen volkanları içine alan dişigenlerle yaptığım tartışmalarda.</p>
+<p>Kızılcık sopası ile arkamdan koşarken düşleyip de sevebildiğim tek
+kadın var hayatımda. Öyle ki sokakları benden olabildiğince saklayan ama çamursuz kıyafetlerle eve geldiğimde telaşlanan ve yanağında tembel bir gamze ile “dünya güzeli” olarak tek arabesk tanımımı tükettiğim kadın.</p>
+<p>Beni babamdan doğaçlamış bir kış günü. “İyi ol’muş” diyemeyeceğim ama yanlış olmamış en azından. Çok matüre, sağlıklı bir çocukmuşum, kuş sütü içmişim annemden iki yıl boyunca. 10 yaşıma
+kadar da leylek zannetmişim annemi.</p>
+<p>Babamın verdiği harçlıkla anneme soğan gözlüğü, tere otu bağı alacak kadar anlayışlı bir kalp konakladı bende.</p>
+<p>Babam uyumsuz biriydi. Gölgesinin hızı, annemin yemekleri, benim patlak burunlu ayakkabılarım ve bir ay içinde abimin eski pantolonunu ıskalayacak kadar hızlı büyümem anlaşamadığımız belli
+başlı konulardı. Ama bildiği masallar çok güzeldi. Portakal soyar,
+başucumuza koyardı. Bir yalan uydurduğunu biliyorduk ama bildiklerimiz uykuya yenilirdi. Rüyamda annem bağırırdı hepimize,
+başucumuz yine portakal lekesiydi.</p>
+<hr />
+<p>Kaynak: </p>
+<ul>
+<li>Dirik, Özge: &quot;<a href="https://kuzeyyildizi.com/files/ozgedirik-siirler.pdf">Özge Dirik Arşivi: Şiirler</a>&quot;, <strong>Kuzey Yıldızı Edebiyat Dergisi</strong>, Yayım Tarihi: 11.04.2014, <a href="https://kuzeyyildizi.com/pdf">https://kuzeyyildizi.com/pdf</a>.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="ikincil-ruhla-pisuar-buluşmaları-1"><a class="header" href="#ikincil-ruhla-pisuar-buluşmaları-1">ikincil ruhla pisuar buluşmaları</a></h1>
+<p>O odada ejder yumurtaları vardır. Beyazı ve sarısı iyice karışıp piştikten sonra, tanrı ekmeğiyle onların canlarına okur. Orada soba
+yanar, orası öğretmenler odasıdır.</p>
+<p>Sınıfın yarısı gösteremez ülkesini haritada, gururlu çocuklardır.</p>
+<p>Elvan en arkada oturur, anası babası yok olmuş yıllar önce. Ama iyi
+biliriz; piçe piç demek daha ayıptır.</p>
+<p>Ağlak Necati öğretmiştir sınıfa altına işemeyi. Don, kulak kırınca
+okul yolunda, altımıza işeyip bacak ısıtırız.</p>
+<p>Ağlaktır Necati, güpegündüz ağlar, yaşlarıyla Vangölü’nü nişanlar
+kitapta, ejderi boğar, kabardıkça kabarır saman kâğıdı.</p>
+<p>Gazeteci abiler kesmişti yolumuzu geçenlerde. Neyse ki, kar ısıtmıştı ortalığı da altımıza işememiştik daha. Ağlak çok işlerine yaradı,
+ağzına dayayıp makinayı gözyaşlarını aldılar. Kamyonetleriyle bizi
+okula bırakırlar zannediyorduk, susunca bizim Ağlak, toplayıp her
+şeylerini çekip gittiler hızlı hızlı.</p>
+<p>İsteselerdi ısınmak için işediğimizi de anlatırdık onlara. Oysa gittiler
+hemen.</p>
+<p>“Tüm piçler bizi bulur” diye bağırdı Ağlak.</p>
+<p>Elvan ağladı.</p>
+<hr />
+<p>Kaynak:</p>
+<ul>
+<li>Dirik Özge: “İkincil Ruhla Pisuar Buluşmaları [numarasız]”, <strong>Kuzey Yıldızı</strong>, Mart-Nisan 2005, Sayı 11, s. 18.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="ikincil-ruhla-pisuar-buluşmaları-5"><a class="header" href="#ikincil-ruhla-pisuar-buluşmaları-5">ikincil ruhla pisuar buluşmaları-5</a></h1>
+<p>Play.</p>
+<p>Not: Beşinci görüşmeye gelmedi Hegelci maçomuz. Görüntüsünü
+merak edenlere tanımlamak pek zor olmayacak. Düzensiz görüntüsü vermek için özenle kesilmiş sakallara, düşük kalçalı iri ve çirkin
+bir bedene ve kare kemik gözlüklere sahip. Daha çok lsd ile yaratılmış bir resmin önünde yoruma hazır, konuşuverecek hissini itinayla
+içinize yerleştiren bir sunumu var.</p>
+<p>Bana sorarsanız, pisuarın duvarlarını çok iyi kullanıyor olması, vücudundaki bazı uzunluklar ile geçinemediğini gösteriyor. Şu ana kadar iki farklı kadın kokusunu da parfümüne karıştırması “yalnızlık
+benim seçimimdir, eğer yalnızsam” vurgusu için.</p>
+<p>Israrla belirtmek istediğim bir diğer konu, konuşurken göz göze gelmemeye, gelse de sizi aşağılamaya yeltenmeye çok çaba gösteriyor.
+Gözlerini kendi içerisine zumladığında ise, sunumunun rahatsızlığını kendine de lanet okuyarak geçiştiriyor. Sıkıldığını düşündüğü
+durumlara ikinci ve belki de üçüncü açılardan bakarak farklı olmayı
+başardığı söylenebilir. Ama hazır cümlelerin içine sokuşturulmuş
+birkaç kelime, röportajın sahibi bana prefabrik bir konut inşa eden
+yüksek-mühendis mimarın gururunun hiçbir zaman okşanamayacağı hissini veriyor.</p>
+<p>Israrımı ölçmek için beni daha çok ekecektir ilerleyen günlerde, o
+yüzden şimdilik hoşça kalın, burası çok pis kokuyor.</p>
+<hr />
+<p>Kaynak: </p>
+<ul>
+<li>Dirik, Özge: &quot;<a href="https://kuzeyyildizi.com/files/ozgedirik-siirler.pdf">Özge Dirik Arşivi: Şiirler</a>&quot;, <strong>Kuzey Yıldızı Edebiyat Dergisi</strong>, Yayım Tarihi: 11.04.2014, <a href="https://kuzeyyildizi.com/pdf">https://kuzeyyildizi.com/pdf</a>.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="ikincil-ruhla-pisuar-buluşmaları-6"><a class="header" href="#ikincil-ruhla-pisuar-buluşmaları-6">ikincil ruhla pisuar buluşmaları-6</a></h1>
+<p>I.</p>
+<p>Uzundur bekletiyorum sizi. Sırf sizi değil tabii, okuyucuları da.
+Ama bazen yaşama dair inadınızı unutuveriyorsunuz. Saklandığınız
+yerden koşup, sobelemek gerekirken bir kanepenin altında uyuyakalıyorsunuz. Sizi kaybettiklerini sanıyorlar, eve gelen araştırmacı
+polisler buluyor yerinizi.</p>
+<p>Sonra da rahatsız oluyorsunuz, ölmediğinize göre bir bahane bulup, onu tüketmek zorunda kalıyorsunuz, sanki bir memurun masa
+örtüsünün altındaki ev kirasını çalıp, bahis oynamışsınız gibi, komik. Ölümde durum farklı tabii. Mum dibine ışık veriyor sonunda,
+sonuna kadar yanıyor, bir fitil külü kalıyor ortada, ona da iskelet
+deniyor.</p>
+<p>İntihar düşlüyorum bugünlerde. Sağıma hiç bakamadım da soluma da bakmadan geçiyorum caddeleri. Dün yine bizim mahallenin
+parkında gitmek düştü aklıma. Ama şekerini yalayıp, içinin çürük
+çıktığını gören küçük kız, ağlamadan fırlattı elindeki elmayı, ölemedim yine. Ama her şeyi tüketmeden sığınılmalı özkıyıma. “Daha
+erken” dediğinizde intihar başlamıştır bence.</p>
+<p>– bence’lere gerek yok, bu bir röportaj.</p>
+<p>Röportaj, doğru. Öyleyse soruları gönderin bana, ben de yanıtlayıp
+size geri göndereyim. Eğer hatalarımı kollayıp, yaptığım nüans yanlışlarını kullanamamak gibi bir alternatif maliyete katlanabilirseniz.
+Ayrıca, birbirimize saçmaları sıralamaya başlamışken belirtmek
+isterim ki fotoğrafımın yayımlanmasını kesinlikle istemiyorum,
+en namahrem yeridir yüzü insanın. Fazla afişlerseniz üçüncü sınıf
+gazete kâğıtlarına, yanıma koyacağınız mankenlerin payına düşen
+spermlerin sakallarımda gezinmesini istemem. Ya da yazmayı yeni
+öğrenmiş bir çocuğun, evlerine gelen misafirlerin bacaklarına bakmak için suratımı “dolap”a benzetmesini de.</p>
+<p>That’s okay for today.</p>
+<p>He man?</p>
+<p>– tabii</p>
+<p>tabii.</p>
+<hr />
+<p>II.</p>
+<p>bazen dur.</p>
+<p>jüriye mastürbasyon yaparcasına savunduğun şeyleri savur.<br />
+beynini şehvet kemirirken, bacak aranı örümcek ağlarının istila
+etmesi neyi doyurur?<br />
+öfkeyle yaşamayı öğren.<br />
+er ya da geç akrep yavrularının meskeni olacak göz çukurların;<br />
+“gözüm gözüm, güzel gözüm” diye mırıldanarak şakalaşacaklar<br />
+      içinde,<br />
+o saydam yargıçlar eriyince.</p>
+<p>bazen dur.<br />
+acının huyunu bezen.<br />
+bir düş ezberle kendine.<br />
+her değerlendirdiğin fırsat bir içimlik satışıdır içinin.<br />
+hem düşün;<br />
+gördüğü ilk vapura aşkını yamayan yunus, ne yaman bir yunus<br />
+      olur<br />
+ki, zaten herkesçe bilinir; sözlükte, anadan sonra yar gelir, çokça<br />
+      sayfa<br />
+geçilmiştir ki, geriye dönüş ne mümkündür...</p>
+<p>söylemeli miyim bilmem, ama<br />
+bazen durma.<br />
+tren hangi hızla yaklaşırsa yaklaşsın, raylarda güle oynaya ağlayan<br />
+      çocuğu<br />
+–ki o çocuk hayalin bile olsa– kurtarmaya çalış. bunu göze
+alamamıştı annem benim.<br />
+o an birden büyüdüm, kilometrelerce ıradım.<br />
+ardımdan dünyanın tüm raylarına adım boyu gözyaşı döktü.</p>
+<p>hayali olan çocuğu değil, tren idi çünkü.</p>
+<hr />
+<p>Kaynak:</p>
+<ul>
+<li>Dirik, Özge: “İkincil Ruhla Pisuar Buluşmaları-6”, <strong>Kuzey Yıldızı</strong>, Ocak-Şubat 2004, Sayı 10, s. 14.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="ikincil-ruhla-pisuar-buluşmaları-7"><a class="header" href="#ikincil-ruhla-pisuar-buluşmaları-7">ikincil ruhla pisuar buluşmaları-7</a></h1>
+<p>Küçükken Ediz Hun’u bilim adamı sanırdım. Küçüklük dünya
+dâhil her şeyi farklı düşlemek değil mi zaten? Büyüdüm tabii, belki
+de Edison, Ediz Hun kadar yakışıklı olamadığı için Edison.</p>
+<p>Erkeklerin çocukluğu ne kadar hızlı olursa, orta yaş bunalımları da
+o denli yıpratıcı oluyor. Çünkü hiçbir erkek yaşayamadıklarını geriye dönüp, çocukluğuna devşirip nefes alamıyor. Özellikle yanında
+karşı cinsi taşıyan bir adam, fiziksel yaşlılığı daha kolay hissediyor.</p>
+<p>Herkes kendi içinde, tüketimin getirdiği dayanılmaz açlığı hissedince ruhen tarikatlaşıyor. En namahrem kavramlarla sevişiyor geceleri,
+korsan peygamberler yaratıyor ve onları orijinallerinden ayıramıyor.</p>
+<p>Ayrılmak, en az kim alacaksa en çok o gidecektir şeklinde tanımladığım, sözümün de efsaneleşmesini istediğim için buralara kadar taşıdığım bir kavram. Robinson’a sormuşlar; “ıssız bir dünyaya düşsen
+yanına alacağın ilk şey nedir?” Robinson “adayı” demiş. Robinson
+tarzı erkekliğin sahiplenici maço kişiliği artık aranan kavramlardan.
+Bunu içinize sıvamanız için Türkiye’de dört basamak olan öğretim
+törpüsünden geçmeniz yeterli. Yani kalifiye bir kapı kolunun nasıl
+dört vidası varsa, sizi sistem içine milyon tane prototip olarak yamarlar bu topraklarda.</p>
+<p>Babanızın takımı, babanızın faşizmi, babanızın sıkıcı kitaplarıyla
+dahi anlaşabilmeye başladığınızda korkmalısınız yetiştireceğiniz sera
+kişiliğin hormonundan. Yani ille de edebiyat dünyasında çalmayana mikrofon uzatılmaz diyorsanız; “ya siz sizsiniz, ya da sissizsiniz.”
+Uzlaşmayı, fiyat kırmayı öğrenmekle başlıyor gençlik. Neyi, nasıl
+yaşadığınız önemli değil. Düşlerinizle, düşlerin kartlaşmış haline
+denilen düşüncelerinizle gide gele bir şekil veriyorsunuz hayatınıza. Örümcek ile ipekböceği arasındaki fark da burada, biri sistemin
+uşağı, diğeri kendi kurallarının. 14 yaşımda gençliğime başladığımı
+düşünüyorum. Mahallenin kızlarına tırtıllarını beslemeleri için dut
+yaprağı toplardım iki öpücüğe, bizim ev sahibinin oğlu bir öpücüğe
+düşürdü fiyatı. O böceklerinden daha cıvık kızlar da önce bir öpücük diye yapraklarını toplattırıp, sonra da babasının evleri var diye
+meyvelerinden tattırdılar ona.</p>
+<hr />
+<p>Kaynak: </p>
+<ul>
+<li>Dirik, Özge: &quot;<a href="https://kuzeyyildizi.com/files/ozgedirik-siirler.pdf">Özge Dirik Arşivi: Şiirler</a>&quot;, <strong>Kuzey Yıldızı Edebiyat Dergisi</strong>, Yayım Tarihi: 11.04.2014, <a href="https://kuzeyyildizi.com/pdf">https://kuzeyyildizi.com/pdf</a>.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="ikincil-ruhla-pisuar-buluşmaları-8"><a class="header" href="#ikincil-ruhla-pisuar-buluşmaları-8">ikincil ruhla pisuar buluşmaları-8</a></h1>
+<p>Hayvanlar gemilerine Nuh’u almakla ne denli aptal olduklarını kanıtlamıştılar zaten. Fahişe kedim evden kaçmış bugün. Bizler gibi
+yalnızken, Dünya daha bir çekici.</p>
+<p>Fahişe diyorum, çünkü hayatta sadık kaldığı suyu ve yemeği yalnızca, ben şu an kime, ne diyorum bilmiyorum.</p>
+<p>Dün akşam içkiye çok sataştım, son yudumda hep geç kalınmış oluyor. Telefonun “redial” tuşuna basıp aşk şiiri okumuşum uzun uzun,
+alo diyen bir bayana. Serseri oltanın ucuna takılan boğaza artist olmaya gelmiş balıktan ses soluk yok hâlâ. Ama pirinç taşı ayıklayacak
+iki üç tane ayrılık sözüm var neyse ki.</p>
+<p>Aşk yaa, Tanrı’nın hata terimi.</p>
+<hr />
+<p>Kaynak: </p>
+<ul>
+<li>Dirik, Özge: &quot;<a href="https://kuzeyyildizi.com/files/ozgedirik-siirler.pdf">Özge Dirik Arşivi: Şiirler</a>&quot;, <strong>Kuzey Yıldızı Edebiyat Dergisi</strong>, Yayım Tarihi: 11.04.2014, <a href="https://kuzeyyildizi.com/pdf">https://kuzeyyildizi.com/pdf</a>.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="ikincil-ruhla-pisuar-buluşmaları-9"><a class="header" href="#ikincil-ruhla-pisuar-buluşmaları-9">ikincil ruhla pisuar buluşmaları-9</a></h1>
+<p>Bir beynin gidebileceği her yere otobüs kaldırıyorum soğancığımdaki garajdan. Ama tahmininiz üzre sefer sayıları değişiyor. Bu aralar yok satıyor intihar istikameti. Doluluk kapasitesi %100’e yakın
+sanırım.</p>
+<p>Ortalama bir beyinle bu ülkede yaşamak meziyetine sözüm yok tabii, ama ben piyango biletinin sahte olduğunu bile bile o bileti satın
+alanları da gördüm. Yani sahte umuda bile gel-geç diyenleri anlayabilmenin sırrını gidin peygambere sorun, beş taneden az virgülle bir
+cümle kurabilirse, gelin sonra sataşın bana.</p>
+<p>İki tane arkadaşım vardı ilkokuldayken. İkisi de kan kardeşimdi.
+Birbirimize acı vererek, acılarını acılarıma değdirerek bağladık kardeşliğimizi. Sevgililerimle de sürdürdüm bu geleneği, zaman zaman
+kan akmasa da. Biz acıyarak büyüyoruz efendim, kanayarak. Dallarına bağladığımız kurdeleler kangren ediyor ağaçlarımızı. Resti görülmüş bir kupa ası gibi karemizi arıyoruz.</p>
+<p>Hile bulaşmış tuttuğumuz zarlara, kız çıkmıyor artık hiçbir coşkumuz, tirbuşon ruhumuz “ilk ben değeceğim şaraba” diyor.</p>
+<p>Yoklamalarda hepimiz samanız efendim,
+Saplar öne çıksın lütfen,
+Bizsek söyleyin, ittirin bizi öne, ittirin.</p>
+<p>Efendim..?</p>
+<hr />
+<p>Kaynak: </p>
+<ul>
+<li>Dirik, Özge: &quot;<a href="https://kuzeyyildizi.com/files/ozgedirik-siirler.pdf">Özge Dirik Arşivi: Şiirler</a>&quot;, <strong>Kuzey Yıldızı Edebiyat Dergisi</strong>, Yayım Tarihi: 11.04.2014, <a href="https://kuzeyyildizi.com/pdf">https://kuzeyyildizi.com/pdf</a>.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="ikincil-ruhla-pisuar-buluşmaları-10"><a class="header" href="#ikincil-ruhla-pisuar-buluşmaları-10">ikincil ruhla pisuar buluşmaları-10</a></h1>
+<p>Yazarın notu: Gelmedi. Bu iki oluyor. Bir önceki konuşmasının sonunda “peki” deyişime de bozulmuş olabilir. Ama bu tipte, sakalından tonlarca bira akmış adamlar kırılganlıklarını bile saklamayı
+yetenek sanırlar.</p>
+<p>Belki şimdi, ağlayarak mastürbasyon yapmanın nasıl bir şey olduğunu ya da mastürbasyonun şehvetin gözyaşları olduğunu kanıtlamaya çalışıyordur. Ama tek netleştirebildiğim şu saatlerde bu tuvalette
+olması gerektiğini bilip, zamanı daha hızlı geçirmeyi istercesine telaşlı telaşlı hareket ettiği.</p>
+<p>Bu arada, önceki buluşmalarımızdan birinin saatini sormak için
+beni aramıştı. Sarhoş olduğu gece de “redial” tuşundan bulunan
+benim evimin numarasıydı. Yaklaşık 20 kez diksiyon hatası yaparak okuduğu şiirin sonunda da bir adet bol kıvrımlı küfür kazandı
+karımdan. Durumdan ne kadar zevk alsam da, bu denli kabalaşmamasının gerektiğini söylediğim eşimin cevabı bir hayli ilginçti;
+Tüm sülalesinin kutularını açmaktan başka bir seçenek bırakmadı
+ki bana...”</p>
+<hr />
+<p>Kaynak: </p>
+<ul>
+<li>Dirik, Özge: &quot;<a href="https://kuzeyyildizi.com/files/ozgedirik-siirler.pdf">Özge Dirik Arşivi: Şiirler</a>&quot;, <strong>Kuzey Yıldızı Edebiyat Dergisi</strong>, Yayım Tarihi: 11.04.2014, <a href="https://kuzeyyildizi.com/pdf">https://kuzeyyildizi.com/pdf</a>.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="ikincil-ruhla-pisuar-buluşmaları-12"><a class="header" href="#ikincil-ruhla-pisuar-buluşmaları-12">ikincil ruhla pisuar buluşmaları-12</a></h1>
+<p>Evlilik iki kişi arasında yaşanabilecek en çoğulcu kavram. Cehennet
+gibi bir yer yaratıyorsunuz. Tüm duygular iki ile çarpılıyor. Yanılıyorsunuz. Yanlışlarınıza katlanabilecek kadar kendinizle barışıksanız –ne demekse– tonton nineler ve dedeler oluveriyorsunuz. Ayaklı analiz tavırları takınmak istemem ama artık tüm yaşanılanların
+parasal bir boyutu var tabii. Yani kabotaj hakkına sahipseniz ve o
+sularda yalnızca yüzüyorsanız doyum denilen illetten nasibinizi alamıyorsunuz.</p>
+<p>Bir cisim yerini değiştirdiği sıvı hacminin ağırlığı kadar ağırlığından kaybeder. O yüzden yeni boşanmış arkadaşlarımla içmek çok
+hoşuma gidiyor. Arşimet bir gün tuvalete girip tartılır ve işer ve tekrar tartılır ve Arşimet oluverir birden belinden ve dizinden lastikli
+o iğrenç donuyla dışarıya fırlayınca. Evliliğin sonu da böyle. Yıllar
+boyu içinize akıtılan zehri bir işeseniz çok tatlı bir adam oluveriyorsunuz.</p>
+<p>Her evde bond çantasında duran ve altın kaplama olduğu ısrarla
+iddia edilen çatal-bıçak takımları da ilk çeyiz parçası olmakla birlikte evliliklerin özeti olarak nitelenebilir. Kriz anında çanta açılır
+ve çatal-bıçak ile her şey parçalanır, paylaşılır, yalanır ve yutulur.
+Ayrılık bu; en az kim alacaksa en çok o gidecektir.</p>
+<hr />
+<p>Kaynak: </p>
+<ul>
+<li>Dirik, Özge: &quot;<a href="https://kuzeyyildizi.com/files/ozgedirik-siirler.pdf">Özge Dirik Arşivi: Şiirler</a>&quot;, <strong>Kuzey Yıldızı Edebiyat Dergisi</strong>, Yayım Tarihi: 11.04.2014, <a href="https://kuzeyyildizi.com/pdf">https://kuzeyyildizi.com/pdf</a>.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="borun-pazarı"><a class="header" href="#borun-pazarı">bor’un pazarı</a></h1>
+<p>Bir şiirle bitirelim bugün;</p>
+<p>BOR’UN PAZARI</p>
+<p>aynı kadınla ikinci defa evlenmek,<br />
+ikinci defa yakılan sigaranın ağır tadı,<br />
+ha bitti, ha bitecek...</p>
+<p>aynı kadınla üçüncü defa evlenmek,<br />
+denizin demlediği vapur çayı<br />
+ama pahalı.</p>
+<p>aynı kadınla dördüncü defa evlenmek,<br />
+bohçacılar topluyorlar kalanları,<br />
+ısrarkâr geçimsizlikten hoşnut şehrin baro’su.</p>
+<p>aynı kadınla beşinci defa evlenme.</p>
+<hr />
+<p>Kaynak:</p>
+<ul>
+<li>Dirik, Özge: “Bor’un Pazarı”, <strong>Kuzey Yıldızı</strong>, Mart-Nisan 2005, Sayı 11, s. 10.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="ikincil-ruhla-pisuar-buluşmaları-13"><a class="header" href="#ikincil-ruhla-pisuar-buluşmaları-13">ikincil ruhla pisuar buluşmaları-13</a></h1>
+<p>İnsan her zaman biraz yirmili yaşlarındadır ama tam 25 yaşımda bir
+kızı sevmiştim. Bombalı eylem kitaplarına dalmışken çıkıp gelmişti
+rastlantıların rahminden. Kitapları gazeteyle kaplama modası vardı,
+tommiksleri bile gazeteyle, cumhuriyet gazetesi ile kaplar okurduk.</p>
+<p>Ellerine bakar bakmaz sigarayla yatıştırırdım parmaklarımı. Söylediğim her şey baştan aşağı yalandı. Zor anlarıma sıvamak için ezberlediğim özlü sözler uçar, titreyen dudaklarımdan dökülen sözler
+Tuğcu şiirlerine dönüşüp, parkta oynayan tüm çocukları kahkahaya
+boğardı.</p>
+<p>Sanırım, yine birilerini aldatıyordum. Ama onun tek hatasını kolladım. Çocukluğunu, diksiyon çuvallamalarını, yüzündeki birkaç
+sivilceyi onu küçültmek için beynime karşı kullanıyordum. Ama
+sanırım beynimizin kullanamadığımız gönüllü işsiz kısmı bu durumlarda iknaya inat durmak için programlanmıştı.</p>
+<p>Neyse ki kısa süre sonra intihar etti. Yazdığı mektupta yaklaşık 100
+kişiyi etkilemek için yakışıklı cümleler kurmuştu. Ben yoktum ve
+ben de noktaları kendime yonttum.</p>
+<p>Arkadaşlarından aldığı borçlarla iki silah almış. Beyninin sağından
+ve solundan eşzamanlı ateşlemek istemiş. Sanırım ortada kurşunların kesişmesini ve beynini belediye kandırmacası havuzlardaki fıskiyeler gibi simetrik ve gereksiz bir ölüme ayarlamış. Yapmış olduğu
+bu salaklığı duymak ona olan tüm aşkımı bir anda öldürdü. Sağ eli
+tetiğe basar basmaz kafasını parçalayıp, sol elini vurmuş.</p>
+<p>Sol tarafından böyle kirli bahanelerle vazgeçenleri de sevemedim
+bugüne dek.</p>
+<hr />
+<p>Kaynak: </p>
+<ul>
+<li>Dirik, Özge: &quot;<a href="https://kuzeyyildizi.com/files/ozgedirik-siirler.pdf">Özge Dirik Arşivi: Şiirler</a>&quot;, <strong>Kuzey Yıldızı Edebiyat Dergisi</strong>, Yayım Tarihi: 11.04.2014, <a href="https://kuzeyyildizi.com/pdf">https://kuzeyyildizi.com/pdf</a>.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="ikincil-ruhla-pisuar-buluşmaları-14"><a class="header" href="#ikincil-ruhla-pisuar-buluşmaları-14">ikincil ruhla pisuar buluşmaları-14</a></h1>
+<p>Tanrılar bile yaratmış oldukları ruhlardan korkup çok şirin, ayrıntılarıyla düşünülmüş, multi-purpose bedenlerimizi bize yamadılar.
+Yoksa şimdi şeffaf şeffaf dolaşacaktık ortalıkta. Bir dünya düşünün
+kimse kimseyi sevmek, kimse kimseye maruz kalmak zorunda değil.
+Bir ordu bile kuramazsınız. Ama gidiş, bu durumun tersini düşünerek algılayabileceğimiz kadar yalın da değil. Dinden sisteme, ilaçtan
+kediye, kadından babaya her şeyin amacı sizi kendisine bağımlı kılmak. Tanrıların birbirinden bağımsız, özgün denilebilecek bireyler
+yaratma yetileri yok oldu. Onlar artık ya milletler ya tarikatlar ya
+da çıkar amaçlı topluluklar yaratabiliyor. Bunları bölemiyor, parçalayamıyor veyahut bu grupların dünyayı yok etmesini ve kontrolü
+tekrar ele geçirmeyi dilemekten başka şansları yok. Tanrıların dileklerinden bahsediyoruz, tanrıların dualarından.</p>
+<p>Erdem bütünü, doğruların özü olarak niteleyebiliriz tanrıları ve
+yanlışa yöneliyorlar. Kendi cehennemlerinde kendilerini yakmalılar,
+yarattıkları cehennemde yanmalılar eğer tanrı iseler. O yüzden intihar doğruyu tanrıdan önce bulmaktır mıdır?</p>
+<hr />
+<p>Kaynaklar: </p>
+<ul>
+<li>Dirik, Özge: &quot;<a href="https://kuzeyyildizi.com/files/ozgedirik-siirler.pdf">Özge Dirik Arşivi: Şiirler</a>&quot;, <strong>Kuzey Yıldızı Edebiyat Dergisi</strong>, Yayım Tarihi: 11.04.2014, <a href="https://kuzeyyildizi.com/pdf">https://kuzeyyildizi.com/pdf</a>.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="ikincil-ruhla-pisuar-buluşmaları-15"><a class="header" href="#ikincil-ruhla-pisuar-buluşmaları-15">ikincil ruhla pisuar buluşmaları-15</a></h1>
+<p>Kontrollü kopya değilim ben, yedi aylığım, üç kilo doğan yedi aylıklardan. Hem annemle babam benden yedi ay önce de evlenmemişler. O yüzden sevmem pek bekletilmeyi, bir daha olmasın.</p>
+<p>Eşin hamile. Dün gazeteyi aradım seni evde bulamayınca. Kadınlar
+olgunlaştıklarını iddia ederler hamileliklerinde. Fiziksel güzelliklerini kaybedince tüm silahlarını kaybediyorlarmış gibi. İçlerindeki
+yaratığın onları kemirdiği herkesçe bilinince isteklerine istek katıp
+hiç olmadığı, hiç olmayacağı kadar kendilerine benzerler. Bu olgunlaşma sayılabilir bir anlamda, ayna tutarlar içlerine. Ama bunu vitamini bol gözler görebilir yalnızca, vitamini bol, uyuşturucusu az
+gözler. Tanrıya şirk koşarlar, ah hamilelik en büyük günah olabilir
+bir anda.</p>
+<p>Dokuz ay içinde, tüm sorunlarla başa çıkabilecekmiş havasında bir
+mimik yerleşecek senin de suratına. Dayanılmaz, bağışlanması zor,
+içi boş bir mimik. Her hareketinde göz ucuyla onu izlediğini bilecek, hayatınızın en sarmasarışık, en sırnaşık hali.</p>
+<p>İçindeki canlı için ona daha çok değer vermen hiç acıtmayacak onu.
+Bundan daha ilginci bunu bilip, senin de hiç şaşırmaman, gizlemeye çalışmaman olacak yapmacıklıklarını. Dokuz ay boyunca kör
+dövüşü.</p>
+<p>Eğer doğumda, doktor çıkıp da “Elimizden geleni yaptık ama bir
+tercih yapmak zorundasınız; Eşiniz mi? Çocuk mu?” derse üçüncü
+şıkkı sor ona. Eğer varsa üçüncü şıkkı seç, halihazırda iki hüznün
+de varken, boğaza git rakı-balığa. İlk aşkını da çağır. Ağla ona. Eli
+yüzünde dolaşsın muzip bir gülüş içinde.</p>
+<hr />
+<p>Kaynaklar: </p>
+<ul>
+<li>Dirik, Özge: &quot;<a href="https://kuzeyyildizi.com/files/ozgedirik-siirler.pdf">Özge Dirik Arşivi: Şiirler</a>&quot;, <strong>Kuzey Yıldızı Edebiyat Dergisi</strong>, Yayım Tarihi: 11.04.2014, <a href="https://kuzeyyildizi.com/pdf">https://kuzeyyildizi.com/pdf</a>.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="ikincil-ruhla-pisuar-buluşmaları-17"><a class="header" href="#ikincil-ruhla-pisuar-buluşmaları-17">ikincil ruhla pisuar buluşmaları-17</a></h1>
+<p>Sıkı bir müslümandı babam, ama yoksuldu. Dinleri bilirsin, zenginlere doyum vermek amacıyla tasarlanmıştır. Putsal yerlere turneleri, aerobik seansları, bayramları, hayır işleri, sanal açlıkları vardır.
+İşte bu bayramlardan birinde alnımda kırmızı şarap iziyle zenginliği
+öğretmişti babam. Yedi yaşıma kadar elimden tuttu benim. Öyle ki;
+önümüzden geçen her bisikletli çocuk acı verirdi ona. Hissederdim,
+çünkü bir dramı hissettirmenin en iyi yolu hissettirmemeye çalışmaktır.</p>
+<p>Diken dikendi elleri, parmağını alyansa kaptırması dışında bir iş kazası da gelmemişti başına. Aynı imalathanenin çalışanlarıydı annem
+ile babam. Üniversiteye gidinceye kadar bir gece bile uzak kalmadım onlardan, yalnızca 1 Mayıs’ta ortadan kayboluyorlardı. Emekçi
+diyorlardı kendilerine, bana kalırsa benden başka hiçbir şeye sahiplik etmiyorlardı. 1 Mayıs eylemlerine katılıyor, kırıp döküyorlardı
+gönüllerince. Gece kulüplerinde kırılan tabaklarla eş bir yaklaşımdı.
+Yalnızca bir fazlası vardı; toplumsal mastürbasyondu yaptıkları. Sistem içlerinde bir yıl vadeli bir hesap açmış, tüm yamukluklarını
+orada biriktirmişti onların. Fanatiktiler, emekçi diye bir takım kurmuşlardı, her yılın 1 Mayıs’ında maçlara giderlerdi. Devlet onları
+şarj etmek için polislerin ellerine birer jop verir, organizatörlüğü
+tüm şanıyla yürütürdü.</p>
+<p>Hiç unutmuyorum bir gün Deniz adında bir abi, hiçbir sessiz harfi çıkmadan üstelik, bilmiş Devrim kelimesini. Kazanmış olmasına
+rağmen bir daha haber alınamamış ondan ama oyunun adı asmacaymış.</p>
+<hr />
+<p>Kaynaklar: </p>
+<ul>
+<li>Dirik, Özge: &quot;<a href="https://kuzeyyildizi.com/files/ozgedirik-siirler.pdf">Özge Dirik Arşivi: Şiirler</a>&quot;, <strong>Kuzey Yıldızı Edebiyat Dergisi</strong>, Yayım Tarihi: 11.04.2014, <a href="https://kuzeyyildizi.com/pdf">https://kuzeyyildizi.com/pdf</a>.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="ikincil-ruhla-pisuar-buluşmaları-31"><a class="header" href="#ikincil-ruhla-pisuar-buluşmaları-31">ikincil ruhla pisuar buluşmaları-31</a></h1>
+<p>bu şiir biraz ayıp bayım<br />
+şimdiden uyarayım<br />
+henüz ilkokuldayken<br />
+bakir şehvetlerdi en sevdiğim dersin adı<br />
+ders türkçe, bildiğiniz dilbilgisi<br />
+benim öğrendiğim ise<br />
+hiç evlenmemiş bir vücudun dili.</p>
+<p>bu şiir biraz küstah bayım<br />
+cuma namazında bir tezgâhtar<br />
+bar tezgâhtarı<br />
+gözünüzden beyninize giden kelimeler<br />
+bağboğan tohumları.</p>
+<p>bu şiir belayı satın almak bayım<br />
+küfrediyor “stay with me” dediğiniz her mahlûka<br />
+sonuna dokuz sıfırla bilek çıkaran pazarlıklara girişiyor<br />
+cenini sakat hamleler yiyor.</p>
+<p>bu şiir yad ellerin yad ettiği şairlerin öfkesiyle<br />
+tasfiye nedeniyle yazıldı bayım.<br />
+karısını bir cinle basalı<br />
+yakası açılmadık laflar ediyor<br />
+her sevda gibi<br />
+ilk buluşmada ölçü<br />
+son buluşmada öc alıyor.</p>
+<p>bu şiir balayı baltalayan kaynana dili bayım<br />
+modern asyanın devrimleri yani;<br />
+zincirleme dil sürçmesi.<br />
+sürçmüşken<br />
+kaldırmalı tanrının idamından önceki tüm idamları<br />
+farkında mısınız bayım, korsan baskı korkusu bu;<br />
+kitap falan yazamıyor tanrı artık.</p>
+<p>bu şiir ölüme susayıp, çok içmek bayım<br />
+laf aramızda<br />
+pisuarın duvarlarını bu denli iyi kullandığınıza göre<br />
+sorunlarınızı bana anlatabilirsiniz bayım.</p>
+<p>bu şiir işleyen demirin yaşlanması<br />
+yaşlanan demirin ise paslanmasıdır bayım.<br />
+annem yanlış adamı seçtiği için<br />
+onbir taneydi bizde, ayların sultanları<br />
+atlı karıncamdayken jeton tazeleyecek bir baba arıyorum şimdi<br />
+annem beni<br />
+sizden doğaçlamış olabilir mi bayım?</p>
+<p>bayım...!?</p>
+<hr />
+<p>Kaynak: </p>
+<ul>
+<li>Dirik, Özge: “İkincil Ruhla Pisuar Buluşmaları-31”, <strong>Öteki-siz</strong>, Temmuz-Ağustos-Eylül 2006, Sayı 6, s. 4.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="ikincil-ruhla-pisuar-buluşmaları-36"><a class="header" href="#ikincil-ruhla-pisuar-buluşmaları-36">ikincil ruhla pisuar buluşmaları-36</a></h1>
+<p>Küçüktüm.<br />
+Bir kazı-kazan gibi hissederdim kendimi.<br />
+Yalnızlık desen, baş edemezdim bütünüyle.<br />
+Aşk desen, bağımlıydı değişkenlere.<br />
+Ayda bir görebiliyordum O’nu, günde üç paketten binsekizyüz<br />
+      izmarit<br />
+ediyordu nerden baksanız.<br />
+Ciğerlerden bakmayınız mümkünse.<br />
+Ayrıldım sonra. Rüyalarımda sık sık rastladığım katile âşık<br />
+      olmuştum.<br />
+Oturup, beyin nektarı içerdik.</p>
+<p>Sarmaşıklar, elektrik direklerini saklardı.<br />
+perdeler, olası kardeşlerimi.<br />
+bakkal, sigaraları.<br />
+O yüzünü saklardı.<br />
+Benim kalbimin ise dağdelen tutkuları olmadı hiç.<br />
+Ama ben de herkes gibi şehvete adayamadım âşığımın hayalini.</p>
+<p>Tanrı bana baksa abdesti bozulurdu. Rüşveti tanıyordum; evlere
+temizliğe giden annemin benim gülüşüme muhtaçlığında babama
+aldığı rakıydı. Cebimdeki bozuklukları dilencilere bırakmaya başladım sonra. O derin ve pahalı dileklerim adına, birden fazlasının
+şıkırdadığı sistem jetonlarından vazgeçmiştim. Aylar geçti, anladım;
+az vermiştim kaz gelecek yere.</p>
+<p>Beynimdeki bozukluklar için dilenenler de oldu. Yüzlerine bile
+bakmıyordum; hepsi birer “hayal et”ti zaten.</p>
+<p>Sonra birkaç akbaba üşüştü başıma. Onlara sorarsanız başka bir
+gezegenden geliyor, kendilerine akraba diyorlardı. Beyaz bir hücreye
+kapattılar beni, ah baba ah.</p>
+<p>Hücrelerarası, F to F, satranç turnuvasını kazandım orada da.</p>
+<p>Kendini kale, fil, at, şah, vezir ve bazen mat zanneden arkadaşlar
+çokçaydı da, insanları piyon olmaya razı etmek için çok uğraştığımı
+hatırlıyorum.</p>
+<p>Size bizim oralardan bir soru:</p>
+<p>–Kurtlu bir elmayı ısırdığınızda göreceğiniz en kötü sahne nedir?</p>
+<p>–Yarım bir kurt</p>
+<p>değil tabii. Bu yanıtla yarım kurt kazançlısınız. Kurtlu olduğu kesin
+olarak saptanan bir elmayı ısırdığınızda göreceğiniz en kötü sahne
+“artık kurtsuz” bir elmadır.</p>
+<p>yaa</p>
+<p>ya...</p>
+<p>(Not: Bizim buralarda en çok sorusu, en az yanıtı olan kazanır.)</p>
+<hr />
+<p>Kaynaklar: </p>
+<ul>
+<li>Dirik, Özge: &quot;<a href="https://kuzeyyildizi.com/files/ozgedirik-siirler.pdf">Özge Dirik Arşivi: Şiirler</a>&quot;, <strong>Kuzey Yıldızı Edebiyat Dergisi</strong>, Yayım Tarihi: 11.04.2014, <a href="https://kuzeyyildizi.com/pdf">https://kuzeyyildizi.com/pdf</a>.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="pis-duvar"><a class="header" href="#pis-duvar">pis-duvar</a></h1>
+<p>Acısını bana gösteren kadın kilometrelerce yakınımdaydı dün. Kıvırcık saçlarına dolamıştı umutlarını. Çekince bir telini görüyor olmalıydı geçmişinin bembeyaz olduğunu.</p>
+<p>Hiç dokunmadan anlattığımda gençtim daha. Şu kötü hayaller kurup, onlara ağlayabildiğim yaş. Sanırım aşktı; takip mesafesini koruyamayanlara tanrının verdiği ceza.</p>
+<p>Bir eli babasındayken diğer eli üşüyen ve zamanla üşüten çocukluğum avucunda paslı jiletler sıkıp intikam büyütmeye başladı. Üşüyen elime babamın bazı ihtiyaçlarını –çocukların anlayamayacağı
+ihtiyaçlarını– sömüren bir hanımefendi ne zaman refakat etse, üç
+kere kitlerdim kafamın kapısını.</p>
+<p>Sonra acısını bana gösteren kadın anlamını çaldı, öznesi jokerli intikam yeminlerimin.</p>
+<p>Bana acısından tattıran kadın, unutturuverdi defolu aynalara benzeyen insanları.</p>
+<p>Dünyaya güzelliğini bin parça kapatan o kadın, baş başa kaldığımızda dün, sıyırdı yüzünden maskesini.</p>
+<p>Aman Allahım;<br />
+daha güzel bir kadın...</p>
+<hr />
+<p>Kaynak: </p>
+<p>Dirik, Özge: “Pis-duvar”, <strong>Kuzey Yıldızı</strong>, Mart-Nisan 2005, Sayı 11, s. 16.</p>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="ikincil"><a class="header" href="#ikincil">ikincil</a></h1>
+<p>Ağlıyorduk.<br />
+Kendi elleriyle dolduruyordu tanrı, kadehlerimizi.</p>
+<p>Karanlıktı gece.<br />
+Saadeti bulan göbeğe kalkıyordu karabacaklı dansözün ritminde.</p>
+<p>Birden fırladı ortaya bir adam; İskoç’tu adı.<br />
+“beyler” dedi<br />
+“bugün yeni biri var aramızda<br />
+dün uyutulmuş, çiçeği koynunda bir fahişe”</p>
+<p>Tüm utangaçlığıyla süslüyordu batağı kadın. Darbukayla beraber
+anasının parmaklarını döktü saçından bir bir.</p>
+<p>Bu kadını buralara kadar sürüklemek zordu tabii, katil eller cebe girdi;
+her erkek parası kadar okşadı dünyasını.</p>
+<p>Zamana direnen şarkılara yetmiyordu sesi. Gözyaşlarıyla söylüyordu
+şarkıları, o zamana kadar inanmamıştım striptizin bir adamı
+uyarabileceğine.</p>
+<p>Her gece aynı batağa takılmaya başladık arkadaşlarla. Kaçırılacak fırsat
+değildi elbet, bir hüznü bu kadar ucuza sahiplenmek.</p>
+<p>Zamanla yakalamaya başladım kadının gözlerini. Her seferinde acım
+biraz daha diniyor, kafam sığmamaya başlıyordu batağa.</p>
+<p>Kombine hüznü keşfetmişken bu kentte, bir gün geriye düşürerek
+boynunu, doyurmamı istedi iki göğsünün arasındaki kumbarayı. Kira,
+bozukluk, su, ne bulursam ödedim öfkemi.</p>
+<p>Çıkarken darbukacının kucağında oturuyordu. Dudaklarının ucundaki
+sigara ateşine takıldım, göremeden gözlerini.</p>
+<p>Bir daha da gitmedik oraya.<br />
+Nasıl gidelim?<br />
+bize bakan biz oluyordu zamanla...</p>
+<hr />
+<p>Kaynaklar: </p>
+<ul>
+<li>Dirik, Özge: &quot;<a href="https://kuzeyyildizi.com/files/ozgedirik-siirler.pdf">Özge Dirik Arşivi: Şiirler</a>&quot;, <strong>Kuzey Yıldızı Edebiyat Dergisi</strong>, Yayım Tarihi: 11.04.2014, <a href="https://kuzeyyildizi.com/pdf">https://kuzeyyildizi.com/pdf</a>.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="ikincil-ruhla-pis-duvar-buluşmaları"><a class="header" href="#ikincil-ruhla-pis-duvar-buluşmaları">ikincil ruhla pis-duvar buluşmaları</a></h1>
+<p>on iki sandalyeli bir masayla, masanın gençliğinden konuşuyorduk.<br />
+on bir sandalye ve iki intihar büyütmüş balkon pür dikkat beni<br />
+      dinliyorlardı.</p>
+<p>zamanın mücadelesi armağan etmişti bizi, birbirimize.<br />
+pireli bir devletin kanatlarının arasındaki karıncalardık.<br />
+ne söylesek ayıptı biraz söylemesi.</p>
+<p>dahası an, tıbben ölüydü.<br />
+atık kamyonlarında mühürlü bir yürek<br />
+şehir çöplüğünde martı ziyafetinden önce<br />
+bir film setine emanet edilirdi belki,<br />
+korkuturdu yine bizi.</p>
+<p>senin dünyanda vapur kalkınca<br />
+balıklar çamaşır yıkardı<br />
+içindeki hileli sayaçların aritmetiği<br />
+sıfırdan sıkılmıyordu bir türlü</p>
+<p>tırabzanlardan aşağıya<br />
+ayaklarını sallandırıp<br />
+annesine hınzır hınzır gülen o çocuk<br />
+uçurumlara gözlerini gıdıklatacak yaşa çoktan geldi.<br />
+ama ikimiz de biliyorduk<br />
+elleri harita kadar acılı her annenin son görevi<br />
+çocuğunu öleceği yaşa büyütmekti.</p>
+<p>sağır ve dilsizler ülkesinde<br />
+kulaktan kulağa oynarken özgürlük düşün,<br />
+sigaranla aynıydı aşkının geleceği<br />
+duman hali.</p>
+<p>şimdi biz,<br />
+yatırılmamış bir şans kuponu<br />
+pişmanlık olur en iyi ihtimalimiz.</p>
+<p>oysa<br />
+mendil satar yine de bakardım bu kente<br />
+olsaydın içinde.</p>
+<p><em>ist(a)kozyatağı</em></p>
+<hr />
+<p>Kaynak:</p>
+<ul>
+<li>Dirik, Özge: “İkincil Ruhla Pis-duvar Buluşmaları”, Kuzey Yıldızı, Temmuz-Ağustos 2006, Sayı 13, s. 4.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="ezberlenen-cin-ayet"><a class="header" href="#ezberlenen-cin-ayet">ezberlenen cin ayet</a></h1>
+<ul>
+<li><a href="./ezberlenen-cin-ayet/bad-dua.html">bad dua</a></li>
+<li><a href="./ezberlenen-cin-ayet/index.html">ezberlenen cin ayet</a></li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="bad-dua"><a class="header" href="#bad-dua">bad dua</a></h1>
+<p>      Oniki sandalyeli bir masayla gençliğinden konuşuyorduk susarak.
+Çocukluğumun kurban bayramlarında babası zengin olan arkadaşlarımdan öğrendim hüzünlere ortakçılık yapmayı. Senin bana geldiğin,
+mutluluğuma şaşıracak kadar küçük olduğum zamanlarda taşırdım
+değirmenimin suyunu. Bir kuşun pirelerini temizlemek için gagası ile
+seçip, kanatlarının arasına yerleştirdiği iki karıncaydık, devrin mücadelesi armağan etmişti birimizi birimize. Cennette tanrının bile bilmediği yerler olduğunu söylerdi annem arkasından gitmeyeyim diye.
+O ay yüzü cehennemi düşünürmüş demek ki kendine. Ama biz yine
+de o yerlerden birinde tanışacağız seninle.</p>
+<p>– memnun öldüm.<br />
+– ben de memnun öldüm.</p>
+<p>      Henüz kırklı yaşlarına borçlanmadan gitmen “daha” ve “erken” kelimelerinin uçuşmasına yol açtı bu kentte. İntiharı bilirsin; camiiden
+mezarevine kadar yalnızca başrol oyuncusuna yüklerler tabutu. Daha
+kısık seslerle sorgulanır ölüm. Cezası katile bırakılmış tek cinayet
+türüdür, kelimelerle arkadan taşlayıp yalnız yürütürler adamı. Ama
+ben alışığım. Ki bizim yalnızlığımız henüz altıncı ayında öğrenmişti
+emeklemeden yürümeyi. İnsanın anahtarıyla kapısını açmadan önce
+sorgulayacağı özürleri olmaması ne denli büyük bir mutluluktu. Tanrım bize yaptırdığınız mutluluk tanımlarına baksanız, bak ve öl lütfen, bakınız ve ölünüz lütfen.</p>
+<p>      Kolay değildi bakışlarında boydan boya yüzmek için rengârenk dubalarını yerleştirirdi siyaha. Ardına geçmek ölümdü biraz. Cehaletin
+savaşlarında hunharca katledilen bebekleri neden aldıysan gözlerinin
+içine, o yüzdendi tutsaklığım dumanların acılı geometrisine. Acıları
+kesip, sağlam bir kuyruk yaptım kendime, salınabilmek için gözlerine.
+Hiçbir kente sığmıyor şimdi kuyruğum, kendim kendini sokup başka
+bir yılan sanıyor sürüklediği seferberlik hallerini.</p>
+<p>      Öptüklerimiz biraz putlaşır, doğru. Ama ellinci yaş gününüzde
+aldattım sizi, hani ayıp biraz söylemesi. Hem avaz avaz sevişip, hem
+de tecavüz sancılarından bağlanan dilim hep tek-bir cümlenizi tekrarlıyordu;</p>
+<p>“bir putperesti uzay boşluğuna bırakırsanız, sonsuzluğa tapar.”</p>
+<p>      Eliniz bendeyken kalkan vapurda balıklar çamaşır yıkardı türkü çığıra çığıra. Eliniz kim bilir kimdeyken kalkan vapurda kürekte mahkûm
+esirler siyaha sabretmekten ölür, hiç olmazsa denizi dinlendirirlerdi,
+ittirirken vapuru son nefesleriyle.</p>
+<p>      Mendil satar yine de bakardım bu kente<br />
+olsaydınız içinde...</p>
+<hr />
+<p>Kaynaklar: </p>
+<ul>
+<li>Dirik, Özge: &quot;<a href="https://kuzeyyildizi.com/files/ozgedirik-siirler.pdf">Özge Dirik Arşivi: Şiirler</a>&quot;, <strong>Kuzey Yıldızı Edebiyat Dergisi</strong>, Yayım Tarihi: 11.04.2014, <a href="https://kuzeyyildizi.com/pdf">https://kuzeyyildizi.com/pdf</a>.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="ezberlenen-cin-ayet-1"><a class="header" href="#ezberlenen-cin-ayet-1">ezberlenen cin ayet</a></h1>
+<p>Maktul: Gökhan Ösme</p>
+<p>Evinde ölü ya da diri bulunan bir sürü adamın hikâyesini dinledim
+şimdiye dek. Ama bu defa durum biraz farklı, yani hayat tam kendini
+tüketiyorken sıradışı olaylarla yenileniyor. Özellikle sıradışı ölümler;
+tanrının bu düzeni sürdürürken şaşırdığı tek gerçeklik.</p>
+<p>Her neyse, anlatacak o kadar çok şey var ki, gevezelik bir maliyettir
+şu an.</p>
+<p>Önce maktulün evine giriliyor. Bir katil ile bir sanatçı arasındaki fark
+tek cümleye sığmaz elbette, ama bu sefer katilin depoladığı şeyler bir
+ömre sığacak türden değil.</p>
+<p>Katil zile basıyor bir pazar sabahı ve maktul belki de gazete uzatan,
+bildik bir kapıcı eli bekliyor, ama kapıyı açar açmaz bayılıp, düşüyor.
+Getirdiği malzemeleri ve tahminen maktulün vücudunun kapının dışına taşan kısmını içeri alıyor. Önce bakırdan bir çay kaşığı yardımıyla
+adamın gözlerini çıkarıyor, gözlerden birinin epeyce hızlanıp, salondaki halıda yuvarlandığı gözleniyor.</p>
+<p>Maktulün vücudundaki yaralardan anlaşıldığı kadarıyla, katil bir jilet yardımıyla topuktan ve koltuk altından dört-beş dilim et kazıyor.
+Adamın vücudundaki altı adet “ben” de aynı jiletle kesilip, gözün çıkartıldığı çay kaşığına diziliyor, çay kaşığının ortasındaki boş alanda
+da maktulün göğüs uçları bulunuyor. Burnun derisi sıyrılarak, jilet
+yardımıyla topuktan ve koltuk altından kazınan et parçalarının üstüne yerleştiriliyor. Evin kamerası çok net değil, ancak katilin maktulden çıkardığı parçaları koyduğu tabağı izlemeye yetiyor.</p>
+<p>Oldukça şişman bir vücuda sahip olan maktulün sırtındaki kaslardan,
+küçük bir pideyi tamamlarcasına parçalar kesiliyor. Bana en iğrenç gelen nokta ise, maktulün deşilen göbeğinden çıkartılmış yağ parçaları.
+Dünyanın en iri göbeğinin bile bağırsakların görünmesini engellemek
+gibi çok estetik bir görevi olduğunu hatırlıyor insan cesede bakınca.</p>
+<p>Cesetle işini bitiren adam, mutfağa yöneliyor sonra. Bir tavada çıkarttığı parçaları kızartıyor, mutfak kameradan görüntülenemediği için bu kısım biraz silik. Ama yaklaşık yirmi dakika sonra elindeki beyaz,
+oval ve oldukça büyük bir restaurant tabağıyla yemek masasına oturuyor katil. Tabağın altına maktulün vücudundan pide biçiminde kestiği
+sırt kaslarını yatırmış olan katil, üzerine jiletle kazıdığı ve sonrasında
+kızarttığı topuk ve koltuk altı filetolarını yerleştirmiş. Çok yağlı görünen bu yemeği de adamın göbeğinden çıkarttığı yağlarla yapmış. Tabağın sağ kısmında ise yoğurt var. Yoğurt tamamen bildiğimiz yoğurt,
+hiçbir şekilde maktulden yapılmamış. Yoğurdun yanında ise adamın
+kendi yağında biraz fazla kavrulmuş, hatta yanmaya yakın göğüs uçları
+ve burun derisine sarılmış ben’leri var. Bu, insandan imal edilmiş ve
+insan yapımı yemeğin tam ortasına adamın renkli gözleri koyulmuş,
+bir gözün üzerinde bordo renkli halının tüyleri var.</p>
+<p>Yemek yenmemiş, sadece hazırlanmış. Ama olayı cinayet literatürüne
+geçiren şey, maktulün gözlerine metalimsi bir iplikle dikilen açma halkaları. Katil kutu kolalardan bozulmadan çıkardığı açma halkalarını,
+büyük bir özenle maktulün gözlerine dikmiş.</p>
+<p>Bu durumu bir sanat olayına çeviren şey ise, kokudan dolayı, kapıyı
+kırarak eve giren polislerden birinin açma halkalarının yalnızca birini cesetin gözünden söküp, çalması. Kamerada görüntülenemese de o
+gün eve giren iki polisten biri olan Cem, çok sonra anlaşılabileceğini
+bilmeden, çaldığı halkanın arkasında yazan şifreyi cep telefonuyla çekilişe yolluyor ve kocaman bir arabayı kazanan kişi olarak açıklandığında, ardışık olan açma halka seri numaraları onu ele veriyor, cinayet
+mahallindeki delillere zarar vermekten 3 yıl hapis yiyor ve aynı hapisteki maktulün kardeşi tarafından dövülerek öldürülüyor.</p>
+<hr />
+<p>Kaynaklar: </p>
+<ul>
+<li>Dirik, Özge: &quot;<a href="https://kuzeyyildizi.com/files/ozgedirik-siirler.pdf">Özge Dirik Arşivi: Şiirler</a>&quot;, <strong>Kuzey Yıldızı Edebiyat Dergisi</strong>, Yayım Tarihi: 11.04.2014, <a href="https://kuzeyyildizi.com/pdf">https://kuzeyyildizi.com/pdf</a>.</li>
+</ul>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="kaynakça"><a class="header" href="#kaynakça">kaynakça</a></h1>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+        
+        <script type="text/javascript">
+        window.addEventListener('load', function() {
+            window.setTimeout(window.print, 100);
+        });
+        </script>
+        
+        
+
+    </body>
+</html>
