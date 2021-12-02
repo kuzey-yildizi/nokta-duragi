@@ -11,4 +11,4 @@ bak baba, o huzurhanede zaman denilen illetten saklansan da, bir saat yakalar mu
 ---
 Kaynak:
 
-- Dirik, Özge: “Zaman-e”, **Kuzey Yıldızı**, Aralık 2002, Sayı 6, s. 5,.
+- Dirik, Özge: “[Zaman-e](https://kuzeyyildizi.com/dergi/6/zaman)”, **Kuzey Yıldızı Edebiyat Dergisi**, Aralık 2002, [Sayı: 6](https://kuzeyyildizi.com/files/ky06.pdf), s. 5,.
