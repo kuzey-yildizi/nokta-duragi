@@ -36,4 +36,4 @@ _Nisan 2002_
 ---
 Kaynak:
 
-- Dirik, Özge: “*** [Kanun]”, **Kuzey Yıldızı**, Aralık 2002, Sayı 6, s. 17.
+- Dirik, Özge: “[*** [Kanun]](https://kuzeyyildizi.com/dergi/6/ozge.dirik)”, **Kuzey Yıldızı Edebiyat Dergisi**, Aralık 2002, [Sayı: 6](https://kuzeyyildizi.com/files/ky06.pdf), s. 17.
