@@ -172,4 +172,4 @@ _2002-2003 İstanbul_
 ---
 Kaynak:
 
-- Dirik, Özge: “Kim-lik”, **Kuzey Yıldızı**, Ekim-Kasım 2003, Sayı 9, s. 16-17.
+- Dirik, Özge: “[Kim-lik]”(https://kuzeyyildizi.com/dergi/9/kim-lik-ozge.dirik), **Kuzey Yıldızı Edebiyat Dergisi**, Ekim-Kasım 2003, [Sayı: 9](https://kuzeyyildizi.com/files/ky09.pdf), s. 16-17.
