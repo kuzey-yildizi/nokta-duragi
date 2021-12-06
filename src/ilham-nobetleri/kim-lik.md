@@ -83,7 +83,7 @@ uçurtması uçurtmaların korkulu rüyası.
 evden jilet aşırıp, kesti yanaşan uçurtmanın kuyruğunu  
 hayalinde aldatılmış bir kadın vardı...  
   
-5. kimsesiz  
+**5. kimsesiz**
   
 ne güzel büyüdük  
 kimseler bilmeden bizi.  
