@@ -22,4 +22,4 @@ omuzlarında tozlu günahlar...
 Kaynak:
 
 - Dirik, Özge: **Kuzey Yıldızı Yazarları** E-posta Grubu, 4 Eylül 2003, Sayı: 784.
-- Dirik, Özge: “[Heykel](https://kuzeyyildizi.com/dergi/11/heykel)”, **Kuzey Yıldızı Edebiyat Dergisi**, Mart-Nisan 2005, [Sayı: 11](https://kuzeyyildizi.com/sites/default/files/ky11.pdf), s. 15.
+- Dirik, Özge: “[Heykel](https://kuzeyyildizi.com/dergi/11/heykel)”, **Kuzey Yıldızı Edebiyat Dergisi**, Mart-Nisan 2005, [Sayı: 11](https://kuzeyyildizi.com/files/ky11.pdf), s. 15.
