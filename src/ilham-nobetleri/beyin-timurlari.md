@@ -42,4 +42,5 @@ ne sol, anahtar...
 ---
 Kaynak:
 
-- Dirik, Özge: “Beyin Timur’ları”, **Kuzey Yıldızı**, Mart-Nisan 2005, Sayı 11, s. 16.
+- Dirik, Özge: **Kuzey Yıldızı Yazarları** E-posta Grubu, 26 Eylül 2003, Sayı: 784.
+- Dirik, Özge: “[Beyin Timur’ları](https://kuzeyyildizi.com/dergi/11/beyin.timurlari)”, **Kuzey Yıldızı Edebiyat Dergisi**, Mart-Nisan 2005, [Sayı: 11](https://kuzeyyildizi.com/files/ky11.pdf), s. 16.
