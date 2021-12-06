@@ -44,4 +44,5 @@ hep dışladılar.
 ---
 Kaynak:
 
-- Dirik, Özge: “Ruh Söküğü”, **Kuzey Yıldızı**, Mart-Nisan 2005, Sayı 11, s. 19.
+- Dirik, Özge: **Kuzey Yıldızı Yazarları** E-posta Grubu, 12 Kasım 2003, Sayı: 1046.
+- Dirik, Özge: “[Ruh Söküğü](https://kuzeyyildizi.com/dergi/11/ruh.sokugu)”, **Kuzey Yıldızı Edebiyat Dergisi**, Mart-Nisan 2005, [Sayı: 11](https://kuzeyyildizi.com/files/ky11.pdf), s. 19.
