@@ -47,4 +47,4 @@ bir daha geçip geçemeyeceğini...
 ---
 Kaynak:
 
-- Dirik, Özge: “Makas”, **Kuzey Yıldızı**, Mart-Nisan 2005, Sayı 11, s. 22.
+- Dirik, Özge: “[Makas](https://kuzeyyildizi.com/dergi/11/makas)”, **Kuzey Yıldızı Edebiyat Dergisi**, Mart-Nisan 2005, [Sayı: 11](https://kuzeyyildizi.com/files/ky11.pdf), s. 22.
