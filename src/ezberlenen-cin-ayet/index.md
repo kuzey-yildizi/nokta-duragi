@@ -48,8 +48,3 @@ kırarak eve giren polislerden birinin açma halkalarının yalnızca birini ces
 gün eve giren iki polisten biri olan Cem, çok sonra anlaşılabileceğini
 bilmeden, çaldığı halkanın arkasında yazan şifreyi cep telefonuyla çekilişe yolluyor ve kocaman bir arabayı kazanan kişi olarak açıklandığında, ardışık olan açma halka seri numaraları onu ele veriyor, cinayet
 mahallindeki delillere zarar vermekten 3 yıl hapis yiyor ve aynı hapisteki maktulün kardeşi tarafından dövülerek öldürülüyor.
-
----
-Kaynaklar: 
-
-- Dirik, Özge: "[Özge Dirik Arşivi: Şiirler](https://kuzeyyildizi.com/files/ozgedirik-siirler.pdf)", **Kuzey Yıldızı Edebiyat Dergisi**, Yayım Tarihi: 11.04.2014, [https://kuzeyyildizi.com/pdf](https://kuzeyyildizi.com/pdf).
