@@ -29,6 +29,4 @@ sen, içimdeki üçben
 bazı notalarda sevişemeyiz Ania.
 
 ---
-Kaynak:
-
 - Dirik, Özge: “[Anestezi](http://web.archive.org/web/20041112232442/http://www.dergi.org/262003/0302.htm)”, **Dergi@Net internet dergisi**, Mart-Nisan 2003, Sayı 26.

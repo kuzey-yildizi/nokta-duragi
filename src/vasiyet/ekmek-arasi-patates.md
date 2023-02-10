@@ -33,9 +33,6 @@ Disney’de kahkaha gazıyla ağlayan çocukluğuna,
 Amasya’da çürük elmalarla büyüyen gençliğine,  
 çiçek bozuğu kadın felçlerini de ekleme.
 
-_28 Ağustos 2002_
-
+<div style="text-align: right"><p>28 Ağustos 2002</p></div>
 ---
-Kaynak: 
-
 - Dirik, Özge: “[Ekmek Arası Patates](https://kuzeyyildizi.com/dergi/7/ekmek.arasi.patates-ozge.dirik)”, **Kuzey Yıldızı Edebiyat Dergisi**, Mart-Nisan 2003, [Sayı: 7](https://kuzeyyildizi.com/files/ky07.pdf), s. 13.

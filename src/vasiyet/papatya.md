@@ -21,9 +21,7 @@ ince bellerine dayanamadan,
 beni de aldatıyordur belki,  
 sevinince terleyen parmakların.  
 
-_Şubat 2002_
 
+<div style="text-align: right"><p>Şubat 2002</p></div>
 ---
-Kaynak:
-
 - Dirik, Özge: “[Papatya](https://kuzeyyildizi.com/dergi/4/papatya-ozge.dirik)”, **Kuzey Yıldızı Edebiyat Dergisi**, Ağustos-Eylül 2002, [Sayı: 4](https://kuzeyyildizi.com/files/ky04.pdf), s. 16

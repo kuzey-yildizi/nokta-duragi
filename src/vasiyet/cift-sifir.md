@@ -29,5 +29,4 @@ sana yakın durunca
 ismimi kazıyorum gövdene  
 çakımla...
 
-_perşembe/cuma_  
-_00:00_
+<div style="text-align: right"><p>perşembe/cuma</p><p>00:00</p></div>

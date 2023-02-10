@@ -19,6 +19,4 @@ ama cinayet işlemeden
 okumazlar bu gerçeği adamın yüzüne...
 
 ---
-Kaynak:
-
 - Dirik, Özge: “Özge”, **Hece**, Nisan 2003, Sayı 76, s. 67

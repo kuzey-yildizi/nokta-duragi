@@ -23,6 +23,4 @@ kırlangıç renginde kısık bir uğultu
 biraz dinlen ve git sonra.
 
 ---
-Kaynaklar:
-
 - Dirik, Özge: “Ruh Ruleti”, **Hece**, Şubat 2003, Sayı 74.

@@ -34,7 +34,5 @@ yanındaki çukura
 söz vermişim.
 
 ---
-Kaynak:
-
 - Dirik, Özge: **Kuzey Yıldızı Yazarları** E-posta Grubu, 31 Ekim 2003, Sayı: 985.
 - Dirik, Özge: “[Masal-1](https://kuzeyyildizi.com/dergi/11/masal-1)”, **Kuzey Yıldızı Edebiyat Dergisi**, Mart-Nisan 2005, [Sayı: 11](https://kuzeyyildizi.com/files/ky11.pdf), s. 17.

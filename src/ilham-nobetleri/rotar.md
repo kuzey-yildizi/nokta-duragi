@@ -34,8 +34,6 @@ ne ektiyseniz; karın tokluğu biçtiniz..
 _Şubat-2001_
 
 ---
-Kaynaklar:
-
 - Dirik, Özge: "[Rötar](http://web.archive.org/web/20041223212249/http://www.dergi.org/192002/0313.htm)", **Dergi@Net internet dergisi**, Ocak-Şubat 2002, Sayı 19.
 - Dirik, Özge: "Rötar", **Ağır Ol Bay Düzyazı**, Mart-Nisan 2002, Sayı 8.
 - Dirik, Özge: "Rötar", **Hece**, Aralık 2002, Sayı 72, s. 96.

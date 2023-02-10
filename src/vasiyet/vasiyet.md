@@ -42,10 +42,7 @@ Ellerimin ellerinde verdiği güzel ve uzun mola,
 ayrılık Allah’ın emri,  
 ölüm olmasa...  
   
-_29.03.2002_
-
+<div style="text-align: right"><p>29.03.2002</p></div>
 ---
-Kaynaklar:
-
 - Dirik, Özge: “[Vasiyet](https://kuzeyyildizi.com/dergi/5/vasiyet-ozge.dirik)”, **Kuzey  Yıldızı Edebiyat Dergisi**,  Ekim-Kasım  2002,  [Sayı: 5](https://kuzeyyildizi.com/files/ky05.pdf),  s. 17.
 - Dirik, Özge: “Vasiyet”, **Erken  Ölümlü Şairler Antolojisi**, Haz. Ahmet Günbaş, Hayal Yayınları, Nisan 2007, s. 179

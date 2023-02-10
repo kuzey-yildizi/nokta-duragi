@@ -37,7 +37,5 @@ gömdüler beni,
 özenle.
 
 ---
-Kaynaklar:
-
 - Dirik, Özge: “Kalabalık”, **Hece**, Eylül 2004, Sayı 93.
 - Dirik, Özge: “[Kalabalık](https://kuzeyyildizi.com/dergi/11/ozge.dirikin.butun.siirlerine.baslangic.denemesi)”, **Kuzey Yıldızı Edebiyat Dergisi**, Mart-Nisan 2005, [Sayı: 11](https://kuzeyyildizi.com/files/ky11.pdf), s. 9.

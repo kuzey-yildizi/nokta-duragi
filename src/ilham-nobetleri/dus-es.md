@@ -13,6 +13,4 @@ bastım frene
 tutmaması düşüyle.
 
 ---
-Kaynak:
-
 - Dirik, Özge: “Düş-eş”, **Öteki-siz**, Aralık-Ocak-Şubat 2005, Sayı 4, s. 30.

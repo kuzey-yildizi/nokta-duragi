@@ -19,8 +19,6 @@ Bana “git” de demez. Dudakları sana benziyor biraz, ama makyaj durmuyor ten
 Ama beni öptüğü iki sabah öyle bir tat oldu ki ağzımda, keşke onun dudaklarından rujlar yapılsa dünyanın ölümlü ve minyatür kadınlarına...
 
 ---
-Kaynaklar:
-
 - Dirik, Özge: **Kuzey Yıldızı Yazarları** E-posta Grubu, 17 Nisan 2004, Sayı: 1280.
 - Dirik, Özge: “Ruj Ruhu”, **Varlık**, Ekim 2004, Sayı 1165, s. 43.
 - Dirik, Özge: “[Ruj Ruhu](https://kuzeyyildizi.com/dergi/11/ruj.ruhu)”, **Kuzey Yıldızı Edebiyat Dergisi**, Mart-Nisan 2005, [Sayı: 11](https://kuzeyyildizi.com/files/ky11.pdf), s. 21.

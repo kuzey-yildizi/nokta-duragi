@@ -20,9 +20,7 @@ cehennet diye bir yer düşümde
 nefes nefes koşup da bir tavşan
 bir kaplumbağaya nasıl yenildi...
 
-_ocak-yeniyıl_
 
+<div style="text-align: right"><p>ocak-yeniyıl</p></div>
 ---
-Kaynak:
-
 - Dirik, Özge: "[Özge Dirik Arşivi: Şiirler](https://kuzeyyildizi.com/files/ozgedirik-siirler.pdf)", **Kuzey Yıldızı Edebiyat Dergisi**, Yayım Tarihi: 11.04.2014, [https://kuzeyyildizi.com/pdf](https://kuzeyyildizi.com/pdf).

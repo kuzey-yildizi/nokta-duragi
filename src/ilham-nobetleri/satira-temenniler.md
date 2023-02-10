@@ -17,7 +17,5 @@ isra(f )il bile çıldırır,
 göçerdi aramızdan...
 
 ---
-Kaynak:
-
 - Dirik, Özge: **Kuzey Yıldızı Yazarları** E-posta Grubu, 13 Kasım 2002, Sayı: 422.
 - Dirik, Özge: “[Satır-a Temenniler](https://kuzeyyildizi.com/dergi/11/satir-a.temenniler)”, **Kuzey Yıldızı Edebiyat Dergisi**, Mart-Nisan 2005, [Sayı: 11](https://kuzeyyildizi.com/files/ky11.pdf), s. 10.

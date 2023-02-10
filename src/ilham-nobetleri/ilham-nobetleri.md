@@ -30,6 +30,4 @@ mide bulandırmıyor
 ilham sinekleri...
 
 ---
-Kaynak:
-
 - Dirik, Özge: “[İlham Nöbetleri](https://kuzeyyildizi.com/dergi/11/ilham.nobetleri)”, **Kuzey Yıldızı Edebiyat Dergisi**, Mart-Nisan 2005, [Sayı: 11](https://kuzeyyildizi.com/files/ky11.pdf), s. 22.

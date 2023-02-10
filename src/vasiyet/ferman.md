@@ -32,6 +32,4 @@ Aşka kurgulu üçgenin hipotenüsünde oynadığım,
 Tehlikeli bir oyundunuz.
 
 ---
-Kaynak:
-
 - Dirik, Özge: “Ferman  [Bursa  ve  Siz]”, **Ahmet  Hamdi  Tanpınar  ve  2002  Bursa  Şiirleri**, Bursa Osmangazi Belediyesi Yayınları, İstanbul, 2003, s. 135.

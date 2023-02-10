@@ -1,0 +1,42 @@
+# ikincil ruhla pisuar buluşmaları-2
+
+Hayatıma sevimli bir parantez edasında girip, bordrolarıma tüneyen
+kadınları da sevdim. İşte aşk bu; havada attığınız parendeler kadar
+suya nasıl girdiğiniz de önemli.
+
+Aldatmak ve ihanet etmek fiillerinin ayrımında yaşadım, sonunda
+anladım; aldatmak birinci tekil hali bu boşaltan muslukların kazandığı havuzda. Siz sırtınızı dönünce aldatmanın üçüncü tekil haliyle
+anılıyorsunuz; ihanetle.
+
+Müzikle aramda hiç bir samimiyet olmadı, ki üzerlerine en güzel şiir
+kreasyonlarını geçirip podyuma çıkan notalarla farkı yoktu mankenlerin.
+
+Hayvanlarla iyi anlaştığımı, onların en ince felsefelerinin farkında
+olduğumu iddia ediyorum. Kadınlarla yaptığım tüm kavgalarda
+karşıma geçip kuyruğunu yakalamaya çalışan, erkeklerle olan tartışmalarımda ise patisiyle gözlerini kapatan bir kediye sahibim aynı zamanda. Hem beni sadece zenginliğim dolayısıyla tercih eden kalorifer böceği ve karınca gibi hayvanlardan da koruyor. Buna rağmen
+ölünce, onu kuyruğundan tuttuğum gibi, şu kancalarını geçirdikten
+sonra 45 derecelik açıyla çöpleri yukarıya çekip, içeride öğüten ve
+çıkan pislikleri de kıyılarındaki delikten çaktırmadan akıtıp çöp
+öğütümüne kesin çözüm olan kamyonların birine atacağımı biliyor.
+Biliyor ama cehennemi bilip inançlı görünen her mümin gibi ibadet
+etmeye devam ediyor bana.
+
+Yoksullukla çok erken tanıştım. Üç kardeş bir yorganı boylamasına paylaşırdık eskiden. Kendileri için yorganın yakılmadığını
+gören pirelerimiz oldu çokça. İkna edemiyorduk, hepsi yastıktan
+aşağıya atlayarak intihara teşebbüs ediyordu. Rutubeti de bilirim,
+asılmanıza üç gün kala âşık olmak gibi bir şeydir, uyumanıza hep
+üç dakika vardır ve vücudunuzdaki tüylerin hepsi asi birer termometre olmuş ve cıvanız dibe vurmuştur. O zamanlar bilseniz, alkolik Fahrenheit’ın krizleri sonucu termometrenin içindeki alkolü
+içip, karısının korkusundan o aleti cıva ile çalıştırabildiğini ne anası
+kalırdı, ne de bacısı onun. Ama çok yoksullar şunu da bilirler, ru-tubetli evde bayat ekmek sorunu olmaz hiç, kabarık sıvalar doğal
+bir duvar kâğıdı görüntüsü verirler. Yoksulluk da böyle bir şeydir
+işte; kahvede hesap ödememek için kafanız çatlar kâğıtları, taşları
+saymaktan. Kaleminiz bitmesin, kalemtıraşta striptize yeltenmesin
+diye tırnaklarınızı uzatır, onlarla yazarsınız. Hem sizi herkes gitar
+çalıyor diye bilir. Yoksulluk eğlencelidir, bungee jumping gibi, tek
+farkı vardır sizi hayata bağlayan ip salı pazarındandır genelde, güvenemezsiniz. Ya da babanızın kazağı sökülmüş, aynı iple üç kardeşe
+birer kazak örülmüştür. Bu da fark etmez bu sefer de içten donarsınız babanızın arkasından bakıp. Derken, gözlerinizin kızardığını
+fark eden anneniz hep soğandan ağlar, böylece siz de mahsuscuktan
+yaşamayı öğreniverirsiniz.
+
+---
+- Dirik, Özge: “[İkincil Ruhla Pisuar Buluşmaları-2](https://kuzeyyildizi.com/dergi/8/ikincil.ruhla.pisuar.bulusmalari-II-ozge.dirik)”, **Kuzey Yıldızı Edebiyat Dergisi**, Mayıs-Haziran 2003, [Sayı: 8](https://kuzeyyildizi.com/sites/default/files/ky08.pdf), s. 3.

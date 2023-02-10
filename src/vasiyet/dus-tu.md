@@ -30,6 +30,4 @@ kalmadı karmaşamızın bahanesi,
 kadehin şerefine içmekten başka.
 
 ---
-Kaynak:
-
 - Dirik, Özge: “[Düş-tü](http://web.archive.org/web/20050112125644/http://www.dergi.org/222002/0311.htm)”, **Dergi@Net  internet  dergisi**, Temmuz-Ağustos 2002, Sayı 22.

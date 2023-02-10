@@ -25,6 +25,4 @@ neyi değiştirir,
 aynı yere bırakmış olmamız içimizi...
 
 ---
-Kaynak:
-
 - Dirik, Özge: “[*** [Kamaşma]](https://kuzeyyildizi.com/dergi/2/ozge.dirik)”, **Kuzey Yıldızı Edebiyat Dergisi**, Nisan-Mayıs 2002, [Sayı: 2](https://kuzeyyildizi.com/files/ky02.pdf), s. 11.

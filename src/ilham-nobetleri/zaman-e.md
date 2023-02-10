@@ -9,6 +9,4 @@ bak baba, bir anne çocuğunu pembe masallarla uyutuyorsa, çocuğunu uyandırı
 bak baba, o huzurhanede zaman denilen illetten saklansan da, bir saat yakalar mutlaka; tik-tak oyar, çalar, yoğurur içini. bana armağan ettiğin tek şey, kafatasımın içinde intihar adlı obur müşteriye sunulur, nasıl olsa aşısı bulunmayan, mertliği bozulmayan beyin timurlarım çoktan fethe çıkmışlardır.
 
 ---
-Kaynak:
-
 - Dirik, Özge: “[Zaman-e](https://kuzeyyildizi.com/dergi/6/zaman)”, **Kuzey Yıldızı Edebiyat Dergisi**, Aralık 2002, [Sayı: 6](https://kuzeyyildizi.com/files/ky06.pdf), s. 5,.

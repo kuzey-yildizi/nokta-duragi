@@ -31,9 +31,6 @@ sevdaya yeltenmek de olmuyor bu yaştan sonra,
 kimin zimmetindeyse aşk,  
 ölümler üşüşüyor oraya.  
   
-_Nisan 2002_
-
+<div style="text-align: right"><p>Nisan 2002</p></div>
 ---
-Kaynak:
-
 - Dirik, Özge: “[*** [Kanun]](https://kuzeyyildizi.com/dergi/6/ozge.dirik)”, **Kuzey Yıldızı Edebiyat Dergisi**, Aralık 2002, [Sayı: 6](https://kuzeyyildizi.com/files/ky06.pdf), s. 17.

@@ -57,11 +57,9 @@ elimizdeki nokta kılıklı alevlerle
 yakmak için,  
 yakışmaya çalışıyoruz ağzınızdaki aşk tüten, filtresiz mısraya.  
   
-_ocak-2 00 3_
 
+<div style="text-align: right"><p>ocak-2 00 3</p></div>
 ---
-Kaynaklar: 
-
 - Dirik, Özge: **Kuzey Yıldızı Yazarları** E-posta Grubu, 16 Ocak 2003, Sayı: 553.
 - Dirik, Özge: “[Akasyalar Kaçarken](http://www.yersizyurtsuz.com/dergimart2003/ekrandergisayfa15.htm)”, **Yersiz Yurtsuz**, Mart 2003.
 - Dirik, Özge: “[Akasyalar Kaçarken](https://kuzeyyildizi.com/dergi/11/isimsiz)”, **Kuzey Yıldızı Edebiyat Dergisi**, Mart-Nisan 2005, [Sayı: 11](https://kuzeyyildizi.com/files/ky11.pdf), s. 12.

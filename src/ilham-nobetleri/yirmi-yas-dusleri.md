@@ -22,13 +22,10 @@ heyecan, mutluluk, rüya ve tabir.
 Hem onlar da öyle değil miydi,  
 dört tane, çabuk ve acılı...  
   
-_ocak-2000_  
-_Ankara_
+  
+<div style="text-align: right"><p>ocak-2000</p><p>Ankara</p></div>
 
 ---
-
-Kaynaklar:
-
 - Dirik, Özge: “[Yirmi Yaş Düşleri](https://kuzeyyildizi.com/dergi/1/yirmi.yas.dusleri-ozge.dirik)”, **Kuzey Yıldızı Edebiyat Dergisi**, Şubat-Mart 2002, [Sayı: 1](https://kuzeyyildizi.com/files/ky01.pdf), s. 19.
 - Dirik, Özge: “Yirmi Yaş Düşleri”, **Erken Ölümlü Şairler Antolojisi**, Haz. Ahmet Günbaş, Hayal Yayınları,
 Nisan 2007, s. 178.

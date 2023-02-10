@@ -30,5 +30,4 @@ Ve çok eskilerden bir sahne gözünüzün önünde,
 Münir Özkul affetmeden, nefretle terk ediyor çocukluğunuzu...
 
 ---
-Kaynak:
 - Dirik, Özge: “[Sahne](https://web.archive.org/web/20050116184900/http://www.penceredergisi.com/arsiv/penc31/31s20_dirik.htm)”, **Pencere**, Ocak-Şubat 2002, Sayı 31, s. 20. 

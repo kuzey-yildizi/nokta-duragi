@@ -44,9 +44,7 @@ bir de motoru bozuk kayığım.
 Küreklere kalırdı,  
 küreklere kalırdı sevdam, geceyarıları.  
   
-_2001-ocak_
+<div style="text-align: right"><p>2001-ocak</p></div>
 
 ---
-Kaynak:
-
 - Dirik, Özge: "[Özge Dirik Arşivi: Şiirler](https://kuzeyyildizi.com/files/ozgedirik-siirler.pdf)", **Kuzey Yıldızı Edebiyat Dergisi**, Yayım Tarihi: 11.04.2014, [https://kuzeyyildizi.com/pdf](https://kuzeyyildizi.com/pdf).

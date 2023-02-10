@@ -30,7 +30,5 @@ Bense hayallerime kaldığım yerden devam ediyorum,
 başka kuşların yuvalarında.
  
  --- 
-Kaynaklar:
-
 - Dirik, Özge: “Çorak”, **Varlık**,  Mart  2002,  Sayı 1134.
 - Dirik, Özge: "Çorak", **Erken  Ölümlü  Şairler  Antolojisi**, Haz. Ahmet Günbaş, Hayal Yayınları, Nisan 2007, s. 177.

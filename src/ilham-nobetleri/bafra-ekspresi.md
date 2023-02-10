@@ -21,9 +21,7 @@ elimdeki sıfır üşüyor altından,
 birbirini şehvetle kıran iki kadeh varlığımız,  
 iyi ki, iki yanlışız.  
   
-_Mart-2000_
+<div style="text-align: right;"><p>Mart-2000</p></div>
 
 ---
-Kaynak: 
-
 - Dirik, Özge: "[Özge Dirik Arşivi: Şiirler](https://kuzeyyildizi.com/files/ozgedirik-siirler.pdf)", **Kuzey Yıldızı Edebiyat Dergisi**, Yayım Tarihi: 11.04.2014, [https://kuzeyyildizi.com/pdf](https://kuzeyyildizi.com/pdf).

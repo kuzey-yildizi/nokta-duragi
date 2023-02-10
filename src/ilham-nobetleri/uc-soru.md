@@ -26,9 +26,6 @@ elindeki sıfırı eksileme korkusu.
 Şehvetle kaldırılmış mutluluk varlığımız;  
 iyi ki iki yanlışız...  
   
-_ocak-2001_
-
+<div style="text-align: right"><p>ocak-2001</p></div>
 ---
-Kaynak:
-
 - Dirik, Özge: “Üç Soru”, **Erken Ölümlü Şairler Antolojisi**, Haz. Ahmet Günbaş, Hayal Yayınları, Nisan 2007, s. 177.

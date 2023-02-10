@@ -43,7 +43,5 @@ olsaydın içinde.
 _ist(a)kozyatağı_
 
 ---
-Kaynak:
-
 - Dirik, Özge: **Kuzey Yıldızı Yazarları** E-posta Grubu, 4 Kasım 2003, Sayı: 987.
 - Dirik, Özge: “[İkincil Ruhla Pis-duvar Buluşmaları](https://kuzeyyildizi.com/dergi/11/ikincil.ruhla.pisuar.bulusmalari)”, **Kuzey Yıldızı Edebiyat Dergisi**, Temmuz-Ağustos 2006, [Sayı:](https://kuzeyyildizi.com/files/ky11.pdf) 13, s. 4.

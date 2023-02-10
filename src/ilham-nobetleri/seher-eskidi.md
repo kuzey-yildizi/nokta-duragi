@@ -44,7 +44,5 @@ gördünüz mü?
 taşıyamadınız...
 
 ---
-Kaynak:
-
 - Dirik, Özge: **Kuzey Yıldızı Yazarları** E-posta Grubu, 9 Haziran 2003, Sayı: 706.
 - Dirik, Özge: “[Seher Eskidi.](https://kuzeyyildizi.com/dergi/11/seher.eskidi)”, **Kuzey Yıldızı Edebiyat Dergisi**, Mart-Nisan 2005, [Sayı: 11](https://kuzeyyildizi.com/files/ky11.pdf), s. 14.

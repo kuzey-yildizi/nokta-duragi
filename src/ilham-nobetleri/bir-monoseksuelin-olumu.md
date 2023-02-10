@@ -53,6 +53,4 @@ ancak yeraltında hortlayabilmiş bir
 çapkının tavsiyelerini...
 
 ---
-Kaynak:
-
 - Dirik, Özge: "[Özge Dirik Arşivi: Bir Monoseksüelin Ölümü](https://kuzeyyildizi.com/files/ozgedirik-monoseksuel.pdf)", **Kuzey Yıldızı Edebiyat Dergisi**, Yayım Tarihi: 11.04.2014, [https://kuzeyyildizi.com/pdf](https://kuzeyyildizi.com/pdf).

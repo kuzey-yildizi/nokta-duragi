@@ -52,6 +52,4 @@ daha ne kaldı ki elinde şarap varsa,
 fark eder mi üstünden geçen tekerlerin sayısı.
 
 ---
-Kaynak:
-
 - Dirik, Özge: **Kuzey Yıldızı Yazarları** E-posta Grubu, 24 Ekim 2002, Sayı: 398.

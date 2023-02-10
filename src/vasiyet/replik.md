@@ -22,6 +22,4 @@ yoksul babası ağlar diye gizli gizli,
 bir çocuğun elma şekerlerinden kaçırdığı gözlerini...
 
 ---
-Kaynaklar:
-
 - Dirik, Özge: “Replik”, **Hece**, Ağustos 2002, Sayı 68, s. 78.

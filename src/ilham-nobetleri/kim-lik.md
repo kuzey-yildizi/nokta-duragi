@@ -167,9 +167,6 @@ o’na anlatmaya çalışıyor hâlâ;
 birbirine sarılan iki uçurtmanın  
 bir daha asla uçamayacağını...  
   
-_2002-2003 İstanbul_
-
+<div style="text-align: right"><p>2002-2003 İstanbul</p></div>
 ---
-Kaynak:
-
 - Dirik, Özge: “[Kim-lik](https://kuzeyyildizi.com/dergi/9/kim-lik-ozge.dirik)”, **Kuzey Yıldızı Edebiyat Dergisi**, Ekim-Kasım 2003, [Sayı: 9](https://kuzeyyildizi.com/files/ky09.pdf), s. 16-17.

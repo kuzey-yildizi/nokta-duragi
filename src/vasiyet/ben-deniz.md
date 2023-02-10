@@ -23,9 +23,7 @@ Alamadım canını,
 Delik deşik bir kalbi,  
 Atıverdim kıyıya.
 
-_Ocak-2001-11-30_
+<div style="text-align: right"><p>Ocak-2001-11-30</p></div>
 
 ---
-Kaynaklar: 
-
 - Dirik, Özge: "[Özge Dirik Arşivi: Şiirler](https://kuzeyyildizi.com/files/ozgedirik-siirler.pdf)", **Kuzey Yıldızı Edebiyat Dergisi**, Yayım Tarihi: 11.04.2014, [https://kuzeyyildizi.com/pdf](https://kuzeyyildizi.com/pdf).

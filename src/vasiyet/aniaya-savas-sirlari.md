@@ -21,4 +21,5 @@ hemen arkanda bir namlu ezberle,
 unutma;  
 dağlar hep onlardandır.
 
-_Mart 2003_
+
+<div style="text-align: right"><p>Mart 2003</p></div>

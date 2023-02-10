@@ -19,7 +19,5 @@ bohçacılar topluyorlar kalanları,
 aynı kadınla beşinci defa evlenme.
 
 ---
-Kaynak:
-
 - Dirik, Özge: **Kuzey Yıldızı Yazarları** E-posta Grubu, 5 Eylül 2002, Sayı: 285.
 - Dirik, Özge: “[Bor’un Pazarı](https://kuzeyyildizi.com/dergi/11/borun.pazari)”, **Kuzey Yıldızı Edebiyat Dergisi**, Mart-Nisan 2005, [Sayı: 11](https://kuzeyyildizi.com/sites/default/files/ky11.pdf), s. 10.

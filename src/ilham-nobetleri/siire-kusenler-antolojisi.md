@@ -16,7 +16,5 @@ küsülür oyaladığın aynaya
 Oya-ladığın hayatıma bile...
 
 ---
-Kaynak: 
-
 - Dirik, Özge: **Kuzey Yıldızı Yazarları** E-posta Grubu, 21 Mayıs 2003, Sayı: 691.
 - Dirik, Özge: **Kuzey Yıldızı Yazarları** E-posta Grubu, 23 Mayıs 2003, Sayı: 699.

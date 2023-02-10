@@ -26,11 +26,9 @@ bir hayatı raylarına oturtacaksın daha
 yolumuzun  
 sonu.  
   
-_2002-hazin an_
 
+<div style="text-align: right"><p>2002-hazin an</p></div>
 ---
-Kaynaklar:
-
 - Dirik, Özge: **Kuzey Yıldızı Yazarları** E-posta Grubu, 10 Eylül 2003, Sayı: 753.
 - Dirik, Özge: “Kırılış”, **Hece**, Ekim 2003, Sayı 82, s. 61.
 - Dirik, Özge: “[Kırılış](https://kuzeyyildizi.com/dergi/11/kirilis)”, **Kuzey Yıldızı Edebiyat Dergisi**, Mart-Nisan 2005, [Sayı: 11](https://kuzeyyildizi.com/files/ky11.pdf), s. 15.

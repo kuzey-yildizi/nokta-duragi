@@ -18,7 +18,5 @@ Aman Allahım;
 daha güzel bir kadın...
 
 ---
-Kaynak: 
-
 - Dirik, Özge: **Kuzey Yıldızı Yazarları** E-posta Grubu, 24 Eylül 2003, Sayı: 778.
 - Dirik, Özge: “[Pis-duvar](https://kuzeyyildizi.com/dergi/11/pis-duvar)”, **Kuzey Yıldızı Edebiyat Dergisi**, Mart-Nisan 2005, [Sayı 11](https://kuzeyyildizi.com/files/ky11.pdf), s. 16.
